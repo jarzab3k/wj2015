@@ -1316,10 +1316,12 @@ end
 3s blokujące 6+!s (po parti 7+)
 3nt 7+!c/!d AKDWxxx bez dojścia - na 1./2. ręce , na 3./4. ręce do gry
 	4c do koloru
-	4d pytanie o singla
+	4d pytanie o krótkość
 		4h singiel !h
 		4s singiel !s
 		4nt singiel !c/!d
+		5c trefle, brak krótkości
+		5d kara, brak krótkości
 	5c do koloru
 4c blokujące 8+!c (naturalne?)
 4d blokujące 8+!d (naturalne?)
