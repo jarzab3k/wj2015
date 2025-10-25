@@ -1305,21 +1305,23 @@ end
 		4d 6!d
 		4h 3!h
 		4s 3!s
-3c blokujące 6+!c (po parti 7+)
+3c blokujące 6+!c (po parti 7+) (4-3-2-2-)
 	:3d_fit()
 	:3h_fit()
 	:3s_fit()
-3d blokujące 6+!d (po parti 7+)
+3d blokujące 6+!d (po parti 7+) (4-3-2-2-)
 	:3h_fit()
 	:3s_fit()
-3h blokujące 7+!h 
+3h blokujące 7+!h (4-3-2-2-)
 	4c cue bid
 	4d cue bid
 	4h może żeby wygrać, może żeby zamieszać
-3s blokujące 7+!s 
+	pozostałe naturalne
+3s blokujące 7+!s (4-3-2-2-)
 	4c cue bid
 	4d cue bid
-	4h może żeby wygrać, może żeby zamieszać
+	4s może żeby wygrać, może żeby zamieszać
+	pozostałe naturalne
 3nt 7+!c/!d AKDWxxx bez dojścia - na 1./2. ręce , na 3./4. ręce do gry
 	4c do koloru
 	4d pytanie o krótkość
