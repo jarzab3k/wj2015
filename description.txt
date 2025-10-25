@@ -1317,6 +1317,9 @@ end
 	4d cue bid
 	4h może żeby wygrać, może żeby zamieszać
 3s blokujące 7+!s 
+	4c cue bid
+	4d cue bid
+	4h może żeby wygrać, może żeby zamieszać
 3nt 7+!c/!d AKDWxxx bez dojścia - na 1./2. ręce , na 3./4. ręce do gry
 	4c do koloru
 	4d pytanie o krótkość
