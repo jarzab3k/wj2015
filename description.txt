@@ -1316,7 +1316,6 @@ end
 	4c cue bid
 	4d cue bid
 	4h może żeby wygrać, może żeby zamieszać
-	3s
 3s blokujące 7+!s (4-3-2-2-)
 	4c cue bid
 	4d cue bid
