@@ -1276,20 +1276,62 @@ end
 		Pass Propozycja gry naturalne kara
 		XX Pokaż własny kolor
 2h 6-11 5+!h + inna piątka
-	2s pytanie o singla
-		2ba singiel !s
-		3c singiel !c
-		3d singiel !d
-		3h bez singla
-	2nt pytanie o fit w !s
-		3c 0-1!s
-		3d dwie blotki !s
-		3h trzy blotki !s lub druga figura !s
-		3s trzecia figura !s
-	:3c_fit()
-	:3d_fit()
+	2nt silne pytanie o boczną piątkę
+		3c 5+ !c dół otwarcia
+			3d cue bid na !s
+				3h krótkość !h
+				4d krótkość !d
+			3h 6+ !h forsujące
+				3s brak dubletu !h
+				4h dublet+ !h
+			3s silne uzgodnienie pików
+				4d krótkość !d
+				4h krotkość !h
+			4c silne uzgodnienie !c
+				4d krótkość !d
+				4h krotkość !h
+		3d 5+ !d dół otwarcia
+			3h 6+ !h forsujące
+				3s brak dubletu !h
+				4h dublet+ !h
+			3s silne uzgodnienie pików
+				4c krótkość !c
+				4h krotkość !h
+			4c cue bid na !s
+				4h krotkość !h
+				4s krótkość !c
+			4d silne uzgodnienie !d
+				4h krotkość !h
+				4s krótkość !c
+		3h 5+ !c góra otwarcia
+			3s silne uzgodnienie pików
+				4d krótkość !d
+				4h krotkość !h
+			3nt 6+ !h forsujące
+				4c brak dubletu !h
+				4h dublet !h
+			4c silne uzgodnienie !c
+				4d krótkość !d
+				4h krotkość !h
+			4d cue blid !d
+				4h krótkość !h
+				4s krótkość !d
+		3s 5+ !d góra otwarcia
+			3nt 6+ !h forsujące
+				4d brak dubla !h
+			4c cue bid na !s
+				4h krótkośc !h
+				4s krótkość !c
+			4d silne uzgodnienie !d
+				4h krótkość !h
+				4s krótkość !c
+	3c do koloru "pasuj z treflami"
+	3d inwit do 4!h
+	3h blokujące
+	3s 6+ !s inwit do 4!s
+	4h blokujące lub silne
 2s 6-11 5+!s + piątka młodsza
-	2nt silne (forsujące) pytanie o boczną piątkę
+	2nt silne pytanie o boczną piątkę
 		3c 5+ !c dół otwarcia
 			3d cue bid na !s
 				3h krótkość !h
