@@ -1298,6 +1298,8 @@ end
 	:3d_fit()
 	:3h_fit()
 2nt 6-11 5!c-5!d
+	3c do pasa
+	3d do pasa
 	3h pytanie o układ
 		3s 2!s
 		3nt 2!h
