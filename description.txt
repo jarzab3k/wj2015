@@ -1279,6 +1279,11 @@ end
 	2s pasuj z pikami lub licytuj swój drugi kolor
 	2nt silne pytanie o boczną piątkę
 		3c 5+ !c
+			3d 6+ !d forsujące
+				3h dół otwarcia brak dubletu !d
+				3s dół otwarcia dublet+ !d
+				3nt góra otwarcia brak dubletu !d
+				4c góra otwarcia dublet+ !d
 			3h silne uzgodnienie !h
 				3s dół otwarcia krótkość !d
 				3nt dół otwarcia krótkość !s
@@ -1290,21 +1295,37 @@ end
 				4d góra otwarcia brak dubletu !s
 				4h góra otwarcia dublet+ !s
 			4c silne uzgodnienie !c
-				4d krótkość !d
-				4s krotkość !s
+				4d dół otwarcia krótkość !d
+				4h dół otwarcia krotkość !s
+				4s góra otwarcia
 		3d 5+ !d
 			3h silne uzgodnienie !h
 				3s dół otwarcia krótkość !d
 				3nt dół otwarcia krótkość !s
 				4c góra otwarcia krótkość !d
 				4d góra otwarcia krotkość !s
+			3s 6+ !s forsujące
+				3nt dół otwarcia brak dubletu !s
+				4c dół otwarcia dublet+ !s
+				4d góra otwarcia brak dubletu !s
+				4h góra otwarcia dublet+ !s
+			4c 6+ !c forsujące
+				4d brak dubletu !c
+				4h dół otwarcia dublet+ !c
+				4s góra otwarcia dublet+ !c
+			4d silne uzgodnienie !d
+				4h krótkość !c
+				4s krotkość !s
 		3h 5+ !s
 			3s silne uzgodnienie !s
 				3nt dół otwarcia krótkość !c
 				4c dół otwarcia krótkość !d
 				4d góra otwarcia krótkość !c
 				4h góra otwarcia krotkość !d
-	3c ?????
+			4c silne uzgodnienie !h
+				4d krótkość !c
+				4h krótkość !d
+	3c do koloru z !c/!d z 5+ !s licytuj 4!s
 	3d inwit do 4!h
 	3h blokujące
 	3s 6+ !s inwit do 4!s
