@@ -1333,9 +1333,9 @@ end
 2s 6-11 5+!s + piątka młodsza
 	2nt silne pytanie o boczną piątkę
 		3c 5+ !c dół otwarcia
-			3d pytanie o krótkość
-				3h krótkość !h
-				4d krótkość !d
+			3d 6+ !d forsujące
+				3h brak dubletu !d
+				4d dublet+ !d
 			3h 6+ !h forsujące
 				3s brak dubletu !h
 				4h dublet+ !h
@@ -1352,26 +1352,30 @@ end
 			3s silne uzgodnienie pików
 				4c krótkość !c
 				4h krotkość !h
-			4c pytanie o krótkość
-				4h krotkość !h
-				4s krótkość !c
+			4c 6+ !c forsujące
+				4d brak dubletu !c
+				4h dublet+ !c
 			4d silne uzgodnienie !d
 				4h krotkość !h
 				4s krótkość !c
 		3h 5+ !c góra otwarcia
-			3s pytanie o krótkość
+			3s silne uzgodnienie !s
 				4d krótkość !d
 				4h krotkość !h
 			4c silne uzgodnienie !c
 				4d krótkość !d
 				4h krotkość !h
-			4d cue blid na !s
+			4d pytanie o krótkość
 				4h krótkość !h
+					4nt pytanie o asy - odpowiadamy bez uzgodnionego kolory (4 wartości)
 				4s krótkość !d
+					4nt pytanie o asy - odpowiadamy bez uzgodnionego kolory (4 wartości)
 		3s 5+ !d góra otwarcia
 			4c pytanie o krótkość
-				4h krótkośc !h
-				4s krótkość !c
+				4d krótkośc !c
+					4nt pytanie o asy - odpowiadamy tak jakbyśmy uzgodnili !s (co nie jest pewne)
+				4h krótkość !h
+					4nt pytanie o asy - odpowiadamy tak jakbyśmy uzgodnili !s (co nie jest pewne)
 			4d silne uzgodnienie !d
 				4h krótkość !h
 				4s krótkość !c
