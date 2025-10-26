@@ -1301,12 +1301,16 @@ end
 	3c do pasa
 	3d do pasa
 	3h pytanie o układ
-		3s 2!s
-		3nt 2!h
-		4c 6!c
-		4d 6!d
-		4h 3!h
-		4s 3!s
+		3s singiel !s
+			4c silnie uzgadnia !c 
+			4d silnie uzgadnia !d
+		3nt singiel !h
+			4c silnie uzgadnia !c 
+			4d silnie uzgadnia !d
+		4c 6!c i po singlu
+		4d 6!d i po singlu
+		4h  renons !h
+		4s renons !s
 3c blokujące 6+!c (po parti 7+) (4-3-2-2-)
 	:3d_fit()
 	:3h_fit()
