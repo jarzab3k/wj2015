@@ -1326,9 +1326,6 @@ end
 			4c silne uzgodnienie !c
 				4d krótkość !d
 				4h krotkość !h
-				4s blabal
-			4d cue bid na !s
-				4h krotkość !h
 				4s krótkość !d
 		3s 5+ !d góra otwarcia
 			3nt 6+ !h forsujące
