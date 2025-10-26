@@ -1326,6 +1326,8 @@ end
 			4c silne uzgodnienie !c
 				4d krótkość !d
 				4h krotkość !h
+			4d cue blid !d
+				4h krótkość !h
 				4s krótkość !d
 		3s 5+ !d góra otwarcia
 			3nt 6+ !h forsujące
