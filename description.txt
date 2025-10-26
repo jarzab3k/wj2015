@@ -1333,7 +1333,7 @@ end
 2s 6-11 5+!s + piątka młodsza
 	2nt silne pytanie o boczną piątkę
 		3c 5+ !c dół otwarcia
-			3d cue bid na !s
+			3d pytanie o krótkość
 				3h krótkość !h
 				4d krótkość !d
 			3h 6+ !h forsujące
@@ -1352,29 +1352,24 @@ end
 			3s silne uzgodnienie pików
 				4c krótkość !c
 				4h krotkość !h
-			4c cue bid na !s
+			4c pytanie o krótkość
 				4h krotkość !h
 				4s krótkość !c
 			4d silne uzgodnienie !d
 				4h krotkość !h
 				4s krótkość !c
 		3h 5+ !c góra otwarcia
-			3s silne uzgodnienie pików
+			3s pytanie o krótkość
 				4d krótkość !d
 				4h krotkość !h
-			3nt 6+ !h forsujące
-				4c brak dubletu !h
-				4h dublet !h
 			4c silne uzgodnienie !c
 				4d krótkość !d
 				4h krotkość !h
-			4d cue blid !d
+			4d cue blid na !s
 				4h krótkość !h
 				4s krótkość !d
 		3s 5+ !d góra otwarcia
-			3nt 6+ !h forsujące
-				4d brak dubla !h
-			4c cue bid na !s
+			4c pytanie o krótkość
 				4h krótkośc !h
 				4s krótkość !c
 			4d silne uzgodnienie !d
@@ -1423,8 +1418,8 @@ end
 		5c trefle, brak krótkości
 		5d kara, brak krótkości
 	5c do koloru
-4c blokujące 8+!c (naturalne?)
-4d blokujące 8+!d (naturalne?)
+4c blokujące 8+!c (4-3-2-2)
+4d blokujące 8+!d (4-3-2-2)
 
 {dwustronna przed pasem partnera}
 	(1c)
