@@ -1338,9 +1338,11 @@ end
 			4d silne uzgodnienie !d
 				4h krótkość !h
 				4s krótkość !c
-	:3c_fit()
-	:3d_fit()
-	:3h_fit()
+	3c do koloru "pasuj z treflami"
+	3d inwit do 4!s
+	3h 6+ !h inwit do 4!h
+	3s blokujące
+	4s blokujące lub silne
 2nt 6-11 5!c-5!d
 	3c do pasa
 	3d do pasa
