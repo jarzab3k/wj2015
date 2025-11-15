@@ -1256,6 +1256,12 @@ end
 		3d mam !h
 			3h inwit do 4!h
 			3nt wybierz 3nt czy 4!s (jak masz układ 6-4 lub 7+ to znieś transferem)
+		3h mam !s
+			3s inwit do 4!s
+			3nt wybierz 3nt czy 4!s (jak masz układ 6-4 lub 7+ to znieś transferem)
+	3d inwit do dogranej z fitami w obu starszych
+	3h blok z fitami w obu starszych
+	3s 6+!s inwit do 4!s
 	3nt werdykt (najczęściej na własnym kolorze młodszym)
 	4c zalicytuj swój kolor transferem
 	4d zalicytuj swój kolor
