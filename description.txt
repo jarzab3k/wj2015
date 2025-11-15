@@ -1240,12 +1240,12 @@ end
 		3c silny
 			3d pytanie o kolor
 				3h mam !s
-					3s przykład silnego uzgodnienia !s - partner pokazuje krótkość lub licutyje 3nt
+					3s przykład silnego uzgodnienia !s (partner pokazuje krótkość lub licutyje 3nt)
 				3s mam !h
 		3d słaby na !h
 		3h słaby na !s
-			3s przykład silnego uzgodnienia !s - partner pokazuje krótkość lub licutyje 3nt
-		3h koronka w kierach (A D W 10 5 2)
+			3s przykład silnego uzgodnienia !s (partner pokazuje krótkość lub licutyje 3nt)
+		3h koronka w kierach
 		3s koronka w pikach
 	3c zalicytuj swój kolor transferem (inwit do dogranej lub przekazanie wybory nt czy 4 w kolor)
 		3d mam !h
