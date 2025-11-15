@@ -1235,6 +1235,12 @@ end
 		xx pokaż swój kolor
 		2h pokazuję własny kolor
 		2s pokazuję własny kolor
+	(2h)
+		x karna
+		2s do koloru partnera
+	(2s)
+		x karna
+		3h do koloru partnera
 	2h do koloru
 	2s do koloru
 		2nt silny na !h
