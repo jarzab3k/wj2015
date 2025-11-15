@@ -1245,7 +1245,6 @@ end
 		3c silny
 			3d pytanie o kolor
 				3h mam !s
-					3s przykład silnego uzgodnienia !s (partner pokazuje krótkość lub licutyje bez atu)
 				3s mam !h
 		3d słaby na !h
 		3h słaby na !s
