@@ -1262,11 +1262,6 @@ end
 	4d zalicytuj swój kolor
 	4h naturalne ze swojego koloru
 	4s naturalne ze swojego koloru
-	(x)
-		p proponuję grę w kara
-		xx pokaż swój kolor
-		2h pokazuję własny kolor
-		2s pokazuję własny kolor
 2h 6-11 5+!h + inna piątka
 	2s pasuj z pikami lub licytuj swój drugi kolor
 	2nt silne pytanie o boczną piątkę
