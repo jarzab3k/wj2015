@@ -1245,8 +1245,8 @@ end
 		3d słaby na !h
 		3h słaby na !s
 			3s przykład silnego uzgodnienia !s (partner pokazuje krótkość lub licutyje 3nt)
-		3h koronka w kierach
-		3s koronka w pikach
+		3h koronka w !h
+		3s koronka w !s
 	3c zalicytuj swój kolor transferem (inwit do dogranej lub przekazanie wybory nt czy 4 w kolor)
 		3d mam !h
 			3h inwit do 4!h
