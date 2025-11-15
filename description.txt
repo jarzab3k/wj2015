@@ -1230,51 +1230,32 @@ end
 		2d nieforsujące na !d
 		:resp_after_prec()
 2d 6+ na starszym
-	2h do gry
-	2s do gry
-	2nt pytanie o skład
-		3c 5!h-4!s
-			:major_agree()
-		3d 5!s-4!h
-			:major_agree()
-		3h 6!h-4!s
-			3s szlemikowe uzgodnienie !s
-			3nt do gry
-			4c cuebid !c, uzgodnienie !h
-			4d cuebid !d, uzgodnienie !h
-			:major_to_play()
-		3s 6!s-4!h
-			3nt szlemikowe uzgodnienie !h
-			4c cuebid !c, uzgodnienie !s
-			4d cuebid !d, uzgodnienie !s
-			:major_to_play()
-		3nt 5!h-5!s (6-6)
-			4c uzgodnienie !h sprawdzam krótkość
-				4d krótkość !d
-				4h krótkość !c
-				4s cubid w !c i !d
-				4nt 6!h-6!s
-				5c renons !c
-				5d renons !d
-			4d uzgodnienie !s sprawdzam krótkość
-				4h krótkość !c
-				4s krótkość !d
-				4nt 6!h-6!s
-				5c renons !c
-				5d renons !d
-			:major_to_play()
-		4c 6!h-5!s
-		4d 6!s-5!h
-		4h 6!h-5!s góra nie chciałem 1!s
-	:3c_fit()
-	:3d_fit()
-	3nt do gry
-	4c pokaż dłuższy kolor transferem
-	4d zalicytuj dłuższy kolor
-	:major_to_play()
-	(x)
-		Pass Propozycja gry naturalne kara
-		XX Pokaż własny kolor
+	2h do koloru
+	2s do koloru
+		2nt silny na !h
+		3c silny na !h i 4+!c
+		3d silny na !h i 4+!d
+		3h słaby na !h
+	2nt pytanie 
+		3c silny
+			3d pytanie o kolor
+				3h mam !s
+				3s mam !h
+		3d słaby na !h
+		3h słaby na !s
+	3c sztuczna silna odpowiedź na własnym kolorze
+		3d pytanie
+			3h mam !h
+			3s mam !s
+			4c mam !c
+			4d mam !d
+	3d inwit do dogranej z fitami w obu starszych
+	3h blok z fitami w obu starszych
+	3nt werdykt (najczęściej na własnym kolorze młodszym)
+	4c zalicytuj swój kolor transferem
+	4d zalicytuj swój kolor
+	4h naturalne ze swojego koloru
+	4s naturalne ze swojego koloru
 2h 6-11 5+!h + inna piątka
 	2s pasuj z pikami lub licytuj swój drugi kolor
 	2nt silne pytanie o boczną piątkę
