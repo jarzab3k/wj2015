@@ -1230,6 +1230,11 @@ end
 		2d nieforsujące na !d
 		:resp_after_prec()
 2d 6+ na starszym
+	(x)
+		p proponuję grę w kara
+		xx pokaż swój kolor
+		2h pokazuję własny kolor
+		2s pokazuję własny kolor
 	2h do koloru
 	2s do koloru
 		2nt silny na !h
