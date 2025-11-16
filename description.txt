@@ -933,15 +933,21 @@ end
 	(x)
 		:1nt_fit(s)
 1nt 15-17, zrównoważony
-	2c 1) 8+ 4!h/!s 2) 0-7 4+5+!h!s
+	2c pytanie o starszą czwórkę
 		2d brak starszej czwórki
-			2h PRZED PASEM: 0-7, 5-4 na starszych | PO PASIE: SO 5!h4!s
-			2s PRZED PASEM: 8-9, inwit na 5!s-4!h | PO PASIE: SO 5!s4!h
+			2h nieforsujące 4+4+!h!s (otwierający wybiera 2!h lub 2!s)
+			2s transfer na !c
 			2nt inwit
-			3c GF, 5+!c
-			3d GF, 5+!d
-			3h GF, 4!h-5!s
-			3s GF, 4!s-5!h
+			3c transfer na !d
+			3d pytanie o starze trójki
+				3h 3!h, brak 3!s
+				3s 3!s, brak 3!h
+				3nt brak starszych trójek
+				4c obie starsze trójki
+					4d uzgadnia !h
+					4h uzgafnia !s
+			3h 5!s,4!h (forsing do dogranej)
+			3s 4!s,5!h (forsing do dogranej)
 		2h 4!h
 			2s GF, uzgodnienie !h
 			2nt inwit z 4!s
