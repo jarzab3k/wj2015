@@ -1226,7 +1226,7 @@ end
 			4c inwit do 5!c
 		3d 6!c 4!d góra otwarcia
 		3h 6!c słabe 5!h
-		3s 6!s słabe 4!s
+		3s 6!c słabe 5!s
 		3nt pełne trefle, góra otwarcia
 	:resp_after_prec()
 	(x) wywoławcza
