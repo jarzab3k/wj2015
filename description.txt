@@ -951,9 +951,9 @@ end
 		2h 4!h
 			2s transfer na !c i 4!s
 			2nt inwit z 4!s
-			3c transfer na !c i 4!s
+			3c transfer na !d i 4!s
 			3d silne uzgodnienie !h
-			3h naturalne, nieforsujące
+			3h inwit z 4!h
 			3s splinter !s na kierach
 			3nt do gry z 4!s
 			4c splinter !c na kierach
