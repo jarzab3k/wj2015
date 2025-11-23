@@ -140,7 +140,7 @@ function 1s_some_resp(2s, 3d, 2nt, club_num)
 	3s 15-17, 6+!s
 end
 
-function 2dhsnt_tran()
+function 2dhs_tran()
 	2d transfer 5+!h
 		2h automat
 			2s 8-9, inwit na 5!h-4!s
@@ -232,20 +232,17 @@ function 2dhsnt_tran()
 				xx ponowny transfer
 				3h ponowny transfer
 			2s 3-4!s
-	2s 1)inwit do Ba 2)transfer 6+!c
-		2nt dół otwarcia
-		3c góra otwarcia
+	2s transfer 6+!c
+		2nt 2 starsze figury trefl, zachęta do 3nt
+		3c automat
 		(x)
 			xx to mój kolor, propozycja gry
 			pass bez trzymania pik
 				xx ponowny transfer
 				2nt do gry
 				3c do gry, niech sobie wistuje
-			2nt dół otwarcia, zatrzymanie pik
-			3c góra otwarcia, zatrzymanie pik
-	2nt transfer 6+!d
-		3c 2 starsze figury karo, zachęta do 3nt
-		3d automat
+			2nt 2 starsze figury trefl, zachęta do 3nt
+			3c automat
 end
 
 function 1nt_defence()
@@ -1012,7 +1009,7 @@ end
 				2s 5!s4!h słabe, co najwyżej singiel !d
 			2h 4!h trzymanie trefl
 			2s 4!s bez 4!h trzymanie trefl
-	:2dhsnt_tran()
+	:2dhs_tran()
 	:3c_resp(8-9)
 	:3d_resp(8-9)
 	3h 543!s1!h
