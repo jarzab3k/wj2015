@@ -1022,8 +1022,14 @@ end
 	3d 6+!d inwit (problem z bocznym wejściem na !d)
 			pass słabe !d
 			3nt dobry fit !d
-	3h 543!s1!h
-	3s 543!h1!s
+	3h 543!s1!h GF
+		3s 4+ dobre !s (propozycja gry na 7!s)
+		3nt do gry (mam ciężkie honory w !h)
+		4c silne uzgodnienie !c
+		4d silne uzgodnienie !d
+		4h karta szlemikowa z oboma fitami
+		4nt karta nie szlemikowa z oboma fitami
+	3s 543!h1!s GF
 	3nt do gry
 	:4c_Gerber()
 	4d transfer na 4!h
