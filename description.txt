@@ -1027,9 +1027,15 @@ end
 		3nt do gry (mam ciężkie honory w !h)
 		4c silne uzgodnienie !c
 		4d silne uzgodnienie !d
-		4h karta szlemikowa z oboma fitami
-		4nt karta nie szlemikowa z oboma fitami
+		4h karta szlemikowa 4+4+!c!d
+		4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3!nt ani 4!s
 	3s 543!h1!s GF
+		3nt do gry (mam ciężkie honory w !s)
+		4c silne uzgodnienie !c
+		4d silne uzgodnienie !d
+		4h 4+ dobre !h (propozycja gry na 7!h)
+		4s karta szlemikowa 4+4+!c!d
+		4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3!nt ani 4!h
 	3nt do gry
 	:4c_Gerber()
 	4d transfer na 4!h
