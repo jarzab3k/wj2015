@@ -523,7 +523,7 @@ end
 					4c splinter !c na pikach
 					4d splinter !d na pikach
 					4h splinter !h na pikach
-			:2dhsnt_tran()
+			:2dhs_tran()
 			:3c_resp(4-6)
 			:3d_resp(4-6)
 			3h 543!s1!h
