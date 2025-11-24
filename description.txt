@@ -787,8 +787,6 @@ end
 					2nt 5332 na !h, inwit
 					3nt 5332 na !h, GF 3nt lub 4!h
 			2d silny checkback (GF)
-				2h 3!h
-				2s 3!s bez 3!h
 			2h SO
 			3d SO
 		2c 4+5+!c!d
@@ -797,7 +795,7 @@ end
 		2h 12-14, 3-4!h podniesienie amerykańskie
 			2s pytanie o skład
 				2nt 4!h
-				3c 5-4+!c!d3!h
+				3c 4+!c5+!d3!h
 					3d można coś wymyślić
 					3h SO
 					:amer_after_h_next(GF ustalenie !d)
@@ -807,6 +805,8 @@ end
 				3h 5!d3!h32
 					:amer_after_h_next(GF ustalenie !d)
 		2s 15-17 6+!d3!h
+			3c tani transfer
+				3d automat
 		2nt 15-17 6+!d z trzymaniem !c i !s
 		3c 15-17, 5+!d5+!c
 		3d 15-17 6+!d bez trzymania obydwu !c i !s
