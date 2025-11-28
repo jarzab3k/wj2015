@@ -765,20 +765,24 @@ end
 	1h 1) 7+, 4+!h  2) 0-6, 5+!h 
 		1s 4+!s
 			2c tani transfer 1)SO 2) GF
-				2d automat
+				2d 12-14, wszystkie ręce
 					pass 1) SO
 					2h 1) SO
 					2s 1) SO
 					2nt 2) GF
-					3d 2) GF
+					3d 2) GF 3+!d
 					3h 2) GF 5+!h
-					3s 2) GF
+					3s 2) GF 4!s
+				2h 15-17, 3+!h
+				2s 15-17, 2-!h i bez zatrzymania !c
+				2nt 15-17, z zatrzymaniem !c
+				3d 15-17, 6+d 4+s
 			2d 8-11, 3+!d (inwit)
 			2h 8-11, 5+!h
 			2s 8-11, 4+!s
 			2nt 8-11, 4!h4!c3!s2!d
-			3c 8-11, 5+!c
-		1nt 12-14, brak starszej czwórki
+			3c 8-11, 5+!c SO
+		1nt brak starszej czwórki
 			2c słaby checkback
 				2d automat
 					pass słaba ręka, 3+!d
@@ -786,10 +790,17 @@ end
 					2s naturalne, inwitujące
 					2nt 5332 na !h, inwit
 					3nt 5332 na !h, GF 3nt lub 4!h
+			2d 15-17, brak trzymania !c/!s
+			2h 15-17, 3!h
+			2nt 15-17, mam trzymanie !c i !s
 			2d silny checkback (GF)
+				2h 3!h
+				2s 3!s
+				2nt mam trzymanie !c i !s
+				3c 4!c brak trzymania !c/!s
 			2h SO
 			3d SO
-		2c 4+5+!c!d
+		2c 4+!c5+!d
 			2s GF czwarty kolor
 		2d 12-14 6+!d
 		2h 12-14, 3-4!h podniesienie amerykańskie
