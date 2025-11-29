@@ -784,20 +784,22 @@ end
 			3c 8-11, 5+!c SO
 		1nt brak starszej czwórki
 			2c słaby checkback
-				2d automat
+				2d 12-14, wszystkie ręce
 					pass słaba ręka, 3+!d
 					2h naturalne, inwitujące
 					2s naturalne, inwitujące
 					2nt 5332 na !h, inwit
 					3nt 5332 na !h, GF 3nt lub 4!h
-			2d 15-17, brak trzymania !c/!s
-			2h 15-17, 3!h
-			2nt 15-17, mam trzymanie !c i !s
+				2h 15-17, 3!h
+				2nt 15-17, mam trzymanie !c i !s
+				3d 15-17, 6+!d
 			2d silny checkback (GF)
 				2h 3!h
-				2s 3!s
+				2s 3!s brak trzymania !c/!s
 				2nt mam trzymanie !c i !s
 				3c 4!c brak trzymania !c/!s
+				3d 6+!d
+				3h 6+!d 3!h
 			2h SO
 			3d SO
 		2c 4+!c5+!d
@@ -820,7 +822,7 @@ end
 				3d automat
 		2nt 15-17 6+!d z trzymaniem !c i !s
 		3c 15-17, 5+!d5+!c
-		3d 15-17 6+!d bez trzymania obydwu !c i !s
+		3d 15-17 6+!d brak trzymania !c/!s
 	:1s_resp()
 		:1nt_resp(12-14)
 			2c 1)transfer na 2!d 2)dowolny ivit
