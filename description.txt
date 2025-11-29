@@ -823,11 +823,27 @@ end
 		2nt 15-17 6+!d z trzymaniem !c i !s
 		3c 15-17, 5+!d5+!c
 		3d 15-17 6+!d brak trzymania !c/!s
-	:1s_resp()
-		:1nt_resp(12-14)
-			2c 1)transfer na 2!d 2)dowolny ivit
-				2d automat
-			2d dowolny GF
+	1s 1) 7+, 4+!s  2) 0-6, 5+!s
+		1nt brak czwórki !s
+			2c słaby checkback
+				2d 12-14, wszystkie ręce
+					pass słaba ręka, 3+!d
+					2h naturalne, inwitujące
+					2s naturalne, inwitujące
+					2nt 5332 na !s, inwit
+					3nt 5332 na !s, GF 3nt lub 4!s
+				2s 15-17, 3!s
+				2nt 15-17, mam trzymanie !c i !s
+				3d 15-17, 6+!d
+			2d silny checkback (GF)
+				2h 3!h
+				2s 3!s brak trzymania !c/!s
+				2nt mam trzymanie !c i !s
+				3c 4!c brak trzymania !c/!s
+				3d 6+!d
+				3h 6+!d 3!h
+			2h SO
+			3d SO
 		2c 1)12-14 5-4+!c!d 2)15-17 5!d4!c
 			2h GF czwarty kolor
 		2d 12-14 6+!d
@@ -1331,7 +1347,7 @@ end
 	3c zalicytuj swój kolor transferem (inwit do dogranej lub przekazanie wyboru 3nt czy 4 w kolor)
 		3d mam !h
 			3h inwit do 4!h
-			3nt wybierz 3nt czy 4!s (jak masz układ 6-4 lub 7+ to znieś transferem)
+			3nt wybierz 3nt czy 4!h (jak masz układ 6-4 lub 7+ to znieś transferem)
 		3h mam !s
 			3s inwit do 4!s
 			3nt wybierz 3nt czy 4!s (jak masz układ 6-4 lub 7+ to znieś transferem)
