@@ -943,16 +943,48 @@ end
 	3s splinter
 	4d blok
 1h 1) 12-17, 5+!h
-	:1s_resp()
-		:1nt_resp(12-14)
-			2c 1)transfer na 2!d 2)dowolny ivit
-				2d automat
-			2d dowolny GF
-		2c 1) 12-14, 4+!c 2) 15-17, 4!c 3) 7-11, 5+!c
-			2d czwarty kolor inwit
-		2d 1) 12-14, 4+!d 2) 15-17, 4!d 3) 7-11, 5+!d
-		:1h_some_resp(12-14; 6+!h, 12-14; 4!s, 5332, 15-17; 5+!d, 5)
-		3s 15-17, 4!s
+	1s 1) 7+, 4+!s, 2) 0-6, 5+!s
+		1nt 12-17 bez 4!s 
+			2c słaby checkback
+				2d 15-17, 5!h 4!d
+				2h 12-14, wszystkie ręcę
+					pass słaba ręka, 3+!h
+					2s naturalne, inwitujące
+					2nt 5332 na !s, inwit
+					3nt 5332 na !s, GF 3nt lub 4!s
+				2s 15-17, 3!s
+				2nt 15-17, mam trzymanie !c i !d
+				3h 15-17, 6+!h
+			2d silny checkback (GF)
+				2h 6!h
+				2s 3!s 
+				2nt mam trzymanie !c i !d
+				3c 4!c brak trzymania !c/!d
+				3d 4!d brak trzymania !c/!d
+				3h 6+!h 3!h
+				3s 6+!h 4!s
+			2h 6-9, 5!s 3!h
+			2s SO
+		2c 12-14 4+!c 5+!h
+			2d GF czwarty kolor
+		2d 12-14 4+!d 5+!h
+		2h 12-14, 6+!h
+		2s 12-14, 3-4!s podniesienie amerykańskie
+			2nt pytanie o skład
+				3c 4!c5+!h3!s
+				3d 4!d5+!h3!s
+					3h można coś wymyślić
+					3s SO
+					:amer_after_s_next(GF ustalenie !h)
+				3h 6+!h3!s
+					3s SO
+					:amer_after_s_next(GF ustalenie !h)
+				3s 5!h4!s
+					:amer_after_s_next(GF ustalenie !h)
+		2nt 15-17, 6+!h z trzymaniem !c i !d
+		3c 15-17, 5+!h 5+!c
+		3d 15-17, 5+!h 5+!d
+		3h 15-17, 6+!h bez trzymania obydwu !c/!d
 	:1nt_resp(7-11)
 		2c 1) 12-14, 4+!c 2) 15-17, 4!c 3) 7-11, 5+!c
 		2d 1) 12-14, 4+!d 2) 15-17, 4!d 3) 7-11, 5+!d
