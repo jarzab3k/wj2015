@@ -961,8 +961,8 @@ end
 				2nt mam trzymanie !c i !d
 				3c 4!c brak trzymania !c/!d
 				3d 4!d brak trzymania !c/!d
-				3h 6+!h 3!h
-				3s 6+!h 4!s
+				3h 6+!h 4!h
+				3s 4!s
 			2h 6-9, 5!s 3!h
 			2s SO
 		2c 12-14 4+!c 5+!h
