@@ -942,7 +942,7 @@ end
 	3h splinter
 	3s splinter
 	4d blok
-1h 1) 12-17, 5+!h
+1h 12-17, 5+!h
 	1s 1) 7+, 4+!s, 2) 0-6, 5+!s
 		1nt 12-17 bez 4!s 
 			2c słaby checkback
@@ -1057,7 +1057,7 @@ end
 	4h 12-15, blokujące
 	(x)
 		:1nt_fit(h)
-1s 1) 12-17, 5+!s
+1s 12-17, 5+!s
 	1nt 1) 12-17 bez fitu 2) 3-7 z 3!s
 		:gazilli_1s()
 		2d 1) 12-14, 4+!d 2) 15-17, 4!d 
