@@ -1058,9 +1058,9 @@ end
 	(x)
 		:1nt_fit(h)
 1s 1) 12-17, 5+!s
-	1nt 7-11 bez fitu !s
+	1nt 12-17 bez 4!s 
 		:gazilli_1s()
-		2d 1) 12-14, 4+!d 2) 15-17, 4!d 3) 7-11 5+!d
+		2d 1) 12-14, 4+!d 2) 15-17, 4!d 
 		2h 12-14, 4+!h
 		2s 12-14, 6+!s
 		2nt 15-17, 5332
@@ -1069,11 +1069,23 @@ end
 		3h 15-17, 5+!h
 		3s 15-17, 6+!s
 		4h 5!h 6!s
-	2c GF 5+!c/dowolny
-		2d 1) 12-14, 4+!d 2) 15-17, 4!d 3) 7-11 5+!d
-		:1s_some_resp(pozostałe, 15-17; 5+!d, 5332, 4)
-	2d GF 5+!d
-		:1s_some_resp(pozostałe, 12-14 3+!d, 5332 lub 5!s4!c, 5)
+	2c 10+, 5+!c (późniejsze powtórzenie !c oznacza 10-12 6+!c)
+		2d 1) 12-14,, 4+!d 2) 15-17, 4!d
+		2h 15-17, 4+!h
+		2s 12-14
+		2nt 15-17, dobra do nt
+		3c 4!c układ 5422
+		3d splitner (krótkość) !d 4+!c 
+		3h splitner (krótkość) !s 4+!c 
+		3s 15-17, 6+!s 
+	2d 10+ 5+!d (późniejsze powtórzenie !d oznacza 10-12 6+!d)
+		2h 15-17, 4+!h
+		2s 12-14
+		2nt 15-17, dobra do nt
+		3c 15-17, 4+!c
+		3d 4!d możliwa krótkość !c
+		3h splitner (krótkość) !s 4+!c 
+		3s 15-17, 6+!s 
 	2h 5+!h 10+ nieforsujące
 		2s 12-14, brak fitu !h
 		2nt 15-17, skład zrównoważony (mogą być 3!h)
@@ -1088,24 +1100,42 @@ end
 		4c splinter, 4!h
 		4d splinter, 4!h
 		4h 12-14, 3+!h (lepszy układ)
-	2s 7-9 3+!s
-	2nt inwit z singlem 4+!s
-		3c pytanie o singla
-			3d singiel !d
-			3h singiel !h
-			3s singiel !c
-	:3c_resp(9-11)
-	:3d_resp(9-11)
-	3h inwit 10-11, 3+!s
-	3s blokujące
-	3nt 10-12, 4+!s, krótkość - minisplinter
+	2s 7-9 3!s
+		2nt GF pytanie
+			3c mam niezłe !c
+				3h nie pasuje
+				3nt świetnie brakowało mi !c do 3nt
+				4h pasuje
+			3d mam niezłe !d
+				3h nie pasuje
+				3nt świetnie brakowało mi !d do 3nt
+				4h pasuje
+			3s miałem ledwo 2!s
+			3nt niezła karta bez przebitek "może 3nt?"
+			4s dobrze że nie spasowałeś na 2!s
+		3c inwit do dogranej 4+!c
+		3d inwit do dogranej 4+!d
+		3h inwit do dogranej 4+!h
+		3s inwit do dogranej
+	2nt inwit 10-11, 3+!s
+		3c pytanie
+			3h 4!h 4!s przynajmniej 3 kontrole
+			3s za silne na blok ale nic ciekawego
+			3nt silna ręka, układ zrównoważony
+		3s SO
+		4s do gry
+	3c blok-inwit 4!h karta mocno układowa
+	3d 9-12, 4+!s, krótkość - minisplinter
 		4c pytanie o singla
 			4d singiel !d
 			4h singiel !h
 			4s singiel !c
-	4c splinter !c
-	4d splinter !d
-	4h splinter !h
+	3h 12-15, splinter !h
+	3s blokujące
+	3nt 12-15, splinter !d
+	4c 12-15, splinter !c
+	4d bilansowe podniesienie do 4!s
+	4h naturalne do gry
 	4s blokujące
 	(x)
 		:1nt_fit(s)
