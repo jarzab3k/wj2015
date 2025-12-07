@@ -540,11 +540,24 @@ end
 		1nt 18-20, uład bezatutowy
 			2c 1)4-6 4!h/!s 2)0-6 4+4+!h!s
 				2d brak starszej czwórki
+					2h nieforsujące 4+4+!h!s (otwierający wybiera 2!h lub 2!s)
+					2s transfer na !c
+					2nt inwit
+					3c transfer na !d
+					3d pytanie o starsze trójki
+						3h 3!h, brak 3!s
+						3s 3!s, brak 3!h
+						3nt brak starszych trójek
+						4c obie starsze trójki
+							4d uzgadnia !h
+							4h uzgafnia !s
+					3h 5!s,4!h (forsing do dogranej)
+					3s 4!s,5!h (forsing do dogranej)
 				2h 4!h
-					2s GF, uzgodnienie !h
+					2s transfer na !c i 4!s
 					2nt inwit z 4!s
-					3c 5-6, 5+!c z 4!s
-					3d 5-6, 5+!d z 4!s
+					3c transfer na !d i 4!s
+					3d silne uzgodnienie !h
 					3h inwit z 4!h
 					3s splinter !s na kierach
 					3nt do gry z 4!s
@@ -552,8 +565,8 @@ end
 					4d splinter !d na kierach
 				2s 4!s bez 4!h
 					2nt inwit z 4!h
-					3c 5-6, 5+!c z 4!h
-					3d 5-6, 5+!d z 4!h
+					3c GF, 5+!c, 4!h
+					3d GF, 5+!d, 4!h
 					3h GF, uzgodnienie !s
 					3s inwit z 4!s
 					3nt do gry z 4!h
@@ -561,14 +574,51 @@ end
 					4d splinter !d na pikach
 					4h splinter !h na pikach
 			:2dhs_tran()
-			:3c_resp(4-6)
-			:3d_resp(4-6)
+			2nt inwit do 3nt
+			3c 6+!d 1) słaby 2) GF
+				3d automat
+					pass 1)
+					3h 2) krótkość !h
+					3s 2) krótkość !s
+					3nt 2) lekki inwit do czegoś więcej
+					4c 2) krótkość !c (przygotowanie do 5!d lub strefy premiowej)
+					4d 2) krótkość !d (przygotowanie do 5!d lub strefy premiowej)
+			3d 6+!d inwit (problem z bocznym wejściem na !d)
+				pass słabe !d
+				3nt dobry fit !d
 			3h 543!s1!h
+				3s 4+ dobre !s (propozycja gry na 7!s)
+				3nt do gry (mam ciężkie honory w !h)
+				4c silne uzgodnienie !c
+				4d silne uzgodnienie !d
+				4h karta szlemikowa 4+4+!c!d
+				4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3!nt ani 4!s
 			3s 543!h1!s
+				3nt do gry (mam ciężkie honory w !s)
+				4c silne uzgodnienie !c
+				4d silne uzgodnienie !d
+				4h 4+ dobre !h (propozycja gry na 7!h)
+				4s karta szlemikowa 4+4+!c!d
+				4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3!nt ani 4!h
 			3nt do gry
 			:4c_Gerber()
 			4d transfer na 4!h
 			4h transfer na 4!s
+			4s ja lepiej rozgrywam piki??
+			4nt inwit 16-18
+				5c przyjęcie inwitu 4!c
+				5d przyjęcie inwitu 4!d
+				5h przyjęcie inwitu 4!c4!d trefle lepsze
+				5s przyjęcie inwitu 4!c4!d kara lepsze
+				5nt przyjęcie inwitu, pokaż młodszą piątkę
+					6c 5!c
+					6d 5!d
+					6nt nie przyszła
+				6c przyjęcie inwitu 5!c
+				6d przyjęcie inwitu 5!d
+				6h przyjęcie inwitu 5!h
+				6s przyjęcie inwitu 5!s
+				6nt przyjęcie inwitu, nie chcę grać w kolor
 		2c 15+, 5+!c
 			pas większość negatów
 			2d 10+ GF
