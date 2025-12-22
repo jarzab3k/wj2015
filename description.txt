@@ -67,20 +67,14 @@ end
 
 function 2d_odw(kolor, kol_sin_1, kol_sin_2, 3_kier, 3_pik)
 	2d 18+ 3+$(kolor)
-		2h 12+ skład dowolny
+		2h 1) 12+ skład dowolny 2) 9-11, kolor wysokiej klasy, figury w długich kolorach
 			2s ustalenie koloru, pytanie o skład
-				2nt singiel
-					3c pytanie o singla
-						3d singiel !d
-						3h singiel $(kol_sin_1)
-						3s singiel $(kol_sin_2)
-				3c 4+$(kolor)4+!c
-				3d 4+$(kolor)4+!d
-				3h $(3_kier)
-				3s $(3_pik)
-				3nt 4$(kolor)333
-				4c 5+$(kolor)5+!c, dwie krótkości
-				4d 5+$(kolor)5+!d, dwie krótkości
+				2nt 4$(kolor)
+				3c 5$(kolor)4+!c
+				3d 5$(kolor)4+!d
+				3nt 6$(kolor), brak krótkości
+				4c 6$(kolor), krótkość !c
+				4d 6$(kolor) krótkość !d
 end
 
 function drury(kolor)
@@ -660,7 +654,11 @@ end
 			3nt pytanie o kolor młodszy
 			4c Cue bid z fitem kier
 			4d Cue bid z fitem kier
-		3S GF, dwukolorówka 5-5 z pikami
+		3s GF, dwukolorówka 5-5 z pikami
+			3nt pytanie o kolor młodsz
+			4c Cue bid z fitem pik
+			4d Cue bid z fitem pik
+			4h Cue bid z fitem pik
 		4c GF, dwukolorówka 5-5 na młodszych
 		(x) wywoławcza
 			pass 12-14, 3+!d
@@ -670,28 +668,65 @@ end
 			:1nt_resp(18-21)
 			2c 15+, 5+!c
 	1h 7+, 4+!h
-		1s 4+!s
-			2c 1)transfer na 2!d 2)dowolny ivit
-				2d automat
-			2d dowolny GF
+		1s 12+, 4+!s, forsujące na jedno okrążenie
+			2c słaby checkback
+				2d 12-17 (z treflami lub bez)
+				2h 18+, pięć pików, trzy kiery
+				2s 18+, pięć pików
+				2nt 18+, cztery piki bez trzech kierów
+				3c 18+, pięć trefli
+				3d 18+, pięć kar
+			2d silny checkback
+				2h 12-14, trzy kiery
+				2s 18+, pięć pików
+				2nt 12-14, bez trzech kierów
+				3c 15+, 5 trefli
+				3d 18+, pięć kar
 		:1nt_resp(12-14)
-			2c 1)transfer na 2!d 2)dowolny ivit
+			2c słaby checkback
 				2d automat
-			2d dowolny GF
-		2c 15+, 5+!c
-			2d 10+ dowolny
+					pass chciałem grać 2d
+					3h inwit do 4!h ale słabe kiery
+			2d silny checkback
+				2h 3!h
+				2s 3!s, bez 3!h 5!c
+				2nt 3!s, układ 4432
+				3c 5!c 3!h
+			2h SO, otwierający musi pasować
+			2s naturalne, GF
+			3c SO, otwierający musi pasować
+			3d GF, układ 5-5
+			3h inwit na dobrym kolorze
+			3s auto-splinter
+			4c auto-splinter
+			4d auto-splinter
+		2c 15+, 5+!c nieforsujące
+			2d 10+ dowolny, GF
+				2h 12-14, 2!h lub 3!h zniechęcające
+				2s 15-17
+				3d 15-17, 6!c 4!d
+				3h 12-14, interesująca ręka
+			2h 7-9, nieforsujące
+			2s naturalne, GF
+			2nt 7-9, naturalne
+			3c 7-9, naturalne
+			3h inwit na dobrym kolorze
+			3s splinter na treflach
+			4c splinter na treflach
 		:2d_odw(!h, !c, !s, 5+!h, 4+!h4!s)
-			2s 4+!h4!s
+			2s 4!h
 			2nt 5!h niezrównoważony
 				3c pytanie o singla
 					3d singiel !d
 					3h singiel !c
 					3s singiel !s
-			3c 4!h-4+!c
-			3d 4!h-4+!d
-			3h 6+!h
-			3s 4!h333, transfer na 3Ba
-			3Ba 5!h332
+			3c 9-11 4!h 5!c
+			3d 9-11 4!h 5!d
+			3h układ 5332
+			3s 6!h, krótkośc !s
+			3nt 6!h, brak krótkości
+			4c 6!h, krótkośc !c
+			4d 6!h, krótkość !d
 		2h 12-14, 3-4!h podniesienie amerykańskie
 			2s pytanie o skład
 				2nt 4!h
@@ -704,7 +739,21 @@ end
 					:amer_after_h_next(GF ustalenie !d)
 				3h 4!c3!h33
 					:amer_after_h_next(GF ustalenie !d)
-		2s 18+5+!s
+		2s 18+, 6+!s
+		2nt 18+, bez 3!h, bez 4!s
+			3c 4+c pytanie
+				3d 5!d
+				3h dobre 2!h
+				3s 4!c
+				3nt negatywne
+				4c 5!c
+		3c 18+, 6!c
+		3d 18+, 6!d
+		3h 15-17, 4!h, skład niezrównoważony
+		3s splinter z fitem kierowym
+		3nt 7 pełnych !c, stpoer poza kierami
+		4c splinter z fitem kierowym
+		4d splinter z fitem kierowym
 		(x)
 			xx fit 3+!h
 	1s 7+, 4+!s
