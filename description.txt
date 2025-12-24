@@ -493,7 +493,7 @@ end
 1c 1) 12-14 bez innej piątki 2) 15+, 5+!c 3) 18+
 	1d 1) 0-6 (7) 2) 8-11, na młodszym lub obu młodszych
 		1h 1)12-14, 3-4!h 2)18-19, 4+!h
-			1s 5-6 4!s
+			1s 5-6, 4!s
 			1nt 5-6(7) bez starszej czwórki
 				pass słaby wariant !c
 				2c 18-19, 5+!c 4+!h
@@ -531,8 +531,8 @@ end
 					3h dół otwarcia, dłuższe !d
 				3c do koloru (jak !d dłuższe to popraw)
 			2s 5-6, 4+!s
-		1nt 18-20, uład bezatutowy
-			2c 1)4-6 4!h/!s 2)0-6 4+4+!h!s
+		1nt 18-20, układ bezatutowy
+			2c 1)4-6, 4!h/!s 2)0-6, 4+4+!h!s
 				2d brak starszej czwórki
 					2h nieforsujące 4+4+!h!s (otwierający wybiera 2!h lub 2!s)
 					2s transfer na !c
@@ -616,10 +616,10 @@ end
 		2c 15+, 5+!c
 			pas większość negatów
 			2d 10+ GF
-			2h nturalne 0-6
-			2s nturalne 0-6
-			3c 4-9 3+!c
-			3d 7-9 5+!d
+			2h naturalne 0-6
+			2s naturalne 0-6
+			3c 4-9, 3+!c
+			3d 7-9, 5+!d
 		2d ACOL 
 			2h większość rąk
 			2s na młodszym (młodszych), co najmniej dwa króle
@@ -682,11 +682,20 @@ end
 				2nt 12-14, bez trzech kierów
 				3c 15+, 5 trefli
 				3d 18+, pięć kar
+			2h Sign off
+			2nt inwit do dogranej
+				3nt nieforsujące (pozostałe odzywki są forsujące)
+			3c Sign off
 		:1nt_resp(12-14)
 			2c słaby checkback
 				2d automat
-					pass chciałem grać 2d
-					3h inwit do 4!h ale słabe kiery
+					pass chciałem grać 2!d
+					2h SO
+					3c 5+!c, SO
+					3h 6+!h, inwit do 4!h ale słabe kiery
+				2h 3!h
+				2nt 5!c, 2 dobre !h
+				3c 5!c
 			2d silny checkback
 				2h 3!h
 				2s 3!s, bez 3!h 5!c
@@ -702,17 +711,20 @@ end
 			4d auto-splinter
 		2c 15+, 5+!c nieforsujące
 			2d 10+ dowolny, GF
-				2h 12-14, 2!h lub 3!h zniechęcające
-				2s 15-17
-				3d 15-17, 6!c 4!d
-				3h 12-14, interesująca ręka
+				2h 3!h
+				2s 4!s
+				2nt brak 4!s i 3!h
+				3c 6!c lub układ niedobry do bez atu
+				3d 6!c 4!d
+				3h 4!h
 			2h 7-9, nieforsujące
 			2s naturalne, GF
 			2nt 7-9, naturalne
 			3c 7-9, naturalne
+			3d naturalne, do pasa
 			3h inwit na dobrym kolorze
 			3s splinter na treflach
-			4c splinter na treflach
+			4d splinter na treflach
 		:2d_odw(!h, !c, !s, 5+!h, 4+!h4!s)
 			2s 4!h
 			2nt 5!h niezrównoważony
@@ -741,7 +753,7 @@ end
 					:amer_after_h_next(GF ustalenie !d)
 		2s 18+, 6+!s
 		2nt 18+, bez 3!h, bez 4!s
-			3c 4+c pytanie
+			3c 4+!c pytanie
 				3d 5!d
 				3h dobre 2!h
 				3s 4!c
@@ -758,23 +770,57 @@ end
 			xx fit 3+!h
 	1s 7+, 4+!s
 		:1nt_resp(12-14)
-			2c 1)transfer na 2!d 2)dowolny ivit
+			2c słaby checkback
 				2d automat
-			2d dowolny GF
-		2c 15+, 5+!c
-			2d 10+ dowolny
+					pass chciałem grać 2!d
+					2h 4+!h 5!s (partner wybiera czy gramy 2!h czy 2!s)
+					2s SO
+					3c 5+!c, SO
+					3s 6+!s, inwit do 4!s ale słabe kiery
+				2s 3!s
+				2nt 5!c, 2 dobre !s
+				3c 5!c
+			2d silny checkback
+				2h 3!h, bez 3!s 5!c
+				2s 3!s
+				2nt 3!h, układ 4432
+				3c 5!c 3!s
+			2h 7-9, 4!h 6!s
+			2s SO, otwierający musi pasować
+			3c SO, otwierający musi pasować
+			3d GF, układ 5-5
+			3h GF, układ 5-5
+			3s inwit na dobrym kolorze
+			4c auto-splinter
+			4d auto-splinter
+		2c 15+, 5+!c nieforsujące
+			2d 10+ dowolny, GF (brak 4!h)
+				2h 15-17, 
+				2s 12-14, 2!s lub 3!s zniechęcające
+				3d 15-17, 6!c 4!d
+				3h 12-14, interesująca ręka
+			2h 10+, naturalne forsujące na 1 okrążenie
+			2s 7-9, naturalne
+			2nt 7-9, naturalne
+			3c 7-9, naturalne
+			3d naturalne do pasa
+			3h splinter na treflach
+			3s inwit na dobrym kolorze
+			4d splinter na treflach
 		:2d_odw(!s, !h, !c, 5!s4!h22, 5+!s)
-			2s 6+!s
+			2s 4!s
 			2nt 5!s niezrównoważony
 				3c pytanie o singla
 					3d singiel !d
-					3h singiel !h
-					3s singiel !c
-			3c 4!s-4+!c
-			3d 4!s-4+!d
-			3h 5!s-4!h
-			3s 4!s333, transfer na 3Ba
-			3Ba 5!s332
+					3h singiel !c
+					3s singiel !s
+			3c 9-11 4!s 5!c
+			3d 9-11 4!s 5!d
+			3h 6!s, krótkośc !s
+			3s układ 5332 
+			3nt 6!s, brak krótkości
+			4c 6!s, krótkośc !c
+			4d 6!s, krótkość !d
 		2h 18+5+!h
 		2s 12-14, 3-4!s podniesienie amerykańskie
 			2nt pytanie o skład
@@ -788,10 +834,24 @@ end
 					:amer_after_s_next(GF ustalenie !d)
 				3s 4!c3!s33
 					:amer_after_s_next(GF ustalenie !d)
+		2nt 18+, bez 3!s, bez 5!h
+			3c 4+!c pytanie
+				3d 5!d
+				3h 4!h
+				3s dobre 2!s
+				3nt negatywne
+				4c 4+!c układ niedobry do bez atu
+		3c 18+, 6!c
+		3d 18+, 6!d
+		3h splinter z fitem !s
+		3s 15-17, 4!s, skład niezrównoważony 
+		3nt 7 pełnych !c, stpoer poza !s
+		4c splinter z fitem !s
+		4d splinter z fitem 1S
 		(x)
 			xx fit 3+!s
-	1nt 8-11 bez starszych czwórek
-		2c 15+, 5+!c
+	1nt 8-10 bez starszych czwórek
+		2c 15+, 5+!c GF
 			2d naturalne 5!d332 dół
 			2h obawa o piki dół
 			2s obawa o kiery dół
