@@ -860,7 +860,20 @@ end
 			3d góra 5!d332
 			3h obawa o piki góra
 			3s obawa o kiery góra	
-			3nt około 4333 góra					
+			3nt około 4333 góra	
+		2d 18+, 5+!d
+			3d mam fit + jakiegoś dubla
+		2h 18+, 5+!h
+			3h mam fit + jakiegoś dubla
+		2s 18+, 5+!s
+			3s mam fit + jakiegoś dubla
+		2nt inwit do dogranej, słaby wariant trefla, góra otwarcia, plus coś ekstra np. 5!c
+		3c 18+, 6+!c
+		3d 18+, 6+!d
+		3h GF, układ 5-5 z !h
+		3s GF, układ 5-5 z !s
+		3nt 18+, do gry
+		4c GF, układ 5-5 w młodszych
 	2c 12+, 5+!c, forsuje do dogranej
 		2d 12-14 skład dowolny
 	2d 12+, 5+!d, forsuje do dogranej
