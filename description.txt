@@ -896,38 +896,17 @@ end
 		3h splinter na !d
 		3s splinter na !d
 		4c splinter na !d
-	2h Inwitujące do gry premiowej na bardzo dobrym kolorze
-		pass do gry
-		2s do gry
-		2nt GF, pytanie o skład
-			3c 5!s4!h3-4!c
-				3d uzgodnienie !c
-				3h uzgodnienie !h
-				3s uzgodnienie !s
-				3nt do gry
-			3d 5!s4!h3-4!d
-				3h uzgodnienie !h
-				3s uzgodnienie !s
-				3nt do gry
-			3h 5!s4!h2!d2!c
-				3s uzgodnienie !s
-				3nt do gry
-				4c cuebid, uzgadniający !h
-				4d cuebid, uzgadniający !h
-			3s 5!s5!h2+!c
-				3nt do gry
-				4c uzgodnienie !h
-				4d uzgodnienie !s
-			3nt 5!s5!h2+!d
-				4c uzgodnienie !h
-				4d uzgodnienie !s
-		:3c_fit()
-		:3d_fit()
-		3h inwit
-		3s inwit
-		3nt do gry
-		4c 4+!h0-1!s
-		4d 3+!s0-1!h
+	2h 7-9, 4+!h 5!s
+		pass 12-14, SO
+		2s 12-14, SO
+		2nt 18+, GF
+			3c 5-4 w starszych, 3!c
+			3d 5-4 w starszych, 3!d
+			3h 5!h
+			3s 6!s
+			3nt 5422
+		3h 15-17, 4!h
+		3s 15-17, 3!s
 	2s Inwitujące do gry premiowej na bardzo dobrym kolorze
 		2nt dół otwarcia 12-14
 		3c 15+ 5+!c
