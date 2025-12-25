@@ -907,16 +907,31 @@ end
 			3nt 5422
 		3h 15-17, 4!h
 		3s 15-17, 3!s
-	2s Inwitujące do gry premiowej na bardzo dobrym kolorze
-		2nt dół otwarcia 12-14
-		3c 15+ 5+!c
-		3d 18+ 5+!d
-		3h 18+ 5+!h
-		3s 18+ 5+!s
-		3nt góra otwarcia 12-14
-		:4c_Gerber()
-		4nt inwit
-	2nt 12+, bez starszych czwórek, forsuje do dogranej
+	2s 11-12, inwit do dogranej, brak 4!h!s
+		2nt do pasa
+		3c 12+, GF
+		3d 18+, naturalne
+		3h 18+, naturalne
+		3s 18+, naturalne
+		3nt do pasa
+		4nt 20-21, inwit
+			5c przyjęcie inwitu 4!c
+			5d przyjęcie inwitu 4!d
+			5h przyjęcie inwitu 4!c4!d lepsze !c
+			5s przyjęcie inwitu 4!c4!d lepsze !d
+			5nt przyjęcie inwitu, pokaż swoją piątkę
+				6c 5!c
+				6d 5!d
+				6h 5!h
+				6s 5!s
+				6nt nie prszyszła
+			6c przyjęcie inwitu 5!c
+			6d przyjęcie inwitu 5!d
+	2nt 13+, bez 5!c!d bez 4!h!s, GF
+		3c 12+, naturalne
+		3d 18+, naturalne
+		3h 18+, naturalne
+		3s 18+, naturalne
 	3c 9-11 na dobrej szóstce, nieforsujące
 		:3d_fit()
 		:3h_fit()
@@ -934,45 +949,70 @@ end
 			4nt lepsze niż 5!c  wszystkie figury w młodych
 			5c 2+!c do gry
 		4d 18+ uzgodnienie !d
-	3h 6-11, niezły siedmiokart
-	3s 6-11, niezły siedmiokart
+	3h 0-6, 7+!h
+	3s 0-6, 7+!s
 	3nt nie ma takiej odzywki
 	(1d)
-		x 4-4!h!s
-		:1h_resp()
-			2h 4!h lub 3!h bez trzymania !d
-				2s pytanie o skład
-					2nt 4!h
-					3c 5!c3!h32
-						3d można coś wymyślić
-						3h SO
-						:amer_after_h_next(uzgodnienie !h  krótkość !d)
-					3d 3!h-4!d blotki
-						3h SO
-						:amer_after_h_next(uzgodnienie !h  krótkość !d)
-					3h 4!c3!h33
-						:amer_after_h_next(uzgodnienie !h  krótkość !d)
-		:1s_resp()
-			2s 4!s lub 3!s bez trzymania !d
-				2nt pytanie o skład
-					3c 4!s
-					3d 3!s5!c
-						3h można coś wymyślić
-						3s SO
-						:amer_after_s_next(uzgodnienie !s  krótkość !d)
-					3h 3!s4!h
-						3s SO
-						:amer_after_s_next(uzgodnienie !s  krótkość !d)
-					3s 4!c3!s33
-						:amer_after_s_next(uzgodnienie !s  krótkość !d)
+		x transfer 4+!h
+			1h 12-14, 3!h
+			1s 12+, naturalne, forsujące, bez 3!h
+			1nt 12-14 bez 3!h
+			2c 12-17, 5+!c
+			2d odwrotka
+			2h 12-14, 4!h
+			3h 15-17, 4!h
+		1h transfer 4+!s
+			1s 12-14, 3!s
+			1nt 12-14 bez 3!s
+			2c 12-17, 5+!c
+			2d odwrotka
+			2h 12+, naturalne, forsujące, bez 3!s
+			2s 12-14, 4!s
+			3s 15-17, 4!s
+		1s transfer na bez atu
+			1nt 12-14, nie mówi nic o trzymaniu !d
+			2c 12-17, naturalne
+			2d 18+, pytanie o zatrzymanie !d
+			2h 18+, naturalne
+			2s 18+, naturalne
+			2nt 18+, z zatrzymaniem !d
+		1nt naturalne
+		2c naturalne, nieforsujące
+		2d transfer 5+!h (jeżeli przeciwnicy licytują dalej to poprzyj z 3!h)
+		2h transfer 5+!s (jeżeli przeciwnicy licytują dalej to poprzyj z 3!s)
+		2s inwit z treflami
+		2nt naturalne, inwit
+		3c naturalne, GF
 	(1h)
-		x bez 4 pików
+		x transfer 4+!s
+			1s 12-14, 3!s
+			1nt 12-14 bez 3!s
+			2c 12-17, 5+!c
+			2d odwrotka
+			2s 12-14, 4!s
+			3s 15-17, 4!s
+		1s transfer na bez atu
+			1nt 12-14, nie mówi nic o trzymaniu !h
+			2c 12-17, naturalne
+			2d 18+, naturalne
+			2h 18+, pytanie o zatrzymanie !h
+			2s 18+, naturalne
+			2nt 18+, z zatrzymaniem !h
+		1nt naturalne
+		2c naturalne, nieforsujące
+		2d 5+!d (jeżeli przeciwnicy licytują dalej to poprzyj z 3!d)
+		2h transfer 5+!s (jeżeli przeciwnicy licytują dalej to poprzyj z 3!s)
+		2s inwit z treflami
+		2nt naturalne, inwit
+		3c naturalne, GF
+	(1s)
+		x 4!h
 	(1ba)
 		2c 4+4+!h!s
 	(x)
-		xx 10+
-		pass 0-6 3+!c
-		1d 0-6 bez 3!c
+		pass 0-6, 3+!c
+		xx 10+ 
+		1d 0-6, brak 3!c
 		1h 7+ 4+!h dalsza licytacja jak bez kontry
 		1s 7+ 4+!s dalsza licytacja jak bez kontry
 		:1nt_resp(7-9)
