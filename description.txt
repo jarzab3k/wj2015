@@ -874,10 +874,28 @@ end
 		3s GF, układ 5-5 z !s
 		3nt 18+, do gry
 		4c GF, układ 5-5 w młodszych
-	2c 12+, 5+!c, forsuje do dogranej
-		2d 12-14 skład dowolny
-	2d 12+, 5+!d, forsuje do dogranej
-		2h 12-14 skład dowolny
+	2c 12+, 5+!c, GF
+		2d 18+, 5+!d
+		2h 4!h, możliwe 4!s
+			3h 4!h
+		2s 4!s, brak 4!h
+			3s 4!s
+		2nt brak 4!h i 4!s
+		3c 4!c, brak 4!h i 4!s
+		3d splinter na !c
+		3h splinter na !c
+		3s splinter na !c
+	2d 12+, 5+!d, GF
+		2h 4!h, możliwe 4!s
+			3h 4!h
+		2s 4!s, brak 4!h
+			3s 4!s
+		2nt brak 4!h i 4!s
+		3c 15+. 5!c, brak 4!d!h!s
+		3d 4!d, brak 4!h i 4!s
+		3h splinter na !d
+		3s splinter na !d
+		4c splinter na !d
 	2h Inwitujące do gry premiowej na bardzo dobrym kolorze
 		pass do gry
 		2s do gry
