@@ -979,8 +979,18 @@ end
 		1nt naturalne
 		2c naturalne, nieforsujące
 		2d transfer 5+!h (jeżeli przeciwnicy licytują dalej to poprzyj z 3!h)
+			2h automat (wszystkie przeciętne ręce)
+			2s 18+, naturalne
+			2nt 18+, naturalne
+			3c naturalne, GF
+			3h 12+, inwitujące, układowe
 		2h transfer 5+!s (jeżeli przeciwnicy licytują dalej to poprzyj z 3!s)
-		2s inwit z treflami
+			2s automat (wszystkie przeciętne ręce)
+			2nt 18+, naturalne
+			3c naturalne, GF
+			3h 18+, naturalne
+			3s 12+, inwitujące, układowe
+		2s inwit, 5+!c
 		2nt naturalne, inwit
 		3c naturalne, GF
 	(1h)
@@ -1046,8 +1056,8 @@ end
 		1h 7+, 4+!h, dalsza licytacja jak bez kontry
 		1s 7+, 4+!s, dalsza licytacja jak bez kontry
 		1nt 8-10, dalsza licytacja jak bez kontry
-		2c 7-9 5+c
-		2d 7-9 5+d
+		2c 7-11 5+c
+		2d 7-11 5+d
 		2h pozostałe odzywki jak bez kontry
 1d 12-17, 5+!d 
 	1h 1) 7+, 4+!h  2) 0-6, 5+!h 
