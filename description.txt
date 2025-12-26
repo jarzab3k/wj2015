@@ -1008,7 +1008,7 @@ end
 		2nt naturalne, inwit
 		3c naturalne, GF (pytanie o fita)
 			:3d_fit()
-			3d druga blotka !c
+			3h druga blotka !c
 			:3s_fit()
 			3nt 0-1 !c
 			4c trzy blotki !c lub druga figura !c
