@@ -989,7 +989,9 @@ end
 			1nt 12-14 bez 3!s
 			2c 12-17, 5+!c
 			2d odwrotka
+			2h 18+, pytanie o zatrzymanie !h
 			2s 12-14, 4!s
+			2nt 18+, zrównoważony, brak 3!s
 			3s 15-17, 4!s
 		1s transfer na bez atu
 			1nt 12-14, nie mówi nic o trzymaniu !h
@@ -1004,20 +1006,49 @@ end
 		2h transfer 5+!s (jeżeli przeciwnicy licytują dalej to poprzyj z 3!s)
 		2s inwit z treflami
 		2nt naturalne, inwit
-		3c naturalne, GF
+		3c naturalne, GF (pytanie o fita)
+			:3d_fit()
+			3d druga blotka !c
+			:3s_fit()
+			3nt 0-1 !c
+			4c trzy blotki !c lub druga figura !c
+			4d trzecia figura !c, cue bid !d
+			4h trzecia figura !c, cue bid !h
+			4s trzecia figura !c, cue bid !s
 	(1s)
 		x 4!h
+			1nt 12-14 bez 4!h
+			2c 12-17, 5+!c
+			2d 18+, 4!h odwrotka
+			2h 12-14, 4!h
+			3h 15-17, 4!h
+		1nt naturalne
+		2c naturalne, nieforsujące
+		2d naturalne, nieforsujące
+		2h naturalne, nieforsujące
+		2s inwit do 3nt, brak trzymania !s
+		2nt inwit do 3nt, mam trzymanie !s
+		3c naturalne, GF (pytanie o fita)
+			:3d_fit()
+			:3h_fit()
+			3s 2 blotki !c
+			3nt 0-1 !c
+			4c trzy blotki !c lub druga figura !c
+			4d trzecia figura !c, cue bid !d
+			4h trzecia figura !c, cue bid !h
+			4s trzecia figura !c, cue bid !s
 	(1ba)
 		2c 4+4+!h!s
 	(x)
 		pass 0-6, 3+!c
 		xx 10+ 
 		1d 0-6, brak 3!c
-		1h 7+ 4+!h dalsza licytacja jak bez kontry
-		1s 7+ 4+!s dalsza licytacja jak bez kontry
-		:1nt_resp(7-9)
+		1h 7+, 4+!h, dalsza licytacja jak bez kontry
+		1s 7+, 4+!s, dalsza licytacja jak bez kontry
+		1nt 8-10, dalsza licytacja jak bez kontry
 		2c 7-9 5+c
 		2d 7-9 5+d
+		2h pozostałe odzywki jak bez kontry
 1d 12-17, 5+!d 
 	1h 1) 7+, 4+!h  2) 0-6, 5+!h 
 		1s 4+!s
