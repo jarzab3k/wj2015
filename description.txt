@@ -1242,30 +1242,51 @@ end
 	4d blok
 1h 12-17, 5+!h
 	1s 1) 7+, 4+!s, 2) 0-6, 5+!s
-		1nt 12-17 bez 4!s 
+		1nt 12-17, układ 5332 
 			2c słaby checkback
-				2d 15-17, 5!h 4!d
-				2h 12-14, wszystkie ręcę
-					pass słaba ręka, 3+!h
-					2s naturalne, inwitujące
-					2nt 5332 na !s, inwit
-					3nt 5332 na !s, GF 3nt lub 4!s
+				2d 12-14, 5!h3!c!d2!s
+					pass chciałem grać !d
+					2h SO
+					2s SO
+					2nt 10-11
+					3c 10-11, 5!c
+					3d 10-11, 5!d
+					3h 10-11, 3!h
+					3s 10-11, 5!s
 				2s 15-17, 3!s
 				2nt 15-17, mam trzymanie !c i !d
-				3h 15-17, 6+!h
-			2d silny checkback (GF)
+				3h 15-17, bez trzymania !c/!d
+			2d 12+, silny checkback (GF)
 				2h 6!h
 				2s 3!s 
-				2nt mam trzymanie !c i !d
-				3c 4!c brak trzymania !c/!d
-				3d 4!d brak trzymania !c/!d
+				2nt 5!h 2!s, mam trzymanie !c i !d
+				3c mam coś w !c, brak trzymania !d
+				3d mam coś w !d, brak trzymania !c
 				3h 6!h 3!s
 			2h 6-9, 5!s 3!h
 			2s SO
-		2c 12-14 4+!c 5+!h
-			2d GF czwarty kolor
-		2d 12-14 4+!d 5+!h
+		2c 1) 12-14 4+!c, 2) 15-17 4!c
+			2d tani stransfer: 1) sign off  2) GF
+				2h automat
+					pass 1)
+					2s 1)
+					2nt pozostałe odzywki to naturalne 2) 
+			2s pozostałe odzywki to naturalne inwity
+		2d 1) 12-14 4+!d, 2) 15-17 4!d
+			2h 8-11, 3!h
+			2s 8-11, 5!s
+			2nt 8-11
+			3c tani transfer: SO
+				3d automat
+					pass SO
+					3h SO
+					3s SO
 		2h 12-14, 6+!h
+			3c singiel !c
+			3d singiel !d
+			3h dół otwarcia bez singla (lub singiel !s), brak 3!s
+			3s 3!s bez singla
+			3nt góra otwarcia bez 3!s (możliwy singiel !s)
 		2s 12-14, 3-4!s podniesienie amerykańskie
 			2nt pytanie o skład
 				3c 4!c5+!h3!s
@@ -1282,41 +1303,53 @@ end
 		3c 15-17, 5+!h 5+!c
 		3d 15-17, 5+!h 5+!d
 		3h 15-17, 6+!h bez trzymania obydwu !c/!d
-	1nt 1) 7-11 bez fitu, 2) 3-7 z 3!h
+		3s 15-17, 5+!h, 4+!s, brak singla
+		4c 15-17, 5+!h, 4+!s, splinter !c
+		4d 15-17, 5+!h, 4+!s, splinter !d
+	1nt 1) 7-11 bez fitu, 2) 3-7, 3!h
 		2c 1) 12-14, 4+!c 2) 15-17, 4!c
 		2d 1) 12-14, 4+!d 2) 15-17, 4!d
-		2h 12-14 6+!h
+		2h 12-14, 6+!h
 			2nt forsing do 3!h
 				3c krótkość !c
 				3d krótkość !d
 				3h dół brak singla ew. singiel !s
 				3s kórtkość !s GF
 				3nt góra bez singla
-		2s 15-17 4!s 5!h
-		2nt 15-17 układ zrównoważony
-			3h mam 3-7 z 3!h
-		3c 15-17 5!c 5!h
-		3d 15-17 5!d 5!h
-		3h 15-17 6+!h
-		3s 15-17 5!s 5!h
-	2c 10+ 5+!c (późniejsze powtórzenie !c oznacza 10-12 6+!c)
+		2s 15-17, 4!s 5!h
+			2nt forsing do 3!h
+				3c dół, krótkość !c
+				3d dół, krótkość !d
+				3h dół, brak singla
+				3s góra, brak singla
+				4c góra, krótkość !c
+				4d góra, krótkość !d
+		2nt 15-17, układ zrównoważony
+			3h mam 3-7, z 3!h
+		3c 15-17, 5!c 5!h
+			3h mam 3-7, z 3!h
+		3d 15-17, 5!d 5!h
+			3h mam 3-7, z 3!h
+		3h 15-17, 6+!h
+		3s 15-17, 5!s 5!h
+	2c dowolny GF (poźniejsze 2nt oznacza GF z fitem !h), chyba że powtórze !c (późniejsze powtórzenie !c oznacza 10-11, 6+!c) 
 		2d 1) 12-14, 4+!d 2) 15-17, 4!d
-		2h 12-14 
-		2s 15-17 4!s
-		2nt 15-17 dobra do nt
-		3c 4!c układ 5422
-		3d splitner (krótkość) !d 4+!c 
-		3h 15-17 6+!h
-		3s splitner (krótkość) !s 4+!c 
-	2d 10+ 5+!d (późniejsze powtórzenie !d oznacza 10-12 6+!d)
+		2h 12-14
+			3h silnie zachęca do szlemika 5+!c, z fitem !h
+		2s 15-17, 4!s
+		2nt 15-17, dobra do nt
+		3c 15-17, 4!c 
+		3d 15-17, 5+!d
+		3h 15-17, 6+!h
+	2d naturalny GF, chyba że powtórze !d (późniejsze powtórzenie !d oznacza 10-11, 6+!d)
 		2h 12-14 
 		2s 15-17 4!s
 		2nt 15-17 dobra do nt
 		3c 15-17 4+!c
-		3d 4!d możliwa krótkość !c
+		3d 15-17 4!d 
 		3h 15-17 6+!h
 		3s splitner (krótkość) !s 4+!d 
-	2h 7-10, 3!h
+	2h 7-9, 3!h
 		2s inwit do dogranej 4!s
 		2nt GF pytanie
 			3h miałem ledwo 2!h
