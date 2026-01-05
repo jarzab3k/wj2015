@@ -1282,11 +1282,12 @@ end
 					3h SO
 					3s SO
 		2h 12-14, 6+!h
-			3c singiel !c
-			3d singiel !d
-			3h dół otwarcia bez singla (lub singiel !s), brak 3!s
-			3s 3!s bez singla
-			3nt góra otwarcia bez 3!s (możliwy singiel !s)
+			2nt forsing do 3!h
+				3c singiel !c
+				3d singiel !d
+				3h dół otwarcia bez singla (lub singiel !s), brak 3!s
+				3s 3!s bez singla
+				3nt góra otwarcia bez 3!s (możliwy singiel !s)
 		2s 12-14, 3-4!s podniesienie amerykańskie
 			2nt pytanie o skład
 				3c 4!c5+!h3!s
@@ -1332,17 +1333,38 @@ end
 			3h mam 3-7, z 3!h
 		3h 15-17, 6+!h
 		3s 15-17, 5!s 5!h
-	2c dowolny GF (poźniejsze 2nt oznacza GF z fitem !h), chyba że powtórze !c (późniejsze powtórzenie !c oznacza 10-11, 6+!c) 
+	2c dowolny GF, chyba że powtórze !c (późniejsze powtórzenie !c oznacza 10-11, 6+!c) 
 		2d 1) 12-14, 4+!d 2) 15-17, 4!d
+			2nt GF pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
+				3c krótkość !c
+				3d 12-14, 4+!d
+				3h 6!h
+				3s krótkość !s
+				3nt 15-17, 4!d
+			3h silnie zachęca do szlemika 5+!c, z fitem !h
 		2h 12-14
+			2nt GF pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
+				3c 4!c
+				3d 4!d, 6!h, minimum
+				3h 6!h
+				3s 4!s
+				3nt układ 5-3-3-2
 			3h silnie zachęca do szlemika 5+!c, z fitem !h
 		2s 15-17, 4!s
 		2nt 15-17, dobra do nt
 		3c 15-17, 4!c 
 		3d 15-17, 5+!d
 		3h 15-17, 6+!h
+		3s splinter
 	2d naturalny GF, chyba że powtórze !d (późniejsze powtórzenie !d oznacza 10-11, 6+!d)
 		2h 12-14 
+			2nt GF pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
+				3c 4!c, 6!h, minimum
+				3d 4!d
+				3h 6!h
+				3s 4!s
+				3nt układ 5-3-3-2
+			3h silnie zachęca do szlemika 5+!c, z fitem !h
 		2s 15-17 4!s
 		2nt 15-17 dobra do nt
 		3c 15-17 4+!c
@@ -1352,12 +1374,16 @@ end
 	2h 7-9, 3!h
 		2s inwit do dogranej 4!s
 		2nt GF pytanie
-			3h miałem ledwo 2!h
-			3nt niezła karta bez przebitek "może 3nt?"
-			3c mam niezłe trefle
+			3c mam niezłe !c
 				3h nie pasuje
 				3nt świetnie brakowało mi !c do 3nt
 				4h pasuje
+			3d mam niezłe !d
+				3h nie pasuje
+				3nt świetnie brakowało mi !d do 3nt
+				4h pasuje
+			3h miałem ledwo 2!h
+			3nt niezła karta bez przebitek "może 3nt?"
 			4h dobrze że nie spasowałeś na 2!h
 		3c inwit do dogranej 4+!c
 		3d inwit do dogranej 4+!d
