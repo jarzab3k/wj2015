@@ -493,11 +493,9 @@ end
 1c 1) 12-14 bez innej piątki 2) 15+, 5+!c 3) 18+
 	1d 1) 0-6 (7) 2) 8-11, na młodszym lub obu młodszych
 		1h 1)12-14, 3-4!h 2)18-19, 4+!h
-			1s 5-6, 4!s
+			1s 5-6, 4+!s
 			1nt 5-6(7) bez starszej czwórki
 				pass słaby wariant !c
-				2c 18-19, 5+!c 4+!h
-				2d 18-19, 5+!d 4+!h
 			2c 5-11, 5+!c
 				pass słaby wariant !c
 			2d 5-11, 5+!d
@@ -510,14 +508,13 @@ end
 					3d dół otwarcia, dłuższe !c
 					3h dół otwarcia, dłuższe !d
 				3c do koloru (jak !d dłuższe to popraw)
+			2nt i wyżej jakieś sprawdzenie czy z bilansu nie wychodzi dograna
 		1s 1)12-14, 3-4!s 2)18-19, 4+!s
 			1nt 5-6(7) bez 4!s
 				pass słaby wariant !c
-				2c 18-19, 5+!c 4!s
-				2d 18-19, 5+!d 4!s
-			2c 8-11, 5+!c
+			2c 5-11, 5+!c
 				pass słaby wariant !c
-			2d 8-11, 5+!d
+			2d 5-11, 5+!d
 				pass słaby wariant !c
 			2h 8-11, 5+4+ !c!d
 				2s automat
@@ -531,6 +528,7 @@ end
 					3h dół otwarcia, dłuższe !d
 				3c do koloru (jak !d dłuższe to popraw)
 			2s 5-6, 4+!s
+			2nt i wyżej jakieś sprawdzenie czy z bilansu nie wychodzi dograna
 		1nt 18-20, układ bezatutowy
 			2c 1)4-6, 4!h/!s 2)0-6, 4+4+!h!s
 				2d brak starszej czwórki
@@ -596,23 +594,9 @@ end
 				4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3!nt ani 4!h
 			3nt do gry
 			:4c_Gerber()
-			4d transfer na 4!h
-			4h transfer na 4!s
-			4s ja lepiej rozgrywam piki??
-			4nt inwit 16-18
-				5c przyjęcie inwitu 4!c
-				5d przyjęcie inwitu 4!d
-				5h przyjęcie inwitu 4!c4!d trefle lepsze
-				5s przyjęcie inwitu 4!c4!d kara lepsze
-				5nt przyjęcie inwitu, pokaż młodszą piątkę
-					6c 5!c
-					6d 5!d
-					6nt nie przyszła
-				6c przyjęcie inwitu 5!c
-				6d przyjęcie inwitu 5!d
-				6h przyjęcie inwitu 5!h
-				6s przyjęcie inwitu 5!s
-				6nt przyjęcie inwitu, nie chcę grać w kolor
+			4d 5-6, transfer na 4!h
+			4h 5-6, transfer na 4!s
+			4s 5-6, mam dobrą rękę do grania !s
 		2c 15+, 5+!c
 			pas większość negatów
 			2d 10+ GF
