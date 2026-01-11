@@ -652,7 +652,7 @@ end
 			2c 15+, 5+!c
 	1h 7+, 4+!h
 		1s 12+, 4+!s, forsujące na jedno okrążenie
-			7-9, układ zrównoważony
+			1nt 7-9, układ zrównoważony
 			2c słaby checkback
 				2d 12-14
 				2h 18+, 4-5!s, 3!h
