@@ -652,23 +652,24 @@ end
 			2c 15+, 5+!c
 	1h 7+, 4+!h
 		1s 12+, 4+!s, forsujące na jedno okrążenie
+			7-9, układ zrównoważony
 			2c słaby checkback
-				2d 12-17 (z treflami lub bez)
+				2d 12-14
 				2h 18+, 4-5!s, 3!h
 				2s 18+, 5!s
 				2nt 18+, 4!s bez 3!h
-				3c 18+, 5!c
-				3d 18+, 5!d
-			2d silny checkback
-				2h 12-14, 3!h
-				2s 18+, 5!s
-				2nt 12-14, bez 3!h
 				3c 15+, 5!c
 				3d 18+, 5!d
-			2h Sign off
-			2nt inwit do dogranej
-				3nt nieforsujące (pozostałe odzywki są forsujące)
-			3c Sign off
+			2d silny checkback
+				2h 3!h
+				2s 5!s
+				2nt układ 4!s 3!c!d 2!h
+				3c 4+!c 4!s
+				3d 4+!d 4!s
+				3h 4!h 5!s
+				3s 6!s
+			2nt 10-11, zrównoważony
+			3c GF, układ 5-5
 		:1nt_resp(12-14)
 			2c słaby checkback
 				2d automat
@@ -686,7 +687,7 @@ end
 				3c 5!c
 			2h SO, otwierający musi pasować
 			2s naturalne, GF
-			3c SO, otwierający musi pasować
+			3c GF, układ 5-5
 			3d GF, układ 5-5
 			3h 6+!h na dobrych !h, inwit
 			3s splinter 6+!h
@@ -760,7 +761,7 @@ end
 				3c 5!c 3!s
 			2h 7-9, 4!h 6!s
 			2s SO, otwierający musi pasować
-			3c SO, otwierający musi pasować
+			3c GF, układ 5-5
 			3d GF, układ 5-5
 			3h GF, układ 5-5
 			3s 6+!s. inwit
@@ -778,7 +779,7 @@ end
 			2s 7-9, naturalne
 			2nt 7-9, naturalne
 			3c 7-9, naturalne
-			3d naturalne do pasa
+			3d 7-9, naturalne
 			3h splinter
 			3s inwit na dobrym kolorze
 			4d splinter
@@ -791,7 +792,8 @@ end
 					3s singiel !s
 			3c 9-11 4!s 5!c
 			3d 9-11 4!s 5!d
-			3h 6!s, krótkośc !s
+			3h 5!h5!s
+				3nt pytanie o singla
 			3s 5!s, układ zrównoważony
 			3nt 6!s, brak krótkości
 			4c 6!s, krótkośc !c
