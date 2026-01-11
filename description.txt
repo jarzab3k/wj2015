@@ -826,18 +826,15 @@ end
 			2d naturalne 5!d332 dół
 			2h obawa o piki dół
 			2s obawa o kiery dół
-			2nt około 4333 dół
+			2nt dół odpowiedzi
 			3c 7-8, 3-5!c
 			3d góra 5!d332
 			3h obawa o piki góra
 			3s obawa o kiery góra	
-			3nt około 4333 góra	
+			3nt góra odpowiedzi
 		2d 18+, 5+!d
-			3d mam fit + jakiegoś dubla
 		2h 18+, 5+!h
-			3h mam fit + jakiegoś dubla
 		2s 18+, 5+!s
-			3s mam fit + jakiegoś dubla
 		2nt inwit do dogranej, słaby wariant trefla, góra otwarcia, plus coś ekstra np. 5!c
 		3c 18+, 6+!c
 		3d 18+, 6+!d
@@ -846,7 +843,7 @@ end
 		3nt 18+, do gry
 		4c GF, układ 5-5 w młodszych
 	2c 12+, 5+!c, GF
-		2d 18+, 5+!d
+		2d 5+!d
 		2h 4!h, możliwe 4!s
 			3h 4!h
 		2s 4!s, brak 4!h
@@ -880,7 +877,7 @@ end
 		3s 15-17, 3!s
 	2s 11-12, inwit do dogranej, brak 4!h!s
 		2nt do pasa
-		3c 12+, GF
+		3c 12+, naturalne
 		3d 18+, naturalne
 		3h 18+, naturalne
 		3s 18+, naturalne
@@ -1043,7 +1040,7 @@ end
 					3h 2) GF 5+!h
 					3s 2) GF 4!s
 				2h 15-17, 3+!h
-				2s 15-17, 2-!h i bez zatrzymania !c
+				2s 15-17, 4!s 2-!h i bez zatrzymania !c
 				2nt 15-17, z zatrzymaniem !c
 				3d 15-17, 6+!d 4+!s
 			2d 8-11, 3+!d (inwit)
@@ -1055,7 +1052,7 @@ end
 			2c słaby checkback
 				2d 12-14, wszystkie ręce
 					pass słaba ręka, 3+!d
-					2h naturalne, inwitujące
+					2h SO
 					2s naturalne, inwitujące
 					2nt 5332 na !h, inwit
 					3nt 5332 na !h, GF 3nt lub 4!h
@@ -1086,9 +1083,7 @@ end
 					:amer_after_h_next(GF ustalenie !d)
 				3h 5!d3!h32
 					:amer_after_h_next(GF ustalenie !d)
-		2s 15-17 6+!d3!h
-			3c tani transfer
-				3d automat
+		2s 15-17 6!c 4!s
 		2nt 15-17 6+!d z trzymaniem !c i !s
 		3c 15-17, 5+!d5+!c
 		3d 15-17 6+!d brak trzymania !c/!s
@@ -1098,17 +1093,17 @@ end
 				2d 12-14, wszystkie ręce
 					pass słaba ręka, 3+!d
 					2h naturalne, inwitujące
-					2s naturalne, inwitujące
+					2s SO
 					2nt 5332 na !s, inwit
 					3nt 5332 na !s, GF 3nt lub 4!s
 				2s 15-17, 3!s
-				2nt 15-17, mam trzymanie !c i !s
+				2nt 15-17, mam trzymanie !c i !h
 				3d 15-17, 6+!d
 			2d silny checkback (GF)
 				2h 4!h bez 3!s
 				2s 3!s 
-				2nt mam trzymanie !c i !s
-				3c 4!c brak trzymania !c/!s
+				2nt mam trzymanie !c i !h
+				3c 4!c brak trzymania !h
 				3d 6+!d
 				3h 6+!d 4!h
 				3s 6+!d 3!s
@@ -1117,22 +1112,7 @@ end
 		2c 4+!c5+!d
 			2h GF czwarty kolor
 		2d 12-14 6+!d
-		2h 1) 15-17, 4!h 2) 15-17 6+!d 3!s
-			2s SO
-			3c tani transfer
-				3d automat
-					pass SO
-					3h SO
-						3s 2)
-			2nt pytanie GF
-				3c 5!d 4!h 3!c
-				3d 6!d 4!h
-				3h 5!d 4!h 3!s
-				3s 6!d 3!s
-				3nt 5!d 4!h 2!c 2!s
-			3d GF
-			3h GF
-				3s 2)
+		2h 15-17, 4!h
 		2s 12-14, 3-4!s podniesienie amerykańskie
 			2nt pytanie o skład
 				3c 4!s
@@ -1200,13 +1180,9 @@ end
 		3h inwit
 		3s inwit
 		3nt do gry
-		4c 4+!h0-1!s
-		4d 3+!s0-1!h
 	2s 10-12, inwit do 3nt
-		3c naturalne, forsujące do 3d
-		3d nie mam ręki na nt
 	2nt 13+, bez 4!h/4!s GF
-	3c fit !d, za silne na blok (3!d) i za słabe na inwit (2!d)
+	3c 4!d, za silne na blok (3!d) i za słabe na inwit (2!d)
 	3d 4!d blok
 	3h splinter
 	3s splinter
