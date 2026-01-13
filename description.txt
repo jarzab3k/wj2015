@@ -1710,108 +1710,21 @@ end
 	4s naturalne ze swojego koloru
 2h 6-11 5+!h + inna piątka
 	2s pasuj z pikami lub licytuj swój drugi kolor
-	2nt silne pytanie o boczną piątkę
+	2nt silne pytanie o boczną piątkę (zalicytowanie później własnego koloru to GF na tym kolorze, zalicytowanie koloru otwierającego to GF na tym kolorze, po odpowiedzi otwierającego zlaicytowanie kolejnej najniższej odzywki to pytanie o krótkość)
 		3c 5+ !c
-			3d 6+ !d forsujące
-				3h dół otwarcia brak dubletu !d
-				3s dół otwarcia dublet+ !d
-				3nt góra otwarcia brak dubletu !d
-				4c góra otwarcia dublet+ !d
-			3h silne uzgodnienie !h
-				3s dół otwarcia krótkość !d
-				3nt dół otwarcia krótkość !s
-				4c góra otwarcia krótkość !d
-				4d góra otwarcia krotkość !s
-			3s 6+ !s forsujące
-				3nt dół otwarcia brak dubletu !s
-				4c dół otwarcia dublet+ !s
-				4d góra otwarcia brak dubletu !s
-				4h góra otwarcia dublet+ !s
-			4c silne uzgodnienie !c
-				4d dół otwarcia krótkość !d
-				4h dół otwarcia krotkość !s
-				4s góra otwarcia
 		3d 5+ !d
-			3h silne uzgodnienie !h
-				3s dół otwarcia krótkość !d
-				3nt dół otwarcia krótkość !s
-				4c góra otwarcia krótkość !d
-				4d góra otwarcia krotkość !s
-			3s 6+ !s forsujące
-				3nt dół otwarcia brak dubletu !s
-				4c dół otwarcia dublet+ !s
-				4d góra otwarcia brak dubletu !s
-				4h góra otwarcia dublet+ !s
-			4c 6+ !c forsujące
-				4d brak dubletu !c
-				4h dół otwarcia dublet+ !c
-				4s góra otwarcia dublet+ !c
-			4d silne uzgodnienie !d
-				4h krótkość !c
-				4s krotkość !s
 		3h 5+ !s
-			3s silne uzgodnienie !s
-				3nt dół otwarcia krótkość !c
-				4c dół otwarcia krótkość !d
-				4d góra otwarcia krótkość !c
-				4h góra otwarcia krotkość !d
-			4c silne uzgodnienie !h
-				4d krótkość !c
-				4h krótkość !d
 	3c do koloru z !c/!d z 5+ !s licytuj 4!s
 	3d inwit do 4!h
 	3h blokujące
 	3s 6+ !s inwit do 4!s
 	4h blokujące lub silne
 2s 6-11 5+!s + piątka młodsza
-	2nt silne pytanie o boczną piątkę
+	2nt silne pytanie o boczną piątkę (zalicytowanie później własnego koloru to GF na tym kolorze, zalicytowanie koloru otwierającego to GF na tym kolorze, po odpowiedzi otwierającego zlaicytowanie kolejnej najniższej odzywki to pytanie o krótkość)
 		3c 5+ !c dół otwarcia
-			3d 6+ !d forsujące
-				3h brak dubletu !d
-				4d dublet !d
-			3h 6+ !h forsujące
-				3s brak dubletu !h
-				4h dublet+ !h
-			3s silne uzgodnienie pików
-				4d krótkość !d
-				4h krotkość !h
-			4c silne uzgodnienie !c
-				4d krótkość !d
-				4h krotkość !h
 		3d 5+ !d dół otwarcia
-			3h 6+ !h forsujące
-				3s brak dubletu !h
-				4h dublet+ !h
-			3s silne uzgodnienie pików
-				4c krótkość !c
-				4h krotkość !h
-			4c 6+ !c forsujące
-				4d brak dubletu !c
-				4h dublet+ !c
-			4d silne uzgodnienie !d
-				4h krotkość !h
-				4s krótkość !c
 		3h 5+ !c góra otwarcia
-			3s silne uzgodnienie !s
-				4d krótkość !d
-				4h krotkość !h
-			4c silne uzgodnienie !c
-				4d krótkość !d
-				4h krotkość !h
-			4d pytanie o krótkość (mam własny kolor 6+)
-				4h krótkość !h
-					4nt pytanie o asy - odpowiadamy bez uzgodnionego kolory (4 wartości)
-				4s krótkość !d
-					4nt pytanie o asy - odpowiadamy bez uzgodnionego kolory (4 wartości)
 		3s 5+ !d góra otwarcia
-			4c pytanie o krótkość (chcę uzgodnić !s lub mam własny kolor 6+)
-				4d krótkośc !c
-					4nt pytanie o asy - odpowiadamy tak jakbyśmy uzgodnili !s (co nie jest pewne)
-				4h krótkość !h
-					4nt pytanie o asy - odpowiadamy tak jakbyśmy uzgodnili !s (co nie jest pewne)
-			4d silne uzgodnienie !d
-				4h krótkość !h
-				4s krótkość !c
 	3c do koloru "pasuj z treflami"
 	3d inwit do 4!s
 	3h 6+ !h inwit do 4!h
@@ -1829,7 +1742,7 @@ end
 			4d silnie uzgadnia !d
 		4c 6!c i po singlu
 		4d 6!d i po singlu
-		4h  renons !h
+		4h renons !h
 		4s renons !s
 3c blokujące 6+!c (po parti 7+) (4-3-2-2-)
 	:3d_fit()
