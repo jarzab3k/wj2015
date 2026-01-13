@@ -1613,196 +1613,47 @@ end
 	:db1nt()
 	:1nt_defence()
 2c 11-14, 1) 6+!c 2) 5+!c i 4!h/!s
-	2d relay, siła co najmniej inwitująca
+	2d relay, siła co najmniej inwitująca (później odp licytuje 3!c z 10-11 i fitem; zalicytowanie później swojego koloru oznacza GF na tym kolorze; po odpowiedzi otwierającego zalicytowanie najniższej kolejnej odzywki to jest dalsze pytanie)
 		2h 4!h
 			2s dalsze pytanie
-				2nt 5!c4!h2!s2!d
-					3c F1, ustalenie !c, można się jeszcze zatrzymać w 4!c
-					3d GF na !d, ustalenie !d
-					3h GF na !h, ustalenie !h
-					3s GF na !s, ustalenie !s
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4h do gry
-					4s do gry
-				3c 6+!c4!h
+				2nt 2!s2!d
+				3c 6+!c
 					3d dalsze pytanie
-						3h 6!c4!h0!s3!d
-							3s GF na !h, ustalenie !h
-							3nt do gry
-							4c GF na !c, ustalenie !c
-							4d GF na !d, ustalenie !d
-							4h do gry
-							4s do gry
-						3s 6!c4!h3!s0!d
-							3nt do gry
-							4c GF na !c, ustalenie !c
-							4d GF na !h, ustalenie !h
-							4h do gry
-							4s do gry
-							4nt pytanie o asy na !s, ustalenie !s
-						3nt 6!c4!h21
-							4c GF na !c, ustalenie !c
-							4d GF na !h, ustalenie !h
-							4h do gry
-							4s do gry
-							4nt pytanie o asy na !s, ustalenie !s
-						4c 7+!c, ustalenie !c
-					3h GF na !h, ustalenie !h
-					3s GF na !s, ustalenie !s
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4d GF na !d, ustalenie !d
-					4h do gry
-					4s do gry
-				3d 5!c4!h3!d1!s
-					3h GF na !h, ustalenie !h
-					3s GF na !s, ustalenie !s
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4d GF na !d, ustalenie !d
-					4h do gry
-					4s do gry
-				3h 5!c4!h4!s
-					3s GF na !s, ustalenie !s
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4d GF na !h, ustalenie !h
-					4h do gry
-					4s do gry
-				3s 5!c4!h3!s1!d
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4d GF na !h, ustalenie !h
-					4h do gry
-					4s do gry
-					4nt pytanie o asy na !s, ustalenie !s
+						3h krótkość !d
+						3s krótkość !s
+						4c 7+!c
+				3d 3!d
+				3h 4!s
+				3s 3!s
 			2nt naturalne, nieforsujące
 			3c naturalne, nieforsujące
-			3d GF na !d, ustalenie !d
 			3h inwit do 4!h
-			3s GF na !s, ustalenie !s
-			3nt do gry
 			4c inwit do 5!c
-			4d splinter na !h
-			4h do gry
 		2s 4!s
 			2nt dalsze pytanie
-				3c 6+!c4!s
+				3c 6+!c
 					3d dalsze pytanie
-						3h 6!c4!s3!h0!d
-							3s GF na !s, ustalenie !s
-							3nt do gry
-							4c GF na !c, ustalenie !c
-							4d GF na !h, ustalenie !h
-							4h do gry
-							4s do gry
-						3s 6!c4!s3!d0!h
-							3nt do gry
-							4c GF na !c, ustalenie !c
-							4d GF na !d, ustalenie !d
-							4h do gry
-							4s do gry
-							4nt pytanie o asy na !s, ustalenie !s
-						3nt 6!c4!s21
-							4c GF na !c, ustalenie !c
-							4d GF na !d, ustalenie !d
-							4h do gry
-							4s do gry
-							4nt pytanie o asy na !s, ustalenie !s
-						4c 7+!c, ustalenie !c
-					3h GF na !h, ustalenie !h
-					3s GF na !s, ustalenie !s
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4d GF na !d, ustalenie !d
-				3d 5!c4!s3!d1!h
-					3h GF na !h, ustalenie !h
-					3s GF na !s, ustalenie !s
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4d GF na !d, ustalenie !d
-					4h do gry
-					4s do gry
-				3h 5!c4!s3!h1!d
-					3s GF na !s, ustalenie !s
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4d GF na !h, ustalenie !h
-					4h do gry
-					4s do gry
-				3s 5!c4!s2!h2!d
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4d GF na !d, ustalenie !d
-					4h do gry
-					4s do gry
-					4nt pytanie o asy na !s, ustalenie !s
+						3h krótkość !h
+						3s krótkość !d
+						4c 7+!c
+				3d 3!d
+				3h 3!h
+				3nt 2!h2!d
 			3c naturalne, nieforsujące
-			3d GF na !d, ustalenie !d
-			3h GF na !h, ustalenie !h
 			3s inwit do 4!s
-			3nt do gry
 			4c inwit do 5!c
-			4d splinter !d, ustalający !s
-			4h splinter !h, ustalający !s
-			4s do gry
 		2nt 6+!c bez singla
-			3c naturalne, nieforsujące
-			3d dalsze pytanie
-				3h 6!c3!h2!s2!d
-					3s GF na !s, ustalenie !s
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4d GF na !d, ustalenie !d
-					4h do gry
-					4s do gry
-					4nt pytanie o asy na !h, ustalenie !h
-				3s 6!c3!s2!h2!d
-					3nt
-					4c GF na !c, ustalenie !c
-					4d GF na !d, ustalenie !d
-					4h do gry
-					4s do gry
-					4nt pytanie o asy na !s, ustalenie !s
-				3nt 6!c3!d2!s2!h
-					4c GF na !c, ustalenie !c
-					4d GF na !d, ustalenie !d
-					4h do gry
-					4s do gry
-					4nt pytanie o asy na !s, ustalenie !s
-				4c 7!c2!d2!s2!h, ustalenie !c 
-			3h GF na !h, ustalenie !h
-			3s GF na !s, ustalenie !s
-			3nt do gry
-			4c inwit do 5!c
-			4d GF na !d, ustalenie !d
+			3c dalsze pytanie
+				3d 3!d
+				3h 3!h
+				3s 3!s
+				4c 7!c
 		3c 6+!c z singlem
-			3d pytanie o singla!!!
-				3h 6!c3-4!d2-3!s1!h
-					3s GF na !s, ustalenie !s
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4d GF na !d, ustalenie !d
-					4h do gry
-					4s do gry
-				3s 6!c3-4!d2-3!h1!s
-					3nt do gry
-					4c GF na !c, ustalenie !c
-					4d GF na !d, ustalenie !d
-					4h do gry
-					4s do gry
-					4nt pytanie o asy na !h, ustalenie !h
-				3nt 6!c3!h3!s1!d
-					4c GF na !c, ustalenie !c
-					4d GF na !h, ustalenie !h
-					4h do gry
-					4s do gry
-					4nt pytanie o asy na !s, ustalenie !s
+			3d dalsze pytanie
+				3h krótkość !h
+				3s krótkość !s
+				3nt krótkość !d
 				4c 7!c, ustalenie !c
-			3h GF na !h, ustalenie !h
-			3s GF na !s, ustalenie !s
-			3nt do gry
 			4c inwit do 5!c
 		3d 6!c 4!d góra otwarcia
 		3h 6!c słabe 5!h
