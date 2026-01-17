@@ -1259,19 +1259,16 @@ end
 		2d 1) 12-14, 4+!d 2) 15-17, 4!d
 		2h 12-14, 6+!h
 			2nt forsing do 3!h
-				3c krótkość !c
-				3d krótkość !d
-				3h dół brak singla ew. singiel !s
-				3s kórtkość !s GF
-				3nt góra bez singla
+				3c 4+!c
+				3d 4+!d
+				3h 7+!h
+				3s mam jakiegoś singla
+					3nt pytanie o singla
+				3nt ręka dobra do nt
 		2s 15-17, 4!s 5!h
 			2nt forsing do 3!h
-				3c dół, krótkość !c
-				3d dół, krótkość !d
-				3h dół, brak singla
-				3s góra, brak singla
-				4c góra, krótkość !c
-				4d góra, krótkość !d
+				3c krótkość !c
+				3d krótkość !d
 		2nt 15-17, układ zrównoważony
 			3h mam 3-7, z 3!h
 		3c 15-17, 5!c 5!h
@@ -1288,21 +1285,17 @@ end
 				3h 6!h
 				3s krótkość !s
 				3nt 15-17, 4!d
-			3h silnie zachęca do szlemika 5+!c, z fitem !h
 		2h 12-14
 			2nt GF pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
 				3c 4!c
-				3d 4!d, 6!h, minimum
+				3d 4!d, 6!h minimum
 				3h 6!h
 				3s 4!s
-				3nt układ 5-3-3-2
-			3h silnie zachęca do szlemika 5+!c, z fitem !h
-		2s 15-17, 4!s
+			2s 15-17, 4!s
 		2nt 15-17, dobra do nt
 		3c 15-17, 4!c 
 		3d 15-17, 5+!d
 		3h 15-17, 6+!h
-		3s 15-17, 4!c, splinter
 	2d naturalny GF, chyba że powtórze !d (późniejsze powtórzenie !d oznacza 10-11, 6+!d)
 		2h 12-14 
 			2nt GF pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
@@ -1310,14 +1303,13 @@ end
 				3d 4!d
 				3h 6!h
 				3s 4!s
-				3nt układ 5-3-3-2
-			3h silnie zachęca do szlemika 5+!c, z fitem !h
+			3h silnie zachęca do szlemika 5+!d, z fitem !h
 		2s 15-17 4!s
 		2nt 15-17 dobra do nt
 		3c 15-17 4+!c
 		3d 15-17 4!d 
 		3h 15-17 6+!h
-		3s 15-17, splitner (krótkość) !s 4+!d 
+		3s 15-17, splitner !s 4+!d 
 	2h 7-9, 3!h
 		2s inwit do dogranej 4!s
 		2nt GF pytanie
@@ -1342,18 +1334,14 @@ end
 		3h nieforsujące
 		3nt do gry
 	2nt inwit 10-11, 3+!h
-		3c pytanie
-			3h za silne na blok ale nic ciekawego
-			3s 4!h 4!s przynajmniej 3 kontrole
-			3nt silna ręka, układ zrównoważony
 		3h SO
 		4h do gry
 	3c blok-inwit 4!h karta mocno układowa
 	3d 9-12, 4!h + mini splinter GF
-		3h pytanie
-		3s krótkość !s
-		4c krótkość !c
-		4d krótkośc !d
+		3nt pytanie
+		3c krótkość !c
+		4d krótkość !d
+		4h krótkośc !s
 	3h blokujące
 	3s 12-15, splinter
 	3nt 12-15, splinter !d
@@ -1375,7 +1363,7 @@ end
 				3h krótkość !h
 				3s dół brak singla
 				3nt góra bez singla
-		2nt 15-17, 5332
+		2nt 15-17, dobra do nt
 			3s mam 3-7 z 3!s
 		3c 15-17, 5+!c
 		3d 15-17, 5+!d
@@ -1390,40 +1378,33 @@ end
 				3h krótkość !h
 				3s 6!s
 				3nt 15-17, 4!d
-			3s silnie zachęca do szlemika 5+!c, z fitem !s
 		2h 15-17, 4+!h
 			2nt forsujące pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
 				3c krótkość !c
 				3d krótkość !d
 				3h 5!h
 				3s 6!s
-				3nt 15-17, 5422
-			3s silnie zachęca do szlemika 5+!c, z fitem !s
 		2s 12-14
 			2nt GF pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
 				3c 4!c
-				3d 4!d, 6!h, minimum
+				3d 4!d, 6!h minimum
 				3h 4!h
 				3s 6!s
-				3nt układ 5-3-3-2
 			3s silnie zachęca do szlemika 5+!c, z fitem !s
 		2nt 15-17, dobra do nt
-		3c 15-17, 4!c 
+		3c 15-17, 4+!c 
 		3d 15-17, 5!d
 		3h 15-17, 5!h
 		3s 15-17, 6+!s 
-		4d 15-17, 5!s 4!c splinter !d
-		4h 15-17, 5!s 4!c splinter !h
 	2d naturalny GF, chyba że powtórze !d (późniejsze powtórzenie !d oznacza 10-11, 6+!d)
 		2h 15-17, 4+!h
 		2s 12-14
 			2nt forsujące pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
-				3c 4!c
-				3d 4!d, 6!s, minimum
-				3h 4!h
-				3s 6!s
-				3nt układ 5-3-3-2
-			3s silnie zachęca do szlemika 5+!c, z fitem !s
+				3c 4+!c
+				3d 4+!d
+				3h 4+!h
+				3s 6+!s
+			3s silnie zachęca do szlemika 5+!d, z fitem !s
 		2nt 15-17, dobra do nt
 		3c 15-17, 4+!c
 		3d 15-17, 4+!d
@@ -1438,12 +1419,8 @@ end
 		3d 15-17, 5+!d, możliwe 3!h
 		3h 12-14, 3!h
 		3s 15-17, 6+!s
-		3nt splinter, 3!h
-			4c pytanie o krótkość
-				4d krótkość !d
-				4h krótkość !c
-		4c splinter, 4!h
-		4d splinter, 4!h
+		4c krótkość !c, fit !h
+		4d krótkość !d, fit !h
 		4h 12-14, 3+!h (lepszy układ)
 	2s 7-9 3!s
 		2nt GF pytanie
@@ -1463,18 +1440,14 @@ end
 		3h inwit do dogranej 4+!h
 		3s inwit do dogranej
 	2nt inwit 10-11, 3+!s
-		3c pytanie
-			3h 4!h 4!s przynajmniej 3 kontrole
-			3s za silne na blok ale nic ciekawego
-			3nt silna ręka, układ zrównoważony
 		3s SO
 		4s do gry
 	3c blok-inwit 4!s karta mocno układowa
 	3d 9-12, 4+!s, krótkość - minisplinter
-		4c pytanie o singla
+		3nt pytanie o singla
+			4c singiel !c
 			4d singiel !d
 			4h singiel !h
-			4s singiel !c
 	3h 12-15, splinter
 	3s blokujące
 	3nt 12-15, splinter !d
@@ -1572,8 +1545,7 @@ end
 			3h 2) krótkość !h
 			3s 2) krótkość !s
 			3nt 2) lekki inwit do czegoś więcej
-			4c 2) krótkość !c (przygotowanie do 5!d lub strefy premiowej)
-			4d 2) krótkość !d (przygotowanie do 5!d lub strefy premiowej)
+			4c 2) krótkość !c
 	3d 6+!d inwit (problem z bocznym wejściem na !d)
 		pass słabe !d
 		3nt dobry fit !d
