@@ -1339,7 +1339,7 @@ end
 	3c blok-inwit 4!h karta mocno układowa
 	3d 9-12, 4!h + mini splinter GF
 		3nt pytanie
-		3c krótkość !c
+		4c krótkość !c
 		4d krótkość !d
 		4h krótkośc !s
 	3h blokujące
