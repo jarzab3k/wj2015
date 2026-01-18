@@ -505,6 +505,9 @@ end
 			2s 8-11, 5+4+ !c!d
 				2nt GF
 					3c góra otwarcia
+						3d pytanie
+							3h dłuższe !c
+							3s dłuższe !d
 					3d dół otwarcia, dłuższe !c
 					3h dół otwarcia, dłuższe !d
 				3c do koloru (jak !d dłuższe to popraw)
@@ -524,6 +527,9 @@ end
 					3d 5!d
 				2nt GF
 					3c góra otwarcia
+						3d pytanie
+							3h dłuższe !c
+							3s dłuższe !d
 					3d dół otwarcia, dłuższe !c
 					3h dół otwarcia, dłuższe !d
 				3c do koloru (jak !d dłuższe to popraw)
