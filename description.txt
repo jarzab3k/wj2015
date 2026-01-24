@@ -931,21 +931,21 @@ end
 			1h 12-14, 3!h
 			1s 12+, naturalne, forsujące, bez 3!h
 			1nt 12-14 bez 3!h
-			2c 12-17, 5+!c
+			2c 15+, 5+!c
 			2d odwrotka
 			2h 12-14, 4!h
 			3h 15-17, 4!h
 		1h transfer 4+!s
 			1s 12-14, 3!s
 			1nt 12-14 bez 3!s
-			2c 12-17, 5+!c
+			2c 15-17, 5+!c
 			2d odwrotka
 			2h 12+, naturalne, forsujące, bez 3!s
 			2s 12-14, 4!s
 			3s 15-17, 4!s
 		1s transfer na bez atu
 			1nt 12-14, nie mówi nic o trzymaniu !d
-			2c 12-17, naturalne
+			2c 15+, naturalne
 			2d 18+, pytanie o zatrzymanie !d
 			2h 18+, naturalne
 			2s 18+, naturalne
@@ -1024,9 +1024,9 @@ end
 	(1ba)
 		2c 4+4+!h!s
 	(x)
-		pass 0-6, 3+!c
-		xx 10+ 
-		1d 0-6, brak 3!c
+		pass 0-6
+		xx 10+, 3+!c
+		1d nieforsujące na !d
 		1h 7+, 4+!h, dalsza licytacja jak bez kontry
 		1s 7+, 4+!s, dalsza licytacja jak bez kontry
 		1nt 8-10, dalsza licytacja jak bez kontry
