@@ -1753,12 +1753,12 @@ end
 	(x) 
 		p 6-
 		xx 10+, jeżeli mamy fit to w kolejnym okrążeniu "wyraźnie" to zgłaszamy, najczęściej przeskokiem
-	1d  po wejściu kolorem przeciwnika - zalicytowanie koloru przeciwnika to co najmniej inwit, licytacja jest sforsowana do 3!d
+	1d po wejściu kolorem przeciwnika - zalicytowanie koloru przeciwnika to co najmniej inwit, licytacja jest sforsowana do 3!d
 		2nt naturalne, inwit do 3nt
-	1h	po wejściu kolorem przeciwnika - zalicytowanie koloru przeciwnika to inwit z fitem 3!h, otwierający licytuje 3nt jeśli dobrze trzyma kolor przeciwników
+	1h po wejściu kolorem przeciwnika - zalicytowanie koloru przeciwnika to inwit z fitem 3!h, otwierający licytuje 3nt jeśli dobrze trzyma kolor przeciwników
 		2nt GF z fitem (najczęściej 4!h) układ niezrównoważony (na pewno nie chcemy skończyć na 3nt)
 		(x) jest opisana w licytacji jednostronnej
-	1s	po wejściu kolorem przeciwnika - zalicytowanie koloru przeciwnika to inwit z fitem 3!s, otwierający licytuje 3nt jeśli dobrze trzyma kolor przeciwników
+	1s po wejściu kolorem przeciwnika - zalicytowanie koloru przeciwnika to inwit z fitem 3!s, otwierający licytuje 3nt jeśli dobrze trzyma kolor przeciwników
 		2nt GF z fitem (najczęściej 4!s) układ niezrównoważony (na pewno nie chcemy skończyć na 3nt)
 		(x) jest opisana w licytacji jednostronnej
 	1nt przeciwnik wchodzi po otwarciu 1nt - odzywki są naturlane i forsujące na wysokości 3 ; nieforsujące na wysokości 2 ; kontra na odzywkę sztuczną oznacza punkty i forsuje na jedno okrążenie, na odzywkę naturalną jest negatywna w sile walki o częściówkę
