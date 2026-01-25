@@ -1750,13 +1750,12 @@ end
 4d blokujące 8+!d (4-3-2-2)
 
 {licytacja po interwencji przeciwnika}
-	x wywoławcza
+	(x) 
 		p 6-
 		xx 10+ (jeżeli mamy fit to w kolejnym okrążeniu "wyraźnie" to zgłaszamy, najczęściej przeskokiem)
+	{przeciwnik wchodzi po otwarciu 2!c - nowy kolor nie nieforsujący na wysokości 2 i forsujący na wysokości 3}
 	{przeciwnik wchodzi po otwarciu 2nt lub wyższym}
 		x karna
-		{ powtórzenie kolory partnera to inwit}
-		{ nowy kolor to GF}
 {dwustronna przed pasem partnera}
 	(1c)
 		p 11-
