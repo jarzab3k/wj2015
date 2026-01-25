@@ -1750,7 +1750,7 @@ end
 4d blokujące 8+!d (4-3-2-2)
 
 {licytacja po interwencji przeciwnika}
-	x
+	x wywoławcza
 		p 6-
 		xx 10+ (jeżeli mamy fit to w kolejnym okrążeniu "wyraźnie" to zgłaszamy, najczęściej przeskokiem)
 	{przeciwnik wchodzi po otwarciu 2nt lub wyższym}
