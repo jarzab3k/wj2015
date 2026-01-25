@@ -1752,13 +1752,15 @@ end
 {licytacja po interwencji przeciwnika}
 	(x) 
 		p 6-
-		xx 10+ (jeżeli mamy fit to w kolejnym okrążeniu "wyraźnie" to zgłaszamy, najczęściej przeskokiem)
+		xx 10+, jeżeli mamy fit to w kolejnym okrążeniu "wyraźnie" to zgłaszamy, najczęściej przeskokiem
+	1nt przeciwnik wchodzi po otwarciu 1nt - odzywki są naturlane i forsujące na wysokości 3, nieforsujące na wysokości 2
+		(x) na odzywkę sztuczną oznacza punkty i forsuje na jedno okrążenie, na odzywkę naturlaną jest negatywna w sile walki o częściówkę
 	2c przeciwnik wchodzi po otwarciu 2!c - nowy kolor nie nieforsujący na wysokości 2 i forsujący na wysokości 3
-		x negatywna
+		(x) negatywna
 	2d przeciwnik wchodzi po otwarciu 2!d, 2!h, 2!s - nowy kolor jest odzywką "do koloru" - "pasuj, jeśli masz ten kolor, popraw, jeśli go nie masz
-		x karna
+		(x) karna
 	2nt przeciwnik wchodzi po otwarciu 2nt lub wyższym
-		x karna
+		(x) karna
 {dwustronna przed pasem partnera}
 	(1c)
 		p 11-
