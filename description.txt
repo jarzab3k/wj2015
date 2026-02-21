@@ -731,12 +731,12 @@ end
 			4d 6!h, krótkość !d
 		2h 12-14, 3-4!h podniesienie amerykańskie
 			2s pytanie o skład
-				2nt 4!h
-				3c 5!c3!h32
+				2nt 4!s
+				3c 4+!c3!h
 					3h SO
-				3d 3!h-4!d
+				3d 3!h4!d
 					3h SO
-				3h 4!c3!h33
+				3h 4!h
 		2s 18+, 6+!s
 		2nt 18+, bez 3!h, bez 4!s
 		3c 18+, 6!c
@@ -807,15 +807,15 @@ end
 		2h 18+5+!h
 		2s 12-14, 3-4!s podniesienie amerykańskie
 			2nt pytanie o skład
-				3c 4!s
+				3c 3!s4+!c
 				3d 3!s4!d
 					3h można coś wymyślić
 					3s SO
 					:amer_after_s_next(GF ustalenie !d)
-				3h 5!c3!s32
+				3h 4!h3!s
 					3s SO
 					:amer_after_s_next(GF ustalenie !d)
-				3s 4!c3!s33
+				3s 4!s
 					:amer_after_s_next(GF ustalenie !d)
 		2nt 18+, bez 3!s, bez 5!h
 		3c 18+, 6!c
@@ -1079,7 +1079,7 @@ end
 		2d 12-14 6+!d
 		2h 12-14, 3-4!h podniesienie amerykańskie
 			2s pytanie o skład
-				2nt 4!h
+				2nt 4!s
 				3c 4+!c5+!d3!h
 					3d można coś wymyślić
 					3h SO
@@ -1087,7 +1087,7 @@ end
 				3d 6+!d3!h
 					3h SO
 					:amer_after_h_next(GF ustalenie !d)
-				3h 5!d3!h32
+				3h 5!d4!h
 					:amer_after_h_next(GF ustalenie !d)
 		2s 15-17 6!c 4!s
 		2nt 15-17 6+!d z trzymaniem !c i !s
@@ -1121,15 +1121,15 @@ end
 		2h 15-17, 4!h
 		2s 12-14, 3-4!s podniesienie amerykańskie
 			2nt pytanie o skład
-				3c 4!s
+				3c 5!d4!c3!s
 				3d 6+!d3!s
 					3h można coś wymyślić
 					3s SO
 					:amer_after_s_next(GF ustalenie !d)
-				3h 5-4+!c!d3!s
+				3h 5!d4!h3!s
 					3s SO
 					:amer_after_s_next(GF ustalenie !d)
-				3s 5!d3!s32
+				3s 5!d4!s
 					:amer_after_s_next(GF ustalenie !d)
 		2nt 15-17 6+!d z trzymaniem !c i !h
 		3c 15-17, 5+!d5+!c
