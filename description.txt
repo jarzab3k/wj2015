@@ -1297,7 +1297,7 @@ end
 				3d 4!d, 6!h minimum
 				3h 6!h
 				3s 4!s
-			2s 15-17, 4!s
+			3h silnie zachęca do szlemika, z fitem !h
 		2nt 15-17, dobra do nt
 		3c 15-17, 4!c 
 		3d 15-17, 5+!d
@@ -1318,15 +1318,13 @@ end
 		3s 15-17, splitner !s 4+!d 
 	2h 7-9, 3!h
 		2s inwit do dogranej 4!s
-		2nt GF pytanie
+		2nt pytanie
 			3c mam niezłe !c
-				3h nie pasuje
+				3h SO (to mi nie pomaga)
 				3nt świetnie brakowało mi !c do 3nt
-				4h pasuje
 			3d mam niezłe !d
-				3h nie pasuje
+				3h SO (to mi nie pomaga)
 				3nt świetnie brakowało mi !d do 3nt
-				4h pasuje
 			3h miałem ledwo 2!h
 			3nt niezła karta bez przebitek "może 3nt?"
 			4h dobrze że nie spasowałeś na 2!h
@@ -1396,7 +1394,7 @@ end
 				3d 4!d, 6!h minimum
 				3h 4!h
 				3s 6!s
-			3s silnie zachęca do szlemika 5+!c, z fitem !s
+			3s silnie zachęca do szlemika, z fitem !s
 		2nt 15-17, dobra do nt
 		3c 15-17, 4+!c 
 		3d 15-17, 5!d
@@ -1429,15 +1427,13 @@ end
 		4d krótkość !d, fit !h
 		4h 12-14, 3+!h (lepszy układ)
 	2s 7-9 3!s
-		2nt GF pytanie
+		2nt pytanie
 			3c mam niezłe !c
-				3h nie pasuje
+				3s SO (to mi nie pomaga)
 				3nt świetnie brakowało mi !c do 3nt
-				4h pasuje
 			3d mam niezłe !d
-				3h nie pasuje
+				3s SO (to mi nie pomaga)
 				3nt świetnie brakowało mi !d do 3nt
-				4h pasuje
 			3s miałem ledwo 2!s
 			3nt niezła karta bez przebitek "może 3nt?"
 			4s dobrze że nie spasowałeś na 2!s
