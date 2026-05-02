@@ -1683,6 +1683,21 @@ end
 	4h naturalne ze swojego koloru
 	4s naturalne ze swojego koloru
 2h 6-11 5+!h + inna piątka
+	(x) licytujemy tak  jakby kontry nie było
+	(3c)
+		x karna
+		3d do koloru "pasuj z karami"
+		4c cue bid na kierach
+	(3d)
+		x karna
+		4c do koloru "pasuj z treflami"
+		4d cue bid na kierach
+	(3s)
+		x karna
+		4c do koloru "pasuj z treflami"
+		4d silne pytanie o pobczną piątkę
+			4h 5+!c
+			4s 5+!d
 	2s pasuj z pikami lub licytuj swój drugi kolor
 	2nt silne pytanie o boczną piątkę (zalicytowanie później własnego koloru to GF na tym kolorze, zalicytowanie koloru otwierającego to GF na tym kolorze, po odpowiedzi otwierającego zlaicytowanie kolejnej najniższej odzywki to pytanie o krótkość)
 		3c 5+ !c
@@ -1694,20 +1709,48 @@ end
 	3s 6+ !s inwit do 4!s
 	4h blokujące lub silne
 2s 6-11 5+!s + piątka młodsza
+	(x) licytujemy tak  jakby kontry nie było
+	(3c)
+		x karna
+		3d do koloru "pasuj z karami"
+		4c cue bid na pikach
+	(3d)
+		x karna
+		4c do koloru "pasuj z treflami"
+		4d cue bid na pikach
+	(3h)
+		x karna
+		4c do koloru "pasuj z treflami"
+		4d silne pytanie o pobczną piątkę
+			4h 5+!c
+			4s 5+!d
+		4h cue bid na pikach
 	2nt silne pytanie o boczną piątkę (zalicytowanie później własnego koloru to GF na tym kolorze, zalicytowanie koloru otwierającego to GF na tym kolorze, po odpowiedzi otwierającego zlaicytowanie kolejnej najniższej odzywki to pytanie o krótkość)
-		3c 5+ !c dół otwarcia
-		3d 5+ !d dół otwarcia
-		3h 5+ !c góra otwarcia
-		3s 5+ !d góra otwarcia
+		3c 5+!c dół otwarcia
+		3d 5+!d dół otwarcia
+		3h 5+!c góra otwarcia
+		3s 5+!d góra otwarcia
 	3c do koloru "pasuj z treflami"
 	3d inwit do 4!s
-	3h 6+ !h inwit do 4!h
+	3h 6+!h inwit do 4!h
 	3s blokujące
 	4s blokujące lub silne
 2nt 6-11 5!c-5!d
+	(x) 
+		p  do pasa (licytuj swój lepszy kolor, u mnie bez różnicy)
+		xx silnie trzymam oba starsze
+	(3h)
+		x pytanie o układ (GF)
+	(3s)
+		x pytanie o układ (GF)
+			3nt mam układ 5521
+		4c inwit do dogranej na !c
+		4d inwit do dogranej na !d
+		5c inwit do szlemika
+		5d inwit do szlemika
 	3c do pasa
 	3d do pasa
-	3h pytanie o układ
+	3h pytanie o układ (GF)
 		3s singiel !s
 			4c silnie uzgadnia !c 
 			4d silnie uzgadnia !d
@@ -1718,6 +1761,14 @@ end
 		4d 6!d i po singlu
 		4h renons !h
 		4s renons !s
+	3s inwit do dogranej 
+		3nt automat
+			4c inwit do dogranej na !c
+			4d inwit do dogranej na !d
+			5c inwit do szlemika
+			5d inwit do szlemika
+	4c do pasa
+	4d do pasa
 3c blokujące 6+!c (po parti 7+) (4-3-2-2-)
 	:3d_fit()
 	:3h_fit()
