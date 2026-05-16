@@ -1725,7 +1725,7 @@ end
 			4h 5+!c
 			4s 5+!d
 		4h cue bid na pikach
-	2nt silne pytanie o boczną piątkę (zalicytowanie później własnego koloru to GF na tym kolorze, zalicytowanie koloru otwierającego to GF na tym kolorze, po odpowiedzi otwierającego zlaicytowanie kolejnej najniższej odzywki to pytanie o krótkość)
+	2nt silne pytanie o boczną piątkę (zalicytowanie później własnego koloru to GF na tym kolorze, zalicytowanie koloru otwierającego to GF na tym kolorze)
 		3c 5+!c dół otwarcia
 		3d 5+!d dół otwarcia
 		3h 5+!c góra otwarcia
@@ -1740,35 +1740,19 @@ end
 		p  do pasa (licytuj swój lepszy kolor, u mnie bez różnicy)
 		xx silnie trzymam oba starsze
 	(3h)
-		x pytanie o układ (GF)
-	(3s)
-		x pytanie o układ (GF)
-			3nt mam układ 5521
+		x karna
 		4c inwit do dogranej na !c
 		4d inwit do dogranej na !d
-		5c inwit do szlemika
-		5d inwit do szlemika
+	(3s)
+		x karna
+		4c inwit do dogranej na !c
+		4d inwit do dogranej na !d
 	3c do pasa
 	3d do pasa
-	3h pytanie o układ (GF)
-		3s singiel !s
-			4c silnie uzgadnia !c 
-			4d silnie uzgadnia !d
-		3nt singiel !h
-			4c silnie uzgadnia !c 
-			4d silnie uzgadnia !d
-		4c 6!c i po singlu
-		4d 6!d i po singlu
-		4h renons !h
-		4s renons !s
-	3s inwit do dogranej 
-		3nt automat
-			4c inwit do dogranej na !c
-			4d inwit do dogranej na !d
-			5c inwit do szlemika
-			5d inwit do szlemika
-	4c do pasa
-	4d do pasa
+	:3h_fit()
+	:3s_fit()
+	4c silne uzgodnienie !c
+	4d silne uzgodnienie !d
 3c blokujące 6+!c (po parti 7+) (4-3-2-2-)
 	:3d_fit()
 	:3h_fit()
