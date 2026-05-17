@@ -1741,12 +1741,12 @@ end
 		xx silnie trzymam oba starsze
 	(3h)
 		x karna
-		4c inwit do dogranej na !c
-		4d inwit do dogranej na !d
+		4c do pasa
+		4d do pasa
 	(3s)
 		x karna
-		4c inwit do dogranej na !c
-		4d inwit do dogranej na !d
+		4c do pasa
+		4d do pasa
 	3c do pasa
 	3d do pasa
 	:3h_fit()
