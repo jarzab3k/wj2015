@@ -729,14 +729,8 @@ end
 			3nt 6!h, brak krótkości
 			4c 6!h, krótkośc !c
 			4d 6!h, krótkość !d
-		2h 12-14, 3-4!h podniesienie amerykańskie
-			2s pytanie o skład
-				2nt 4!s
-				3c 4+!c3!h
-					3h SO
-				3d 3!h4!d
-					3h SO
-				3h 4!h
+		2h 12-14, 4!h
+			2nt f1 (forsing na jedno  okrążenie)
 		2s 18+, 6+!s
 		2nt 18+, bez 3!h, bez 4!s
 		3c 18+, 6!c
@@ -805,18 +799,8 @@ end
 			4c 6!s, krótkośc !c
 			4d 6!s, krótkość !d
 		2h 18+5+!h
-		2s 12-14, 3-4!s podniesienie amerykańskie
-			2nt pytanie o skład
-				3c 3!s4+!c
-				3d 3!s4!d
-					3h można coś wymyślić
-					3s SO
-					:amer_after_s_next(GF ustalenie !d)
-				3h 4!h3!s
-					3s SO
-					:amer_after_s_next(GF ustalenie !d)
-				3s 4!s
-					:amer_after_s_next(GF ustalenie !d)
+		2s 12-14, 4!s
+			2nt f1
 		2nt 18+, bez 3!s, bez 5!h
 		3c 18+, 6!c
 		3d 18+, 6!d
@@ -888,6 +872,11 @@ end
 		3h 18+, naturalne
 		3s 18+, naturalne
 		3nt do pasa
+		4c Gerber
+			4d 0 lub 4 
+			4h 1
+			4s 2
+			4nt 3
 		4nt 20-21, inwit
 			5c przyjęcie inwitu 4!c
 			5d przyjęcie inwitu 4!d
@@ -906,6 +895,24 @@ end
 		3d 18+, naturalne
 		3h 18+, naturalne
 		3s 18+, naturalne
+		4c Gerber
+			4d 0 lub 4 
+			4h 1
+			4s 2
+			4nt 3
+		4nt 18-20, inwit
+			5c przyjęcie inwitu 4!c
+			5d przyjęcie inwitu 4!d
+			5h przyjęcie inwitu 4!c4!d lepsze !c
+			5s przyjęcie inwitu 4!c4!d lepsze !d
+			5nt przyjęcie inwitu, pokaż swoją piątkę
+				6c 5!c
+				6d 5!d
+				6h 5!h
+				6s 5!s
+				6nt nie prszyszła
+			6c przyjęcie inwitu 5!c
+			6d przyjęcie inwitu 5!d
 	3c 9-11 na dobrej szóstce, nieforsujące
 		:3d_fit()
 		:3h_fit()
@@ -1077,18 +1084,8 @@ end
 		2c 4+!c5+!d
 			2s GF czwarty kolor
 		2d 12-14 6+!d
-		2h 12-14, 3-4!h podniesienie amerykańskie
-			2s pytanie o skład
-				2nt 4!s
-				3c 4+!c5+!d3!h
-					3d można coś wymyślić
-					3h SO
-					:amer_after_h_next(GF ustalenie !d)
-				3d 6+!d3!h
-					3h SO
-					:amer_after_h_next(GF ustalenie !d)
-				3h 5!d4!h
-					:amer_after_h_next(GF ustalenie !d)
+		2h 12-14, 4!h
+			2nt f1
 		2s 15-17 6!c 4!s
 		2nt 15-17 6+!d z trzymaniem !c i !s
 		3c 15-17, 5+!d5+!c
@@ -1119,18 +1116,8 @@ end
 			2h GF czwarty kolor
 		2d 12-14 6+!d
 		2h 15-17, 4!h
-		2s 12-14, 3-4!s podniesienie amerykańskie
-			2nt pytanie o skład
-				3c 5!d4!c3!s
-				3d 6+!d3!s
-					3h można coś wymyślić
-					3s SO
-					:amer_after_s_next(GF ustalenie !d)
-				3h 5!d4!h3!s
-					3s SO
-					:amer_after_s_next(GF ustalenie !d)
-				3s 5!d4!s
-					:amer_after_s_next(GF ustalenie !d)
+		2s 12-14, 4!s
+			2nt f1
 		2nt 15-17 6+!d z trzymaniem !c i !h
 		3c 15-17, 5+!d5+!c
 		3d 15-17 6+!d bez trzymania obydwu !c/!h
@@ -1241,18 +1228,8 @@ end
 				3h dół otwarcia bez singla (lub singiel !s), brak 3!s
 				3s 3!s bez singla
 				3nt góra otwarcia bez 3!s (możliwy singiel !s)
-		2s 12-14, 3-4!s podniesienie amerykańskie
-			2nt pytanie o skład
-				3c 4!c5+!h3!s
-				3d 4!d5+!h3!s
-					3h można coś wymyślić
-					3s SO
-					:amer_after_s_next(GF ustalenie !h)
-				3h 6+!h3!s
-					3s SO
-					:amer_after_s_next(GF ustalenie !h)
-				3s 5!h4!s
-					:amer_after_s_next(GF ustalenie !h)
+		2s 12-14, 4!s
+			2nt f1
 		2nt 15-17, 6+!h z trzymaniem !c i !d
 		3c 15-17, 5+!h 5+!c
 		3d 15-17, 5+!h 5+!d
