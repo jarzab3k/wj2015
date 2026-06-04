@@ -496,10 +496,8 @@ end
 			1s 5-6, 4+!s
 			1nt 5-6(7) bez starszej czwórki
 				pass słaby wariant !c
-			2c 5-11, 5+!c
-				pass słaby wariant !c
-			2d 5-11, 5+!d
-				pass słaby wariant !c
+			2c 8-11, 5+!c (odpowiedź inna niż pass forsuje na 1 okrążenie, powtórzenie koloru to 8-9)
+			2d 8-11, 5+!d (odpowiedź inna niż pass forsuje na 1 okrążenie, powtórzenie koloru to 8-9)
 			2h 5-6, 4+!h
 				pass słaby wariant !c
 			2s 8-11, 5+4+ !c!d
@@ -511,20 +509,12 @@ end
 					3d dół otwarcia, dłuższe !c
 					3h dół otwarcia, dłuższe !d
 				3c do koloru (jak !d dłuższe to popraw)
-			2nt i wyżej jakieś sprawdzenie czy z bilansu nie wychodzi dograna
 		1s 1)12-14, 3-4!s 2)18-19, 4+!s
 			1nt 5-6(7) bez 4!s
 				pass słaby wariant !c
-			2c 5-11, 5+!c
-				pass słaby wariant !c
-			2d 5-11, 5+!d
-				pass słaby wariant !c
+			2c 8-11, 5+!c (odpowiedź inna niż pass forsuje na 1 okrążenie, powtórzenie koloru to 8-9)
+			2d 8-11, 5+!d (odpowiedź inna niż pass forsuje na 1 okrążenie, powtórzenie koloru to 8-9)
 			2h 8-11, 5+4+ !c!d
-				2s automat
-					pass dół otwarcia na 3!s
-					2nt góra otwarcia na 3!s
-					3c 5!c
-					3d 5!d
 				2nt GF
 					3c góra otwarcia
 						3d pytanie
@@ -534,7 +524,6 @@ end
 					3h dół otwarcia, dłuższe !d
 				3c do koloru (jak !d dłuższe to popraw)
 			2s 5-6, 4+!s
-			2nt i wyżej jakieś sprawdzenie czy z bilansu nie wychodzi dograna
 		1nt 18-20, układ bezatutowy
 			2c 1)4-6, 4!h/!s 2)0-6, 4+4+!h!s
 				2d brak starszej czwórki
