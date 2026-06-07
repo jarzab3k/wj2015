@@ -67,14 +67,12 @@ end
 
 function 2d_odw(kolor, kol_sin_1, kol_sin_2, 3_kier, 3_pik)
 	2d 18+ 3+$(kolor)
-		2h 1) 12+ skład dowolny 2) 9-11, kolor wysokiej klasy, figury w długich kolorach
-			2s ustalenie koloru, pytanie o skład
-				2nt 4$(kolor)
-				3c 5$(kolor)4+!c
-				3d 5$(kolor)4+!d
-				3nt 6$(kolor), brak krótkości
-				4c 6$(kolor), krótkość !c
-				4d 6$(kolor) krótkość !d
+		2h 4$(kolor) słaby
+		2s 4$(kolor) silny (min 3 kontrole  A-2, K-1)
+		2nt 5$(kolor) słaby
+ 		3c 5$(kolor) silny (min 3 kontrole  A-2, K-1)
+		3d 6$(kolor) słaby
+		3h 6$(kolor) silny (min 3 kontrole  A-2, K-1)
 end
 
 function drury(kolor)
@@ -681,19 +679,6 @@ end
 			3s splinter na treflach
 			4d splinter na treflach
 		:2d_odw(!h, !c, !s, 5+!h, 4+!h4!s)
-			2s 4!h
-			2nt 5!h niezrównoważony
-				3c pytanie o singla
-					3d singiel !d
-					3h singiel !c
-					3s singiel !s
-			3c 9-11 4!h 5!c
-			3d 9-11 4!h 5!d
-			3h 5!h układ zrównoważony
-			3s 6!h, krótkośc !s
-			3nt 6!h, brak krótkości
-			4c 6!h, krótkośc !c
-			4d 6!h, krótkość !d
 		2h 12-14, 4!h
 			2nt f1 (forsing na jedno  okrążenie)
 		2s 18+, 6+!s
@@ -749,20 +734,6 @@ end
 			3s inwit na dobrym kolorze
 			4d splinter
 		:2d_odw(!s, !h, !c, 5!s4!h22, 5+!s)
-			2s 4!s
-			2nt 5!s niezrównoważony
-				3c pytanie o singla
-					3d singiel !d
-					3h singiel !c
-					3s singiel !s
-			3c 9-11 4!s 5!c
-			3d 9-11 4!s 5!d
-			3h 5!h5!s
-				3nt pytanie o singla
-			3s 5!s, układ zrównoważony
-			3nt 6!s, brak krótkości
-			4c 6!s, krótkośc !c
-			4d 6!s, krótkość !d
 		2h 18+5+!h
 		2s 12-14, 4!s
 			2nt f1
