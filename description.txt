@@ -596,7 +596,7 @@ end
 			2d 10+ GF
 			2h naturalne 0-6
 			2s naturalne 0-6
-			3c 4-9, 3+!c
+			3c 7-9, 3+!c
 			3d 7-9, 5+!d
 		2d ACOL 
 			2h większość rąk
@@ -605,7 +605,19 @@ end
 					3c 6+!c
 					3d 6+!d
 					3h krótkość, konwencja 5431
+						3s 4+ dobre !s (propozycja gry na 7!s)
+						3nt do gry (mam ciężkie honory w !h)
+						4c silne uzgodnienie !c
+						4d silne uzgodnienie !d
+						4h karta szlemikowa 4+4+!c!d
+						4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3!nt ani 4!s
 					3s krótkość, konwencja 5431
+						3nt do gry (mam ciężkie honory w !s)
+						4c silne uzgodnienie !c
+						4d silne uzgodnienie !d
+						4h 4+ dobre !h (propozycja gry na 7!h)
+						4s karta szlemikowa 4+4+!c!d
+						4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3!nt ani 4!h
 			2nt skład zrównoważony, co najmniej dwa króle
 			3c naturalne na bardzo dobrych 6+!c
 			3d naturalne na bardzo dobrych 6+!d
@@ -622,9 +634,9 @@ end
 				3s 4!s
 			3d transfer 5+!h
 			3h transfer 5+!s
-			3s 7-11, na obu młodszych
-			4c 7+, 6+!c
-			4d 7+, 6+!d
+			3s 7-11, na obu młodszych (tylko jeżeli uważamy jest  szansa na grę premiową, inaczej lepiej poprostu 3nt)
+			4c 7+, 6+!c (tylko jeżeli uważamy jest  szansa na grę premiową, inaczej lepiej poprostu 3nt)
+			4d 7+, 6+!d (tylko jeżeli uważamy jest  szansa na grę premiową, inaczej lepiej poprostu 3nt)
 		3c 18+, 6+!c
 		3d 18+, 6+!d
 		3h GF, dwukolorówka 5-5 z kierami
