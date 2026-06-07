@@ -70,7 +70,7 @@ function 2d_odw(kolor, kol_sin_1, kol_sin_2, 3_kier, 3_pik)
 		2h 4$(kolor) słaby
 		2s 4$(kolor) silny (min 3 kontrole  A-2, K-1)
 		2nt 5$(kolor) słaby
- 		3c 5$(kolor) silny (min 3 kontrole  A-2, K-1)
+		3c 5$(kolor) silny (min 3 kontrole  A-2, K-1)
 		3d 6$(kolor) słaby
 		3h 6$(kolor) silny (min 3 kontrole  A-2, K-1)
 end
