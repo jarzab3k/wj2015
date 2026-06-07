@@ -164,16 +164,11 @@ function 2dhs_tran()
 	2h transfer 5+!s
 		2s automat
 			2nt 5!s, inwit do 3Ba/4!s
-			3c GF, nie obiecuje !c, może zawierać 6!s
-				3d przejściowe, mam coś w !d, brak 3!s
-					3s 6!s
-					3nt 5!s4!c
-					4c 5!s5!c, uzgadnia !c
-				3h przejściowe, mam coś w !h, brak 3!s
-					3s 6!s
-					3nt 5!s4!c
-					4c 5!s5!c, uzgadnia !c
+			3c GF, 5!s4+!c
+				3d cuebid !d, uzgadnia !c
+				3h cuebid !h, uzgadnia !c
 				3s 3!s, uzgadnia !s
+				3nt do gry
 			3d GF, 5!s4+!d
 				3h cuebid !h, uzgadnia !d
 				3s 3!s, uzgadnia !s
@@ -189,21 +184,6 @@ function 2dhs_tran()
 			4c 6!s1!c
 			4d 6!s1!d
 			4h 6!s1!h
-		2nt 4!s, 2!h
-			3c pytanie o siłe
-				3d góra, cuebid !d
-				3h góra, cuebid !h
-				3s dół
-			3h powtórny transfer
-		3c 4!s, 2!c
-			3d pytanie o siłe
-				3h góra, cuebid !h
-				3s dół
-			3h powtórny transfer
-		3d 4!s, 2!d dół
-			3h powtórny transfer
-		3h brak ustaleń
-		3s 4!s, 2!d góra
 		(x)
 			xx to mój kolor, propozycja gry
 			pass bez fitu 2!s
