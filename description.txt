@@ -1,34 +1,11 @@
-function gazilli_1s()
-	2c F1, 15+ różne układy lub !c
-		2d pytanie, niekoniecznie GF
-			2h 15-17, 4!h
-			2s 1) 7-13 5+!s5+!c 2) 12-14 5!s4!c
-			2nt 15-17, 4!c
-			3c 13-14, 5+!s5+!c
-			3d 15-17, 6!s4!d
-			3h 15-17, 6!s4!h
-			3s 15-17, 6!s4!c
-			3nt 6+!s, zupełne maksimum
-		2h 5+!h, nie przyjmuję inwitu
-		2s 2!s, nie przyjmuję inwitu
-		2nt dowolna słaba dwukolorówka 5+5+ z maksymalnie singlem !s
-			3c pasuj lub popraw
-				pass 5+!c
-				3d 5+!d5+!h
-			3d pasuj lub popraw
-				pass 5+!d
-				3h 5+!c5+!h
-			3h 3!h, 7(6)+!s
-				pass 5+!h
-				3s 5+!c5+!d
-			3s 7+!s
-			3nt zupełne maksimum, propozycja
-				pass no to gram
-				4c 5+!c5+!d, nie chcę grać 3nt
-				4d 5+!d5+!h, nie chcę grać 3nt
-				4h 5+!h5+!c, nie chcę grać 3nt
-		3c SO na !c
-		3d SO na !d
+function precision(kolor)
+	2c F1, 15+ 5+!c
+		2d 10+ dowolny GF
+			2$(kolor) 3$(kolor)
+			3c 6!c  lub niedobre do nt
+			3$(kolor) 4$(kolor)
+		2$(kolor) 7-9 5$(kolor)
+		3$(kolor) 7-9 6$(kolor)	
 end
 
 function major_agree()
@@ -662,22 +639,7 @@ end
 			3s splinter 6+!h
 			4c splinter 6+!h
 			4d splinter 6+!h
-		2c 15+, 5+!c nieforsujące
-			2d 10+ dowolny, GF
-				2h 3!h
-				2s 4!s
-				2nt brak 4!s i 3!h
-				3c 6!c lub układ niedobry do bez atu
-				3d 6!c 4!d
-				3h 4!h
-			2h 7-9, nieforsujące
-			2s naturalne, GF
-			2nt 7-9, naturalne
-			3c 7-9, naturalne
-			3d naturalne, do pasa
-			3h inwit na dobrym kolorze
-			3s splinter na treflach
-			4d splinter na treflach
+		:precision(!h)
 		:2d_odw(!h, !c, !s, 5+!h, 4+!h4!s)
 		2h 12-14, 4!h
 			2nt f1 (forsing na jedno  okrążenie)
@@ -717,22 +679,7 @@ end
 			3s 6+!s. inwit
 			4c 6+!s splinter
 			4d 6+!s splinter
-		2c 15+, 5+!c nieforsujące
-			2d 10+ dowolny, GF (brak 4!h)
-				2h dół otwarcia nic ciekawego
-				2s 3!s
-				2nt układ zrównoważony
-				3c 6!c lub układ niedobry do bez atu
-				3d 6!c 4!d
-				3s 4!s
-			2h 10+, 5+!s 4+!h
-			2s 7-9, naturalne
-			2nt 7-9, naturalne
-			3c 7-9, naturalne
-			3d 7-9, naturalne
-			3h splinter
-			3s inwit na dobrym kolorze
-			4d splinter
+		:precision(!s)
 		:2d_odw(!s, !h, !c, 5!s4!h22, 5+!s)
 		2h 18+5+!h
 		2s 12-14, 4!s
