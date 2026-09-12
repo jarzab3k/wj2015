@@ -880,7 +880,7 @@ end
 			3h silnie trzymam !h
 			3s silnie trzymam !s
 			4c 15+, 5+!c (pytanie o grę premiową)
-`		3c  0-6, blok, 6+!c
+		3c  0-6, blok, 6+!c
 		2nt inwit, trzymanie w obu starszych
 		3nt GF, trzymanie w obu starszych
 	(2d) multi
