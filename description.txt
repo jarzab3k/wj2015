@@ -822,7 +822,16 @@ end
 	3h 0-6, 7+!h
 	3s 0-6, 7+!s
 	3nt nie ma takiej odzywki
-	(1d)
+	(x)
+		pass 0-6
+		xx 10+, 3+!c
+		1d 0-6 na !d
+		1h 7+, 4+!h, dalsza licytacja jak bez kontry
+		1s 7+, 4+!s, dalsza licytacja jak bez kontry
+		1nt 8-10, dalsza licytacja jak bez kontry
+		2c 7-11 5+c
+		2d 7-11 5+d
+		2h pozostałe odzywki jak bez kontry(1d)
 		x 7+, brak 4!h/4!s, brak trzymania !d
 	(1h)
 		x 7+, 4!s
@@ -858,16 +867,48 @@ end
 		2h 0-7, 5+!h 4+!c/!d
 		2s 0-7, 5+!s 4+!c/!d
 		2nt 0-7, 5!c5!d
-	(x)
-		pass 0-6
-		xx 10+, 3+!c
-		1d 0-6 na !d
-		1h 7+, 4+!h, dalsza licytacja jak bez kontry
-		1s 7+, 4+!s, dalsza licytacja jak bez kontry
-		1nt 8-10, dalsza licytacja jak bez kontry
-		2c 7-11 5+c
-		2d 7-11 5+d
-		2h pozostałe odzywki jak bez kontry
+	(2c) na starszych
+		x 9+, brak koloru, chcemy kontrować karnie
+		2d 7-11, 5+!d nieforsujące
+		2h inwit 9-11, brak trzymania w obu starszych
+			2nt 12-14, układ zrównoważony
+			3c 15+, 5+!c
+			3nt 12-14, coś ekstra np. 5+!c
+		2s GF, brak trzymania w obu starszych
+			3c 5+!c
+			3h silnie trzymam !h
+			3s silnie trzymam !s
+			4c 15+, 5+!c (pytanie o grę premiową)
+`		3c  0-6, blok, 6+!c
+		2nt inwit, trzymanie w obu starszych
+		3nt GF, trzymanie w obu starszych
+	(2d) multi
+		x 8+, 4+!h4+!s
+		2h 7-11, 5+!h nieforsujące
+		2s 7-11, 5+!s nieforsujące
+		2nt 8-11, z zatrzymaniem !h i !s
+		3c GF, 5+!c
+		3d GF, 5+!d
+		3h GF, 5+!h
+		3s GF, 5+!s 
+		3nt 12-15, z bardzo dobrymi !h i !s
+	(2h)
+		x 8+, 4+!s (z tolerancją młodszych)
+		2s 7-11, 5+!s nieforsujące
+		2nt 8-11, z zatrzymaniem !h
+		3c GF, 5+!c
+		3d GF, 5+!d
+		3h GF, brak koloru i trzymania !h
+		3s GF, 5+!s 
+		3nt 12-15, z bardzo dobrymi !h
+	(2s)
+		x 8+, 4+!h (z tolerancją młodszych)
+		2nt 8-11, z zatrzymaniem !s
+		3c GF, 5+!c
+		3d GF, 5+!d
+		3h GF, 5+!h
+		3s GF, brak koloru i trzymania !s
+		3nt 12-15, z bardzo dobrymi !s
 1d 12-17, 5+!d 
 	1h 1) 7+, 4+!h  2) 0-6, 5+!h 
 		1s 4+!s
