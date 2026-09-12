@@ -823,30 +823,31 @@ end
 	3s 0-6, 7+!s
 	3nt nie ma takiej odzywki
 	(x)
-		pass 0-6
-		xx 10+, 3+!c
-		1d 0-6 na !d
+		pass 0-6, lub 7-9, 5+!c
+		xx 10+ (chęć kontrowania przeciwnika)
+		1d 0-6 z max 2!c lub 7-9, 5+!d
 		1h 7+, 4+!h, dalsza licytacja jak bez kontry
 		1s 7+, 4+!s, dalsza licytacja jak bez kontry
 		1nt 8-10, dalsza licytacja jak bez kontry
-		2c 7-11 5+c
-		2d 7-11 5+d
-		2h pozostałe odzywki jak bez kontry
+		2c dowolny GF
+		2d 0-6 blok na długich !d
+		2h 0-6 blok na długich !h
+		2s 0-6 blok na długich !s
 	(1d)
 		x 7+, brak 4!h/4!s, brak trzymania !d
 	(1h)
 		x 7+, 4!s
 			1nt 12-14 bez 4!s
-			2c 12-17, 5+!c
+			2c 15+, 5+!c
 			2d 18+, 4!s odwrotka
 			2s 12-14, 4!s
 			3s 15-17, 4!s
 		1s  7+, 5+!s
 		1nt 7-10, z zatrzymaniem !h
-		2c 9+, 5+!c F1
-		2d 9+, 5+!d F1
-		2h inwit do 3nt, brak trzymania !h
-		2s GF, 6+!s
+		2c 10+, 5+!c F1
+		2d 10+, 5+!d F1
+		2h GF, brak trzymania !h
+		2s 0-6 blok na długich !s
 		2nt inwit do 3nt, mam trzymanie !h
 	(1s)
 		x 7+, 4!h
@@ -856,20 +857,20 @@ end
 			2h 12-14, 4!h
 			3h 15-17, 4!h
 		1nt 7-10, z zatrzymaniem !s
-		2c 9+, 5+!c F1
-		2d 9+, 5+!d F1
-		2h 9+, 5+!h F1
-		2s inwit do 3nt, brak trzymania !s
+		2c 10+, 5+!c F1
+		2d 10+, 5+!d F1
+		2h 7+, 5+!h F1
+		2s GF, brak trzymania !s
 		2nt inwit do 3nt, mam trzymanie !s
 	(1ba)
-		x 9+, karna
+		x 8+, karna
 		2c 0-7, 4+4+!h!s
-		2d multi
+		2d 0-7, multi
 		2h 0-7, 5+!h 4+!c/!d
 		2s 0-7, 5+!s 4+!c/!d
 		2nt 0-7, 5!c5!d
 	(2c) na starszych
-		x 9+, brak koloru, chcemy kontrować karnie
+		x 8+, brak koloru, chcemy kontrować karnie
 		2d 7-11, 5+!d nieforsujące
 		2h inwit 9-11, brak trzymania w obu starszych
 			2nt 12-14, układ zrównoważony
@@ -880,16 +881,16 @@ end
 			3h silnie trzymam !h
 			3s silnie trzymam !s
 			4c 15+, 5+!c (pytanie o grę premiową)
-		3c  0-6, blok, 6+!c
 		2nt inwit, trzymanie w obu starszych
+		3c  7-11, 5+!c nieforsujące
 		3nt GF, trzymanie w obu starszych
 	(2d) multi
-		x 8+, 4+!h4+!s
+		x 8+, brak koloru, chcemy kontrować karnie
 		2h 7-11, 5+!h nieforsujące
 		2s 7-11, 5+!s nieforsujące
 		2nt 8-11, z zatrzymaniem !h i !s
-		3c GF, 5+!c
-		3d GF, 5+!d
+		3c 7-11, 5+!c nieforsujące
+		3d 7-11, 5+!d nieforsujące
 		3h GF, 5+!h
 		3s GF, 5+!s 
 		3nt 12-15, z bardzo dobrymi !h i !s
@@ -897,16 +898,16 @@ end
 		x 8+, 4+!s (z tolerancją młodszych)
 		2s 7-11, 5+!s nieforsujące
 		2nt 8-11, z zatrzymaniem !h
-		3c GF, 5+!c
-		3d GF, 5+!d
+		3c 7-11, 5+!c nieforsujące
+		3d 7-11, 5+!d nieforsujące
 		3h GF, brak koloru i trzymania !h
 		3s GF, 5+!s 
 		3nt 12-15, z bardzo dobrymi !h
 	(2s)
 		x 8+, 4+!h (z tolerancją młodszych)
 		2nt 8-11, z zatrzymaniem !s
-		3c GF, 5+!c
-		3d GF, 5+!d
+		3c 7-11, 5+!c nieforsujące
+		3d 7-11, 5+!d nieforsujące
 		3h GF, 5+!h
 		3s GF, brak koloru i trzymania !s
 		3nt 12-15, z bardzo dobrymi !s
