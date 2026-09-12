@@ -538,19 +538,19 @@ end
 			3c 7-9, 3+!c
 			3d 7-9, 5+!d
 		2d ACOL 
-			2h większość rąk
-			2s na młodszym (młodszych), co najmniej dwa króle
+			2h większość rąk 
+			2s 8-11 na młodszym (młodszych)
 				2nt pytanie o rozkład
-					3c 6+!c
-					3d 6+!d
-					3h krótkość, konwencja 5431
+					3c 5+!c
+					3d 5+!d
+					3h krótkość, konwencja 5431!h
 						3s 4+ dobre !s (propozycja gry na 7!s)
 						3nt do gry (mam ciężkie honory w !h)
 						4c silne uzgodnienie !c
 						4d silne uzgodnienie !d
 						4h karta szlemikowa 4+4+!c!d
 						4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3!nt ani 4!s
-					3s krótkość, konwencja 5431
+					3s krótkość, konwencja 5431!s
 						3nt do gry (mam ciężkie honory w !s)
 						4c silne uzgodnienie !c
 						4d silne uzgodnienie !d
@@ -563,9 +563,19 @@ end
 			3h naturalne na bardzo dobrych 6+!h
 			3s naturalne na bardzo dobrych 6+!s
 		2h 20-22, 5+!h nieforsujące
-			2nt GF
+			pass kompletny dół, brak  perspektyw
+			2nt GF (3-6, brak 3!h)
+			3c 8-11 5+!c
+			3d 8-11 5+!d
+			3h inwit z fitem
+			3s 4-6 5+!s (brak 3!h)
 		2s 20-22, 5+!s nieforsujące
-			2nt GF
+			pass kompletny dół, brak  perspektyw
+			2nt GF (3-6, brak 3!s)
+			3c 8-11 5+!c
+			3d 8-11 5+!d
+			3h 4-6 5+!h (brak 3!s)
+			3s inwit z fitem
 		2nt 21-23, zrównoważony
 			3c stayman
 				3d brak strszej czwórki
@@ -589,13 +599,9 @@ end
 			4d Cue bid z fitem pik
 			4h Cue bid z fitem pik
 		4c GF, dwukolorówka 5-5 na młodszych
-		(x) wywoławcza
+		(x) wywoławcza (odzywki bez zmian)
 			pass 12-14, 3+!d
 			xx 18+, 3+!d
-			1h 1)12-14, 3-4!h 2)18+ 4+!h
-			1s 1)12-14, 3-4!s 2)18+ 4+!s
-			:1nt_resp(18-21)
-			2c 15+, 5+!c
 	1h 7+, 4+!h
 		1s 12+, 4+!s, forsujące na jedno okrążenie
 			1nt 7-9, układ zrównoważony
@@ -817,106 +823,45 @@ end
 	3s 0-6, 7+!s
 	3nt nie ma takiej odzywki
 	(1d)
-		x transfer 4+!h
-			1h 12-14, 3!h
-			1s 12+, naturalne, forsujące, bez 3!h
-			1nt 12-14 bez 3!h
-			2c 15+, 5+!c
-			2d odwrotka
-			2h 12-14, 4!h
-			3h 15-17, 4!h
-		1h transfer 4+!s
-			1s 12-14, 3!s
-			1nt 12-14 bez 3!s
-			2c 15-17, 5+!c
-			2d odwrotka
-			2h 12+, naturalne, forsujące, bez 3!s
-			2s 12-14, 4!s
-			3s 15-17, 4!s
-		1s transfer na bez atu
-			1nt 12-14, nie mówi nic o trzymaniu !d
-			2c 15+, naturalne
-			2d 18+, pytanie o zatrzymanie !d
-			2h 18+, naturalne
-			2s 18+, naturalne
-			2nt 18+, z zatrzymaniem !d
-		1nt naturalne
-		2c naturalne, nieforsujące
-		2d transfer 5+!h (jeżeli przeciwnicy licytują dalej to poprzyj z 3!h)
-			2h automat (wszystkie przeciętne ręce)
-			2s 18+, naturalne
-			2nt 18+, naturalne
-			3c naturalne, GF
-			3h 12+, inwitujące, układowe
-		2h transfer 5+!s (jeżeli przeciwnicy licytują dalej to poprzyj z 3!s)
-			2s automat (wszystkie przeciętne ręce)
-			2nt 18+, naturalne
-			3c naturalne, GF
-			3h 18+, naturalne
-			3s 12+, inwitujące, układowe
-		2s inwit, 5+!c
-		2nt naturalne, inwit
-		3c naturalne, GF
+		x 7+, brak 4!h/4!s, brak trzymania !d
 	(1h)
-		x transfer 4+!s
-			1s 12-14, 3!s
-			1nt 12-14 bez 3!s
+		x 7+, 4!s
+			1nt 12-14 bez 4!s
 			2c 12-17, 5+!c
-			2d odwrotka
-			2h 18+, pytanie o zatrzymanie !h
+			2d 18+, 4!s odwrotka
 			2s 12-14, 4!s
-			2nt 18+, zrównoważony, brak 3!s
 			3s 15-17, 4!s
-		1s transfer na bez atu
-			1nt 12-14, nie mówi nic o trzymaniu !h
-			2c 12-17, naturalne
-			2d 18+, naturalne
-			2h 18+, pytanie o zatrzymanie !h
-			2s 18+, naturalne
-			2nt 18+, z zatrzymaniem !h
-		1nt naturalne
-		2c naturalne, nieforsujące
-		2d 5+!d (jeżeli przeciwnicy licytują dalej to poprzyj z 3!d)
-		2h transfer 5+!s (jeżeli przeciwnicy licytują dalej to poprzyj z 3!s)
-		2s inwit z treflami
-		2nt naturalne, inwit
-		3c naturalne, GF (pytanie o fita)
-			:3d_fit()
-			3h druga blotka !c
-			:3s_fit()
-			3nt 0-1 !c
-			4c trzy blotki !c lub druga figura !c
-			4d trzecia figura !c, cue bid !d
-			4h trzecia figura !c, cue bid !h
-			4s trzecia figura !c, cue bid !s
+		1s  7+, 5+!s
+		1nt 7-10, z zatrzymaniem !h
+		2c 9+, 5+!c F1
+		2d 9+, 5+!d F1
+		2h inwit do 3nt, brak trzymania !h
+		2s GF, 6+!s
+		2nt inwit do 3nt, mam trzymanie !h
 	(1s)
-		x 4!h
+		x 7+, 4!h
 			1nt 12-14 bez 4!h
 			2c 12-17, 5+!c
 			2d 18+, 4!h odwrotka
 			2h 12-14, 4!h
 			3h 15-17, 4!h
-		1nt naturalne
-		2c naturalne, nieforsujące
-		2d naturalne, nieforsujące
-		2h naturalne, nieforsujące
+		1nt 7-10, z zatrzymaniem !s
+		2c 9+, 5+!c F1
+		2d 9+, 5+!d F1
+		2h 9+, 5+!h F1
 		2s inwit do 3nt, brak trzymania !s
 		2nt inwit do 3nt, mam trzymanie !s
-		3c naturalne, GF (pytanie o fita)
-			:3d_fit()
-			:3h_fit()
-			3s 2 blotki !c
-			3nt 0-1 !c
-			4c trzy blotki !c lub druga figura !c
-			4d trzecia figura !c, cue bid !d
-			4h trzecia figura !c, cue bid !h
-			4s trzecia figura !c, cue bid !s
 	(1ba)
-		2c 4+4+!h!s
+		x 9+, karna
+		2c 0-7, 4+4+!h!s
+		2d multi
+		2h 0-7, 5+!h 4+!c/!d
+		2s 0-7, 5+!s 4+!c/!d
+		2nt 0-7, 5!c5!d
 	(x)
 		pass 0-6
 		xx 10+, 3+!c
-		1d nieforsujące na !d
+		1d 0-6 na !d
 		1h 7+, 4+!h, dalsza licytacja jak bez kontry
 		1s 7+, 4+!s, dalsza licytacja jak bez kontry
 		1nt 8-10, dalsza licytacja jak bez kontry
