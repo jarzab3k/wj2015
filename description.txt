@@ -831,7 +831,8 @@ end
 		1nt 8-10, dalsza licytacja jak bez kontry
 		2c 7-11 5+c
 		2d 7-11 5+d
-		2h pozostałe odzywki jak bez kontry(1d)
+		2h pozostałe odzywki jak bez kontry
+	(1d)
 		x 7+, brak 4!h/4!s, brak trzymania !d
 	(1h)
 		x 7+, 4!s
