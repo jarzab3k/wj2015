@@ -337,7 +337,10 @@ function 1h_wej(nt)
 		2h :5+!s
 		2s 6+!c
 		2nt 8-9 zrównoważony
+	2c 9+, 5+ silne !c
+	2d 9+, 5+ silne !d
 	2h 5!s-5!c/!d
+	2s 6-11, 6!s
 	2nt 5!c-5!d
 end
 
@@ -346,8 +349,8 @@ function 1s_wej(nt)
 		(x)
 			xx 5+!c
 		2c 5+!d
-		2d 5+!h
-		2h 4!h
+		2d 4!h
+		2h 5+!h
 		2s 6+!c
 		2nt 8-9 zrównoważony
 	2s 5!h-5!c/!d
@@ -1725,7 +1728,19 @@ end
 		:1s_wej(14)
 	(1nt)
 		x 5+!c/!d-4!h/!s
+			2c nie mam długiego starszego, licytuj pass lub 2!d
+			2d własny dobry kolor !d
+			2h do starszego koloru partnera
+			2s własny dobry kolor !s
 		2c 5+4+!h!s
+			2d pytanie, który starszy lepszy (nie mam nic przeciwko jak partner odpowie że !s)
+			2h do pasa
+			2nt zupełnie nie mam starych (maks po singlu)
+				3c sztuczne wyczekanie
+					pass  chciałem zagrać !c
+					3d chcę grać !d
+			3c 7+, 6+ bardzo dobre !c, (ekstremalny brak fita !h i !s)
+			3d 7+, 6+ bardzo dobre !d, (ekstremalny brak fita !h i !s)
 		2d 6+!h/!s
 		2h 5+!h 4+!c/!d
 		2s 5+!s 4+!c/!d
