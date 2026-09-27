@@ -1655,7 +1655,7 @@ end
 				2d naturalne
 		x wywoławcza
 			(pass) nagat raczej z treflami
-				pass 10+ 5+!c w niekożystnych moźna wybrać 3c
+				pass 10+ 5+!c w niekorzystnych moźna wybrać 3c
 				1d negat 0-7 lub 7-9, kara lub młodsze
 				1h 7+ 4+!h dalsza licytacja jak po naszym otwarciu trefl
 				1s 7+ 4+!s dalsza licytacja jak po naszym otwarciu trefl
@@ -1686,16 +1686,37 @@ end
 		1nt 15-17, zrównoważony
 			:db1nt()			
 	(1d)
-		1h 5+!h, 8+
+		x  12+,  2-!d
+		1h 8+, 5+!h
 			:drury(h)
-		1s 5+!s, 8+
+		1s 8+, 5+!s
 			:drury(s)
-		1nt 14-17, zrównoważony, trzymanie !d
+		1nt 14-17, zrównoważony, silne trzymanie !d
 			(x)
 				xx 5+!c
-				2c 4!c-4
+				2c pytanie o 4!h!s
 				2d 5+!h
 				2h 5+!s
+		2c 9+, 5+ ładne !c
+		2d Michaels - 6-11 (słaby) lub 12+ (silny) 5+!h5+!s 
+			2h 10-, lepsze !h lub obojętne
+			2s 10-, lepsze !s
+			2nt 11+, pytanie
+				3c słaby, możliwe coś w !c
+				3d słaby, mam coś w !d
+				3h silny, lepsze !h
+				3s silny, lepsze !s
+			3h blok, 4+!h słabe na układzie
+			3s blok, 4+!s, słabe na układzie
+		2h 10-, 6!h
+		2s 10-, 6!s
+		2nt Michaels - słabe lub silne 5+!c5+!h
+			3c 10-, lepsze !c
+			3d, 11+, pytanie
+				3h 6-11 (słaby)
+				3s 12+, krótkość !s
+				3d 12+, krótkość !d
+			3h 10-, lepsze !h lub preferencja dla gry na maxy
 	(1h)
 		x 10+ 4+!s 3+!c 3+!d
 		:1h_wej(14)
