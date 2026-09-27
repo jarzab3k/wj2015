@@ -1715,7 +1715,7 @@ end
 		2s 10-, 6!s
 		2nt Michaels - słabe lub silne 5+!c5+!h
 			3c 10-, lepsze !c
-			3d, 11+, pytanie
+			3d 11+, pytanie
 				3h 6-11 (słaby)
 				3s 12+, krótkość !s
 				3d 12+, krótkość !d
