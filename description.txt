@@ -1718,7 +1718,7 @@ end
 			3d 11+, pytanie
 				3h 6-11 (słaby)
 				3s 12+, krótkość !s
-				3d 12+, krótkość !d
+				4d 12+, krótkość !d
 			3h 10-, lepsze !h lub preferencja dla gry na maxy
 	(1h)
 		x 10+ 4+!s 3+!c 3+!d
