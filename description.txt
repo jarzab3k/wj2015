@@ -1741,10 +1741,88 @@ end
 					3d chcę grać !d
 			3c 7+, 6+ bardzo dobre !c, (ekstremalny brak fita !h i !s)
 			3d 7+, 6+ bardzo dobre !d, (ekstremalny brak fita !h i !s)
-		2d 6+!h/!s
+		2d 6-11 6+!h/!s (odpowiedzi jak po naszym otwarciu 2d)
+			(x)
+				p proponuję grę w kara
+				xx pokaż swój kolor
+				2h pokazuję własny kolor
+				2s pokazuję własny kolor
+			(2h)
+				x karna
+				2s do koloru partnera
+			(2s)
+				x karna
+				3h do koloru partnera
+			2h do koloru
+			2s do koloru
+				2nt silny na !h
+				3c silny na !h i 4+!c
+				3d silny na !h i 4+!d
+				3h słaby na !h
+			2nt pytanie (forsing do dogranej)
+				3c silny
+					3d pytanie o kolor
+						3h mam !s
+							3s przykład silnego uzgodnienia !s (partner pokazuje krótkość lub licutyje 3nt)
+						3s mam !h
+				3d słaby na !h
+				3h słaby na !s
+					3s przykład silnego uzgodnienia !s (partner pokazuje krótkość lub licutyje 3nt)
+				3s koronka w !h
+				3nt koronka w !s
+			3c zalicytuj swój kolor transferem (inwit do dogranej lub przekazanie wyboru 3nt czy 4 w kolor)
+				3d mam !h
+					3h inwit do 4!h
+					3nt wybierz 3nt czy 4!h (jak masz układ 6-4 lub 7+ to znieś transferem)
+				3h mam !s
+					3s inwit do 4!s
+					3nt wybierz 3nt czy 4!s (jak masz układ 6-4 lub 7+ to znieś transferem)
+			3d inwit do dogranej z fitami w obu starszych
+			3h blok z fitami w obu starszych
+			3s 6+!s inwit do 4!s
+			3nt werdykt (najczęściej na własnym kolorze młodszym)
+			4c zalicytuj swój kolor transferem
+			4d zalicytuj swój kolor
+			4h naturalne ze swojego koloru
+			4s naturalne ze swojego koloru
 		2h 5+!h 4+!c/!d
+			pass do gry
+			2s własny dobry kolor !s 6+, misfit !h
+			2nt pytanie o młodszy (ze słabą ręką i misfitem !h pasuję, z silniejszą licytuję dalej)
+				3c 4+!c
+				3d 4+!d
+			3c 7+, 6+ bardzo dobre !c, (ekstremalny brak fita !h)
+			3d 7+, 6+ bardzo dobre !d, (ekstremalny brak fita !h)
+			3h inwit, fit !h
+			4h do gry
 		2s 5+!s 4+!c/!d
-		2nt 5!c-5!d
+			pass do gry
+			2nt pytanie o młodszy (ze słabą ręką i misfitem !s pasuję, z silniejszą licytuję dalej)
+				3c 4+!c
+				3d 4+!d
+			3c 7+, 6+ bardzo dobre !c, (ekstremalny brak fita !s)
+			3d 7+, 6+ bardzo dobre !d, (ekstremalny brak fita !s)
+			3h własny dobry kolor !h 6+, misfit !s
+			3s inwit, fit !s
+			4s do gry
+		2nt 5!c-5!d (odpowiedzi jak po naszym otwarciu 2nt, z wyjątkiem 3!h/3!s)
+			(x) 
+				p  do pasa (licytuj swój lepszy kolor, u mnie bez różnicy)
+				xx silnie trzymam oba starsze
+			(3h)
+				x karna
+				4c do pasa
+				4d do pasa
+			(3s)
+				x karna
+				4c do pasa
+				4d do pasa
+			3c do pasa
+			3d do pasa
+			3h własny dobry kolor !h 6+, misfit !c i !d, do gry
+			3s własny dobry kolor !s 6+, misfit !c i !d, do gry
+			4c silne uzgodnienie !c
+			4d silne uzgodnienie !d
 		pass nic ciekawego
 			x 14+
 			2c 5+4+!h!s
