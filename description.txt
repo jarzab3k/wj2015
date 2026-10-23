@@ -1489,7 +1489,7 @@ end
 		xx relay, siła co najmniej na inwit
 		2d nieforsujące na !d
 		:resp_after_prec()
-2d 6+ na starszym
+2d 6-11 na starszym
 	(x)
 		p proponuję grę w kara
 		xx pokaż swój kolor
@@ -1656,7 +1656,7 @@ end
 			(1d)
 				x dowolne dwa kolory
 				2d naturalne
-		x wywoławcza
+		x wywoławcza lub objaśniająca
 			(pass) nagat raczej z treflami
 				pass 10+ 5+!c w niekorzystnych moźna wybrać 3c
 				1d negat 0-7 lub 7-9, kara lub młodsze
@@ -1681,10 +1681,10 @@ end
 				2s 7-9 6(5)+!s
 				3c GF 5+!c
 				3d GF 5+!d
-		1d 5+!d, 8+
-		1h 5+!h, 8+
+		1d 5+!d, 8+ 
+		1h 5+!h, 8+ 
 			:drury(h)
-		1s 5+!s, 8+
+		1s 5+!s, 8+ 
 			:drury(s)
 		1nt 15-17, zrównoważony
 			:db1nt()			
