@@ -28,24 +28,24 @@ function drury(kolor)
 		2$(kolor) podlimitowe otwarcie
 end
 
-function 3d_fit()
-	3d GF, pytanie o fit w !d
+function 3d_fit(sila)
+	3d GF ($(sila)), pytanie o fit w !d
 		3h dwie blotki !d
 		3s trzy blotki !d lub druga figura !d
 		3nt 0-1!d
 		4c trzecia figura !d
 end
 
-function 3h_fit()
-	3h GF, pytanie o fit w !h
+function 3h_fit(sila)
+	3h GF ($(sila)), pytanie o fit w !h
 		3s dwie blotki !h
 		3nt 0-1!h
 		4c trzy blotki !h lub druga figura !h
 		4d trzecia figura !h
 end
 
-function 3s_fit()
-	3s GF, pytanie o fit w !s
+function 3s_fit(sila)
+	3s GF ($(sila)), pytanie o fit w !s
 		3nt 0-1!s
 		4c dwie blotki !s
 		4d trzy blotki !s lub druga figura !s
@@ -250,9 +250,26 @@ function 1h_wej(nt)
 		2nt 8-9 zrównoważony
 	2c 9+, 5+ silne !c
 	2d 9+, 5+ silne !d
-	2h 5!s-5!c/!d
-	2s 6-11, 6!s
-	2nt 5!c-5!d
+	2h Michaels - 6-11 (słaby) lub 12+ (silny) 5+!s5+!c/!d
+		2s 10-, do pików
+		2nt 11+, pytanie o młodszy
+			3c słaby, 5+!c
+			3d słaby, 5+!d
+			3h silny, 5+!c
+			3s silny, 5+!d
+		3c 10-, do młodszego (pas lub popraw)
+		3s blok, 4+!s
+		4s do gry
+	2s 6-10, 6+!s, blok
+	2nt 5!c-5!d (8-15)
+		3c do pasa
+		3d do pasa
+		3h cue bid, GF, pytanie
+		3nt do gry
+		4c do pasa
+		4d do pasa
+		5c do gry
+		5d do gry
 end
 
 function 1s_wej(nt)
@@ -264,8 +281,27 @@ function 1s_wej(nt)
 		2h 5+!h
 		2s 6+!c
 		2nt 8-9 zrównoważony
-	2s 5!h-5!c/!d
-	2nt 5!c-5!d
+	2c 9+, 5+ silne !c
+	2d 9+, 5+ silne !d
+	2h 9+, 5+!h
+	2s Michaels - 6-11 (słaby) lub 12+ (silny) 5+!h5+!c/!d
+		2nt 11+, pytanie o młodszy
+			3c słaby, 5+!c
+			3d słaby, 5+!d
+			3h silny, 5+!c
+			3s silny, 5+!d
+		3c 10-, do młodszego (pas lub popraw)
+		3h 10-, do kierów
+		4h do gry
+	2nt 5!c-5!d (8-15)
+		3c do pasa
+		3d do pasa
+		3s cue bid, GF, pytanie
+		3nt do gry
+		4c do pasa
+		4d do pasa
+		5c do gry
+		5d do gry
 end
 
 function db1nt()
@@ -284,20 +320,25 @@ function 3nt4c()
 end
 
 function obr_na_stare()
-	2h naturalne
-	2s naturalne
-	3c 16+ 6(5)+!c
-	3d 16+ 6(5)+!d
-	3h młode lepsze trefle
-	3s młode lepsze kara
+	2h obie młodsze 5-5, 8-15, wybierz młodszy
+	2s silna ręka z długim młodszym, pytanie o zatrzymania do 3nt
+	2nt 15-18, zatrzymania w obu starszych
+	3c naturalne, dobra szóstka, 11-15 (silniejsze ręce przez kontrę)
+	3d naturalne, dobra szóstka, 11-15 (silniejsze ręce przez kontrę)
+	3h obie młodsze, 16+, lepsze trefle
+	3s obie młodsze, 16+, lepsze kara
+	3nt do gry
 end
 
-function 1nt_fit(kol)
-	xx 10+ bez fitu lub 12+ 3+$(kol)
-	1nt 7-11 3+$(kol)
-	2c 7-10 5+!c
-	2d 7-10 5+!d
-	2$(kol) 0-6 3+$(kol)
+function kontra_na_otwarcie()
+	pass 0-6 bez fitu lub brak sensownej odzywki
+	xx 10+, zwykle bez fitu; każda nasza kolejna kontra jest karna
+	{nowy kolor na 1} forsujący
+	1nt 7-9 bez fitu
+	{nowy kolor na 2} 6-9, 5+, nieforsujący
+	{podniesienie proste} 6-9 z fitem
+	{skok w kolor partnera} blok, 0-6, 4+
+	2nt Truscott: 10+ z fitem 4+, co najmniej inwit
 end
 
 function resp_after_prec()
@@ -328,14 +369,14 @@ function multi_resp()
 	(2s)
 		x karna
 		3h do koloru partnera
-	2h do koloru
-	2s do koloru
-		2nt silny na !h
-		3c silny na !h i 4+!c
-		3d silny na !h i 4+!d
+	2h 0-12, do koloru (pas lub popraw)
+	2s 0-12, do koloru (pas lub popraw)
+		2nt silny (min 3 kontrole A-2, K-1) na !h
+		3c silny (min 3 kontrole A-2, K-1) na !h i 4+!c
+		3d silny (min 3 kontrole A-2, K-1) na !h i 4+!d
 		3h słaby na !h
-	2nt pytanie (forsing do dogranej)
-		3c silny
+	2nt 16+ (mniej przy dobrym układzie), pytanie, GF
+		3c silny (min 3 kontrole A-2, K-1)
 			3d pytanie o kolor
 				3h mam !s
 					3s przykład silnego uzgodnienia !s (partner pokazuje krótkość lub licytuje 3nt)
@@ -345,16 +386,16 @@ function multi_resp()
 			3s przykład silnego uzgodnienia !s (partner pokazuje krótkość lub licytuje 3nt)
 		3s koronka w !h
 		3nt koronka w !s
-	3c zalicytuj swój kolor transferem (inwit do dogranej lub przekazanie wyboru 3nt czy 4 w kolor)
+	3c 13-15 inwit albo 16+ z wyborem 3nt / 4 w kolor; zalicytuj swój kolor transferem
 		3d mam !h
 			3h inwit do 4!h
 			3nt wybierz 3nt czy 4!h (jak masz układ 6-4 lub 7+ to znieś transferem)
 		3h mam !s
 			3s inwit do 4!s
 			3nt wybierz 3nt czy 4!s (jak masz układ 6-4 lub 7+ to znieś transferem)
-	3d inwit do dogranej z fitami w obu starszych
-	3h blok z fitami w obu starszych
-	3s 6+!s inwit do 4!s
+	3d 13-15, inwit do dogranej, 3+ w obu starszych
+	3h 0-10, blok z fitami w obu starszych
+	3s 13-15, 6+!s, inwit do 4!s
 	3nt werdykt (najczęściej na własnym kolorze młodszym)
 	4c zalicytuj swój kolor transferem
 	4d zalicytuj swój kolor
@@ -375,8 +416,8 @@ function brak_4M()
 			4c obie starsze trójki
 				4d uzgadnia !h
 				4h uzgadnia !s
-		3h 5!s,4!h (forsing do dogranej)
-		3s 4!s,5!h (forsing do dogranej)
+		3h 5!s,4!h, GF
+		3s 4!s,5!h, GF
 end
 
 function po_5431h()
@@ -385,7 +426,7 @@ function po_5431h()
 	4c silne uzgodnienie !c
 	4d silne uzgodnienie !d
 	4h karta szlemikowa 4+4+!c!d
-	4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3!nt ani 4!s
+	4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3BA ani 4!s
 end
 
 function po_5431s()
@@ -394,34 +435,15 @@ function po_5431s()
 	4d silne uzgodnienie !d
 	4h 4+ dobre !h (propozycja gry na 7!h)
 	4s karta szlemikowa 4+4+!c!d
-	4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3!nt ani 4!h
-end
-
-function gerber_inwit(sila)
-	:4c_Gerber()
-	4nt $(sila), inwit
-		5c przyjęcie inwitu 4!c
-		5d przyjęcie inwitu 4!d
-		5h przyjęcie inwitu 4!c4!d lepsze !c
-		5s przyjęcie inwitu 4!c4!d lepsze !d
-		5nt przyjęcie inwitu, pokaż swoją piątkę
-			6c 5!c
-			6d 5!d
-			6h 5!h
-			6s 5!s
-			6nt nie przyszła
-		6c przyjęcie inwitu 5!c
-		6d przyjęcie inwitu 5!d
+	4nt karta nie szlemikowa 4+4+!c!d nie nadaje się na 3BA ani 4!h
 end
 
 function mlodsze_54()
 	2nt GF
-		3c góra otwarcia
-			3d pytanie
-				3h dłuższe !c
-				3s dłuższe !d
-		3d dół otwarcia, dłuższe !c
-		3h dół otwarcia, dłuższe !d
+		3c słaby, dłuższe !c
+		3d słaby, dłuższe !d
+		3h silny (min 3 kontrole A-2, K-1), dłuższe !c
+		3s silny (min 3 kontrole A-2, K-1), dłuższe !d
 	3c do koloru (jak !d dłuższe to popraw)
 end
 
@@ -454,28 +476,56 @@ function mlodsze_55()
 	3d do pasa
 end
 
+#checkback po każdym 1x-1y-1nt: kol = kolor odpowiadającego, inny = możliwa starsza czwórka otwierającego (ten sam co kol, gdy niemożliwa), otw = kolor otwarcia
+function checkback(kol, inny, otw)
+	2c słaby checkback, wymusza 2!d
+		2d automat
+			pass chcę grać 2!d
+			2$(kol) SO
+			2nt inwit do 3nt
+			3$(kol) 6+!$(kol), inwit
+			{pozostałe} naturalne, do gry lub inwit
+	2d silny checkback, GF
+		2$(kol) 3!$(kol)
+		?2$(inny) 4!$(inny), bez 3!$(kol)
+		2nt bez powyższych, zatrzymania w kolorach niezgłoszonych
+		3$(otw) bez powyższych, brak zatrzymania w kolorze niezgłoszonym
+end
+
+#słaby skok po 1c na 6-kartowym starszym (k = kolor)
+function slaby_skok(k)
+	2$(k) 0-6, 6!$(k) blok
+		pass bez szans na dograną
+		2nt 15+, pytanie (silny wariant)
+			3c dół (0-3)
+			3d góra (4-6), słaby kolor
+			3h góra (4-6), dobry kolor (2 z 3 starszych honorów)
+		3$(k) blokowanie dalej
+		4$(k) do gry
+end
+
 1c 1) 12-14 bez innej piątki 2) 15+, 5+!c 3) 18+
 	1d 1) 0-6 (7) 2) 8-11, na młodszym lub obu młodszych
-		1h 1)12-14, 3-4!h 2)18-19, 4+!h
+		1h 1) 12-14, 3-4!h 2) 18-19, 4+!h
 			1s 5-6, 4+!s
 			1nt 5-6(7) bez starszej czwórki
 				pass słaby wariant !c
-			2c 8-11, 5+!c (odpowiedź inna niż pass forsuje na 1 okrążenie, powtórzenie koloru to 8-9)
-			2d 8-11, 5+!d (odpowiedź inna niż pass forsuje na 1 okrążenie, powtórzenie koloru to 8-9)
+			2c 8-11, 5+!c (odpowiedź inna niż pas to F1, powtórzenie koloru to 8-9)
+			2d 8-11, 5+!d (odpowiedź inna niż pas to F1, powtórzenie koloru to 8-9)
 			2h 5-6, 4+!h
 				pass słaby wariant !c
 			2s 8-11, 5+4+ !c!d
 				:mlodsze_54()
-		1s 1)12-14, 3-4!s 2)18-19, 4+!s
+		1s 1) 12-14, 3-4!s 2) 18-19, 4+!s
 			1nt 5-6(7) bez 4!s
 				pass słaby wariant !c
-			2c 8-11, 5+!c (odpowiedź inna niż pass forsuje na 1 okrążenie, powtórzenie koloru to 8-9)
-			2d 8-11, 5+!d (odpowiedź inna niż pass forsuje na 1 okrążenie, powtórzenie koloru to 8-9)
+			2c 8-11, 5+!c (odpowiedź inna niż pas to F1, powtórzenie koloru to 8-9)
+			2d 8-11, 5+!d (odpowiedź inna niż pas to F1, powtórzenie koloru to 8-9)
 			2h 8-11, 5+4+ !c!d
 				:mlodsze_54()
 			2s 5-6, 4+!s
 		1nt 18-20, układ bezatutowy
-			2c 1)4-6, 4!h/!s 2)0-6, 4+4+!h!s
+			2c 1) 4-6, 4!h/!s 2) 0-6, 4+4+!h!s
 				:brak_4M()
 				2h 4!h
 					2s transfer na !c i 4!s
@@ -564,6 +614,15 @@ end
 			3s 7-11, na obu młodszych (tylko jeżeli uważamy, że jest szansa na grę premiową, inaczej lepiej po prostu 3nt)
 			4c 7+, 6+!c (tylko jeżeli uważamy, że jest szansa na grę premiową, inaczej lepiej po prostu 3nt)
 			4d 7+, 6+!d (tylko jeżeli uważamy, że jest szansa na grę premiową, inaczej lepiej po prostu 3nt)
+			4nt 10-11, inwit do 6nt
+				pass odrzucenie inwitu
+				5c przyjęcie inwitu, 4!c (szukamy fitu 4-4)
+				5d przyjęcie inwitu, 4!d (szukamy fitu 4-4)
+				6c przyjęcie inwitu, 5!c
+				6d przyjęcie inwitu, 5!d
+				6h przyjęcie inwitu, 5!h
+				6s przyjęcie inwitu, 5!s
+				6nt przyjęcie inwitu, bez czwórki młodszej
 		3c 18+, 6+!c
 		3d 18+, 6+!d
 		3h GF, dwukolorówka 5-5 z kierami
@@ -581,7 +640,7 @@ end
 			pass 12-14, 3+!d
 			xx 18+, 3+!d
 	1h 7+, 4+!h
-		1s 12+, 4+!s, forsujące na jedno okrążenie
+		1s 12+, 4+!s, F1
 			1nt 7-9, układ zrównoważony
 			2c słaby checkback
 				2d 12-14
@@ -601,20 +660,7 @@ end
 			2nt 10-11, zrównoważony
 			3c GF, układ 5-5
 		:1nt_resp(12-14)
-			2c słaby checkback
-				2d automat
-					pass chciałem grać 2!d
-					2h SO
-					3c 5+!c, SO
-					3h 6+!h, inwit do 4!h ale słabe kiery
-				2h 3!h
-				2nt 5!c, 2 dobre !h
-				3c 5!c
-			2d silny checkback
-				2h 3!h
-				2s 3!s, bez 3!h 5!c
-				2nt 3!s, układ 4432
-				3c 5!c
+			:checkback(h, s, c)
 			2h SO, otwierający musi pasować
 			2s naturalne, GF
 			3c GF, układ 5-5
@@ -626,59 +672,45 @@ end
 		:precision(!h)
 		:2d_odw(!h, !c, !s, 5+!h, 4+!h4!s)
 		2h 12-14, 4!h
-			2nt f1 (forsing na jedno okrążenie)
+			2nt F1
 		2s 18+, 6+!s
 		2nt 18+, bez 3!h, bez 4!s
 		3c 18+, 6!c
 		3d 18+, 6!d
 		3h 15-17, 4!h, skład niezrównoważony
-		3s splinter
+		3s 15+, 4!h, splinter (krótkość !s)
 		3nt 7 pełnych !c, stoper poza kierami
-		4c splinter
-		4d splinter
+		4c 15+, 4!h, splinter (krótkość !c)
+		4d 15+, 4!h, splinter (krótkość !d)
 		(x)
 			xx fit 3+!h
 	1s 7+, 4+!s
 		:1nt_resp(12-14)
-			2c słaby checkback
-				2d automat
-					pass chciałem grać 2!d
-					2h 4+!h 5!s (partner wybiera czy gramy 2!h czy 2!s)
-					2s SO
-					3c 5+!c, SO
-					3s 6+!s, inwit do 4!s ale słabe kiery
-				2s 3!s
-				2nt 5!c, 2 dobre !s
-				3c 5!c
-			2d silny checkback
-				2h 3!h, bez 3!s 5!c
-				2s 3!s
-				2nt 3!h, układ 4432
-				3c 5!c 3!s
+			:checkback(s, h, c)
 			2h 7-9, 4!h 6!s
 			2s SO, otwierający musi pasować
 			3c GF, układ 5-5
 			3d GF, układ 5-5
 			3h GF, układ 5-5
-			3s 6+!s. inwit
+			3s 6+!s, inwit
 			4c 6+!s splinter
 			4d 6+!s splinter
 		:precision(!s)
 		:2d_odw(!s, !h, !c, 5!s4!h22, 5+!s)
-		2h 18+5+!h
+		2h 18+, 5+!h
 		2s 12-14, 4!s
-			2nt f1
+			2nt F1
 		2nt 18+, bez 3!s, bez 5!h
 		3c 18+, 6!c
 		3d 18+, 6!d
-		3h splinter
+		3h 15+, 4!s, splinter (krótkość !h)
 		3s 15-17, 4!s, skład niezrównoważony
 		3nt 7 pełnych !c, stoper poza !s
-		4c splinter
-		4d splinter
+		4c 15+, 4!s, splinter (krótkość !c)
+		4d 15+, 4!s, splinter (krótkość !d)
 		(x)
 			xx fit 3+!s
-	1nt 8-10 bez starszych czwórek
+	1nt 8-11 bez starszych czwórek
 		2c 15+, 5+!c GF
 			2d naturalne 5!d332 dół
 			2h obawa o piki dół
@@ -716,45 +748,34 @@ end
 		2s 4!s, brak 4!h
 			3s 4!s
 		2nt brak 4!h i 4!s
-		3c 15+. 5!c, brak 4!d!h!s
+		3c 15+, 5!c, brak 4!d!h!s
 		3d 4!d, brak 4!h i 4!s
 		3h splinter na !d
 		3s splinter na !d
 		4c splinter na !d
-	2h 7-9, 4+!h 5!s
-		pass 12-14, SO
-		2s 12-14, SO
-		2nt 18+, GF
-			3c 5-4 w starszych, 3!c
-			3d 5-4 w starszych, 3!d
-			3h 5!h
-			3s 6!s
-			3nt 5422
-		3h 15-17, 4!h
-		3s 15-17, 3!s
-	2s 11-12, inwit do dogranej, brak 4!h!s
-		2nt do pasa
-		3c 12+, naturalne
+	:slaby_skok(h)
+	:slaby_skok(s)
+	2nt 12+, bez 5!c!d bez 4!h!s, GF
+		3c 15+, naturalne (5+!c)
 		3d 18+, naturalne
 		3h 18+, naturalne
 		3s 18+, naturalne
-		3nt do pasa
-		:gerber_inwit(20-21)
-	2nt 13+, bez 5!c!d bez 4!h!s, GF
-		3c 12+, naturalne
-		3d 18+, naturalne
-		3h 18+, naturalne
-		3s 18+, naturalne
-		:gerber_inwit(18-20)
+		3nt 12-14, do gry
+		:4c_Gerber()
+		4nt 18-20, inwit do 6nt
+			pass odrzucenie inwitu
+			5c przyjęcie inwitu, 4!c (szukamy fitu 4-4)
+			5d przyjęcie inwitu, 4!d (szukamy fitu 4-4)
+			6nt przyjęcie inwitu, bez czwórki młodszej
 	3c 9-11 na dobrej szóstce, nieforsujące
-		:3d_fit()
-		:3h_fit()
-		:3s_fit()
+		:3d_fit(15+)
+		:3h_fit(15+)
+		:3s_fit(15+)
 		3nt do gry
 		4c 18+ uzgodnienie !c
 	3d 9-11 na dobrej szóstce, nieforsujące
-		:3h_fit()
-		:3s_fit()
+		:3h_fit(15+)
+		:3s_fit(15+)
 		3nt do gry
 		4c 18+ na !c
 			4d 0-1!c
@@ -772,18 +793,23 @@ end
 		1d 0-6 z max 2!c lub 7-9, 5+!d
 		1h 7+, 4+!h, dalsza licytacja jak bez kontry
 		1s 7+, 4+!s, dalsza licytacja jak bez kontry
-		1nt 8-10, dalsza licytacja jak bez kontry
+		1nt 8-11, dalsza licytacja jak bez kontry
 		2c dowolny GF
 		2d 0-6 blok na długich !d
 		2h 0-6 blok na długich !h
 		2s 0-6 blok na długich !s
-	(1d)
+	(1d) 1!h/1!s oraz słabe skoki jak bez wejścia
 		x 7+, brak 4!h/4!s, brak trzymania !d
+		1nt 7-10, z zatrzymaniem !d
+		2c 10+, 5+!c F1
+		2d GF, brak trzymania !d
+		2nt inwit do 3nt, mam trzymanie !d
 	(1h)
 		x 7+, 4!s
 			1nt 12-14 bez 4!s
 			2c 15+, 5+!c
 			2d 18+, 4!s odwrotka
+			2nt 18-20, zrównoważona, zatrzymanie !h, bez 4!s
 			2s 12-14, 4!s
 			3s 15-17, 4!s
 		1s 7+, 5+!s
@@ -796,8 +822,9 @@ end
 	(1s)
 		x 7+, 4!h
 			1nt 12-14 bez 4!h
-			2c 12-17, 5+!c
+			2c 15+, 5+!c
 			2d 18+, 4!h odwrotka
+			2nt 18-20, zrównoważona, zatrzymanie !s, bez 4!h
 			2h 12-14, 4!h
 			3h 15-17, 4!h
 		1nt 7-10, z zatrzymaniem !s
@@ -855,10 +882,14 @@ end
 		3h GF, 5+!h
 		3s GF, brak koloru i trzymania !s
 		3nt 12-15, z bardzo dobrymi !s
+	({blok na wysokości 3})
+		x 8+, negatywna / wywoławcza
+		{nowy kolor} naturalny, forsujący
+		3nt do gry
 1d 12-17, 5+!d
 	1h 1) 7+, 4+!h 2) 0-6, 5+!h
 		1s 4+!s
-			2c tani transfer 1)SO 2) GF
+			2c tani transfer 1) SO 2) GF
 				2d 12-14, wszystkie ręce
 					pass 1) SO
 					2h 1) SO
@@ -877,54 +908,22 @@ end
 			2nt 8-11, 4!h4!c3!s2!d
 			3c 8-11, 5+!c SO
 		1nt brak starszej czwórki
-			2c słaby checkback
-				2d 12-14, wszystkie ręce
-					pass słaba ręka, 3+!d
-					2h SO
-					2s naturalne, inwitujące
-					2nt 5332 na !h, inwit
-					3nt 5332 na !h, GF 3nt lub 4!h
-				2h 15-17, 3!h
-				2nt 15-17, mam trzymanie !c i !s
-				3d 15-17, 6+!d
-			2d silny checkback (GF)
-				2h 3!h
-				2s 3!s brak trzymania !c/!s
-				2nt mam trzymanie !c i !s
-				3c 4!c brak trzymania !c/!s
-				3d 6+!d
-				3h 6+!d 3!h
+			:checkback(h, h, d)
 			2h SO
 			3d SO
 		2c 4+!c5+!d
 			2s GF czwarty kolor
 		2d 12-14 6+!d
 		2h 12-14, 4!h
-			2nt f1
-		2s 15-17 6!c 4!s
+			2nt F1
+		3h 15-17, 4!h
+		2s 15-17 6!d 4!s
 		2nt 15-17 6+!d z trzymaniem !c i !s
 		3c 15-17, 5+!d5+!c
 		3d 15-17 6+!d brak trzymania !c/!s
 	1s 1) 7+, 4+!s 2) 0-6, 5+!s
 		1nt 1) 15-17 bez 4!h/4!s 2) 12-14 bez 4!s
-			2c słaby checkback
-				2d 12-14, wszystkie ręce
-					pass słaba ręka, 3+!d
-					2h naturalne, inwitujące
-					2s SO
-					2nt 5332 na !s, inwit
-					3nt 5332 na !s, GF 3nt lub 4!s
-				2s 15-17, 3!s
-				2nt 15-17, mam trzymanie !c i !h
-				3d 15-17, 6+!d
-			2d silny checkback (GF)
-				2h 4!h bez 3!s
-				2s 3!s
-				2nt mam trzymanie !c i !h
-				3c 4!c brak trzymania !h
-				3d 6+!d
-				3h 6+!d 4!h
-				3s 6+!d 3!s
+			:checkback(s, h, d)
 			2s SO
 			3d SO
 		2c 4+!c5+!d
@@ -932,11 +931,12 @@ end
 		2d 12-14 6+!d
 		2h 15-17, 4!h
 		2s 12-14, 4!s
-			2nt f1
+			2nt F1
+		3s 15-17, 4!s
 		2nt 15-17 6+!d z trzymaniem !c i !h
 		3c 15-17, 5+!d5+!c
 		3d 15-17 6+!d bez trzymania obydwu !c/!h
-	:1nt_resp(7-10)
+	:1nt_resp(7-11)
 		2c 15-17 5!d4!c
 		2d 12-14 6+!d
 		2h 15-17, 4!h
@@ -972,52 +972,18 @@ end
 			3d 10-11 (dół odpowiedzi)
 			3h mam zatrzymanie w !h
 				4d nie mam zatrzymania w !c
-	2h 7-9, 5!s4-5!h
-		pass do gry
-		2s do gry
-		2nt inwit do 3nt
-			pass do gry
-			3c niechęć gry NT, brak 3!d
-			3d 3+!d
-		3c czwarty kolor GF
-			3d nic ciekawego z dublem karo
-			3h 5!h
-			3s dobre piki
-			3nt mam zatrzymanie !c
-		3d 15-17, 6+!d
-		3h inwit
-		3s inwit
-		3nt do gry
-	2s 10-12, inwit do 3nt
-	2nt 13+, bez 4!h/4!s GF
+	2h 0-6 blok na długich !h
+	2s 0-6 blok na długich !s
+	2nt 12+, bez 4!h/4!s GF
 	3c 4!d, za silne na blok (3!d) i za słabe na inwit (2!d)
 	3d 4!d blok
-	3h splinter
-	3s splinter
+	3h 12+, 4+!d, splinter (krótkość !h)
+	3s 12+, 4+!d, splinter (krótkość !s)
 	4d blok
 1h 12-17, 5+!h
 	1s 1) 7+, 4+!s, 2) 0-6, 5+!s
 		1nt 12-17, układ 5332
-			2c słaby checkback
-				2d 12-14, 5!h3!c!d2!s
-					pass chciałem grać !d
-					2h SO
-					2s SO
-					2nt 10-11
-					3c 10-11, 5!c
-					3d 10-11, 5!d
-					3h 10-11, 3!h
-					3s 10-11, 5!s
-				2s 15-17, 3!s
-				2nt 15-17, mam trzymanie !c i !d
-				3h 15-17, bez trzymania !c/!d
-			2d 12+, silny checkback (GF)
-				2h 6!h
-				2s 3!s
-				2nt 5!h 2!s, mam trzymanie !c i !d
-				3c mam coś w !c, brak trzymania !d
-				3d mam coś w !d, brak trzymania !c
-				3h 6!h 3!s
+			:checkback(s, s, h)
 			2h 6-9, 5!s 3!h
 			2s SO
 		2c 1) 12-14 4+!c, 2) 15-17 4!c
@@ -1044,7 +1010,7 @@ end
 				3s 3!s bez singla
 				3nt góra otwarcia bez 3!s (możliwy singiel !s)
 		2s 12-14, 4!s
-			2nt f1
+			2nt F1
 		2nt 15-17, 6+!h z trzymaniem !c i !d
 		3c 15-17, 5+!h 5+!c
 		3d 15-17, 5+!h 5+!d
@@ -1131,12 +1097,11 @@ end
 		4h krótkość !s
 	3h blokujące
 	3s 12-15, splinter
-	3nt 12-15, splinter !d
 	4c 12-15, splinter
-	4d bilansowe podniesienie do 4!h
+	4d 12-15, splinter
 	4h blokujące
-	(x) reszta bez zmian
-		:1nt_fit(h)
+	(x)
+		:kontra_na_otwarcie()
 1s 12-17, 5+!s
 	1nt 1) 7-11 bez fitu, 2) 3-7 z 3!s
 		2c 1) 12-14, 4+!c 2) 15-17, 4!c
@@ -1159,14 +1124,14 @@ end
 		4h 5!h 6!s
 	2c dowolny GF, chyba że powtórzę !c (późniejsze powtórzenie !c oznacza 10-11, 6+!c)
 		2d 1) 12-14, 4+!d 2) 15-17, 4!d
-			2nt forsujące pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
+			2nt GF pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
 				3c krótkość !c
 				3d 12-14, 4+!d
 				3h krótkość !h
 				3s 6!s
 				3nt 15-17, 4!d
 		2h 15-17, 4+!h
-			2nt forsujące pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
+			2nt GF pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
 				3c krótkość !c
 				3d krótkość !d
 				3h 5!h
@@ -1174,7 +1139,7 @@ end
 		2s 12-14
 			2nt GF pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
 				3c 4!c
-				3d 4!d, 6!h minimum
+				3d 4!d, 6!s minimum
 				3h 4!h
 				3s 6!s
 			3s silnie zachęca do szlemika, z fitem !s
@@ -1186,7 +1151,7 @@ end
 	2d naturalny GF, chyba że powtórzę !d (późniejsze powtórzenie !d oznacza 10-11, 6+!d)
 		2h 15-17, 4+!h
 		2s 12-14
-			2nt forsujące pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
+			2nt GF pytanie (jeżeli rozważam 3nt muszę mieć zatrzymania w niezgłaszanych kolorach)
 				3c 4+!c
 				3d 4+!d
 				3h 4+!h
@@ -1226,13 +1191,12 @@ end
 			4h singiel !h
 	3h 12-15, splinter
 	3s blokujące
-	3nt 12-15, splinter !d
 	4c 12-15, splinter
-	4d bilansowe podniesienie do 4!s
+	4d 12-15, splinter
 	4h naturalne do gry
 	4s blokujące
-	(x) reszta bez zmian
-		:1nt_fit(s)
+	(x)
+		:kontra_na_otwarcie()
 1nt 15-17, zrównoważony
 	2c 1) 8+ z 4+!h/!s 2) 0-7 z 4+4+!h!s
 		:brak_4M()
@@ -1320,65 +1284,31 @@ end
 	:4c_Gerber()
 	4d transfer na 4!h
 	4h transfer na 4!s
-	4s ja lepiej rozgrywam piki??
-	4nt inwit 16-18
-		5c przyjęcie inwitu 4!c
-		5d przyjęcie inwitu 4!d
-		5h przyjęcie inwitu 4!c4!d trefle lepsze
-		5s przyjęcie inwitu 4!c4!d kara lepsze
-		5nt przyjęcie inwitu, pokaż młodszą piątkę
-			6c 5!c
-			6d 5!d
-			6nt nie przyszła
-		6c przyjęcie inwitu 5!c
-		6d przyjęcie inwitu 5!d
-		6h przyjęcie inwitu 5!h
-		6s przyjęcie inwitu 5!s
-		6nt przyjęcie inwitu, nie chcę grać w kolor
+	4s do gry, 6+!s
+	4nt inwit do 6nt (16-17)
+		pass odrzucenie inwitu
+		5c przyjęcie inwitu, 4!c (szukamy fitu 4-4)
+		5d przyjęcie inwitu, 4!d (szukamy fitu 4-4)
+		6c przyjęcie inwitu, 5!c
+		6d przyjęcie inwitu, 5!d
+		6h przyjęcie inwitu, 5!h
+		6s przyjęcie inwitu, 5!s
+		6nt przyjęcie inwitu, bez czwórki młodszej
 	:db1nt()
 	:1nt_defence()
 2c 11-14, 1) 6+!c 2) 5+!c i 4!h/!s
-	2d relay, siła co najmniej inwitująca (później odp licytuje 3!c z 10-11 i fitem; zalicytowanie później swojego koloru oznacza GF na tym kolorze; po odpowiedzi otwierającego zalicytowanie najniższej kolejnej odzywki to jest dalsze pytanie)
+	2d relay, siła co najmniej inwitująca (później odp licytuje 3!c z 10-11 i fitem; zalicytowanie później swojego koloru oznacza GF na tym kolorze)
 		2h 4!h
-			2s dalsze pytanie
-				2nt 2!s2!d
-				3c 6+!c
-					3d dalsze pytanie
-						3h krótkość !d
-						3s krótkość !s
-						4c 7+!c
-				3d 3!d
-				3h 4!s
-				3s 3!s
 			2nt naturalne, nieforsujące
 			3c naturalne, nieforsujące
 			3h inwit do 4!h
 			4c inwit do 5!c
 		2s 4!s
-			2nt dalsze pytanie
-				3c 6+!c
-					3d dalsze pytanie
-						3h krótkość !h
-						3s krótkość !d
-						4c 7+!c
-				3d 3!d
-				3h 3!h
-				3nt 2!h2!d
 			3c naturalne, nieforsujące
 			3s inwit do 4!s
 			4c inwit do 5!c
 		2nt 6+!c bez singla
-			3c dalsze pytanie
-				3d 3!d
-				3h 3!h
-				3s 3!s
-				4c 7!c
 		3c 6+!c z singlem
-			3d dalsze pytanie
-				3h krótkość !h
-				3s krótkość !s
-				3nt krótkość !d
-				4c 7!c, ustalenie !c
 			4c inwit do 5!c
 		3d 6!c 4!d góra otwarcia
 		3h 6!c słabe 5!h
@@ -1408,15 +1338,20 @@ end
 			4h 5+!c
 			4s 5+!d
 	2s pasuj z pikami lub licytuj swój drugi kolor
-	2nt silne pytanie o boczną piątkę (zalicytowanie później własnego koloru to GF na tym kolorze, zalicytowanie koloru otwierającego to GF na tym kolorze, po odpowiedzi otwierającego zalicytowanie kolejnej najniższej odzywki to pytanie o krótkość)
-		3c 5+ !c
-		3d 5+ !d
-		3h 5+ !s
-	3c do koloru z !c/!d z 5+ !s licytuj 4!s
-	3d inwit do 4!h
-	3h blokujące
-	3s 6+ !s inwit do 4!s
-	4h blokujące lub silne
+	2nt 14+, silne pytanie o boczną piątkę (zalicytowanie później własnego koloru to GF na tym kolorze, zalicytowanie koloru otwierającego to GF na tym kolorze)
+		3c słaby, 5+!c
+		3d słaby, 5+!d
+		3h słaby, 5+!s
+		3s silny (min 3 kontrole A-2, K-1), dowolny drugi kolor
+			3nt pytanie o drugi kolor
+				4c 5+!c
+				4d 5+!d
+				4h 5+!s
+	3c do koloru młodszego (pasuj z treflami, popraw na 3!d z karami); z drugim kolorem pikowym licytuj 4!s
+	3d 12-14, fit 3+!h, inwit do 4!h
+	3h 0-11, fit !h, blokujące
+	3s 13-15, 6+!s, inwit do 4!s
+	4h blok 0-11 z fitem 4+!h albo 15+ do gry
 2s 6-11 5+!s + piątka młodsza
 	(x) licytujemy tak jakby kontry nie było
 	(3c)
@@ -1434,38 +1369,60 @@ end
 			4h 5+!c
 			4s 5+!d
 		4h cue bid na pikach
-	2nt silne pytanie o boczną piątkę (zalicytowanie później własnego koloru to GF na tym kolorze, zalicytowanie koloru otwierającego to GF na tym kolorze)
-		3c 5+!c dół otwarcia
-		3d 5+!d dół otwarcia
-		3h 5+!c góra otwarcia
-		3s 5+!d góra otwarcia
+	2nt 14+, silne pytanie o boczną piątkę (zalicytowanie później własnego koloru to GF na tym kolorze, zalicytowanie koloru otwierającego to GF na tym kolorze)
+		3c 5+!c słaby
+		3d 5+!d słaby
+		3h 5+!c silny (min 3 kontrole A-2, K-1)
+		3s 5+!d silny (min 3 kontrole A-2, K-1)
 	3c do koloru "pasuj z treflami"
-	3d inwit do 4!s
-	3h 6+!h inwit do 4!h
-	3s blokujące
-	4s blokujące lub silne
+	3d 12-14, fit 3+!s, inwit do 4!s
+	3h 13-15, 6+!h, inwit do 4!h
+	3s 0-11, fit !s, blokujące
+	4s blok 0-11 z fitem 4+!s albo 15+ do gry
 2nt 6-11 5!c-5!d
 	:mlodsze_55()
-	:3h_fit()
-	:3s_fit()
-	4c silne uzgodnienie !c
-	4d silne uzgodnienie !d
-3c blokujące 6+!c (po partii 7+) (4-3-2-2-)
-	:3d_fit()
-	:3h_fit()
-	:3s_fit()
-3d blokujące 6+!d (po partii 7+) (4-3-2-2-)
-	:3h_fit()
-	:3s_fit()
+	3h 15+, pytanie o układ (GF)
+		3s singiel !s
+			4c silnie uzgadnia !c
+			4d silnie uzgadnia !d
+		3nt singiel !h
+			4c silnie uzgadnia !c
+			4d silnie uzgadnia !d
+		4c 6!c, po singlu w starszych
+		4d 6!d, po singlu w starszych
+		4h renons !h
+		4s renons !s
+	3s 12-14 z fitem w młodszym, inwit do dogranej
+		3nt automat
+			4c inwit do dogranej na !c
+			4d inwit do dogranej na !d
+			5c inwit do szlemika na !c
+			5d inwit do szlemika na !d
+	3nt 15+, zatrzymania w starszych, do gry
+	4c do pasa
+	4d do pasa
+	4h do gry
+	4s do gry
+	5c do gry
+	5d do gry
+3c blokujące 7+!c (4-3-2-2-)
+	:3d_fit(16+ z 5+ w swoim kolorze)
+	:3h_fit(16+ z 5+ w swoim kolorze)
+	:3s_fit(16+ z 5+ w swoim kolorze)
+	3nt 15+, zatrzymania i pomoc w kolorze otwarcia, do gry
+3d blokujące 7+!d (4-3-2-2-)
+	:3h_fit(16+ z 5+ w swoim kolorze)
+	:3s_fit(16+ z 5+ w swoim kolorze)
+	3nt 15+, zatrzymania i pomoc w kolorze otwarcia, do gry
 3h blokujące 7+!h (4-3-2-2-)
-	4c cue bid
-	4d cue bid
+	4c 16+, fit, próba szlemikowa (kontrola !c)
+	4d 16+, fit, próba szlemikowa (kontrola !d)
 	4h może żeby wygrać, może żeby zamieszać
 3s blokujące 7+!s (4-3-2-2-)
-	4c cue bid
-	4d cue bid
+	4c 16+, fit, próba szlemikowa (kontrola !c)
+	4d 16+, fit, próba szlemikowa (kontrola !d)
 	4s może żeby wygrać, może żeby zamieszać
-3nt 7+!c/!d AKDWxxx bez dojścia - na 1./2. ręce , na 3./4. ręce do gry
+3nt 1./2. ręka: gambling, 7+!c/!d AKDWxxx bez dojścia; 3./4. ręka: do gry, pełny kolor + zatrzymania
 	4c do koloru
 	4d pytanie o krótkość
 		4h singiel !h
@@ -1478,31 +1435,40 @@ end
 4d blokujące 8+!d (4-3-2-2)
 
 {licytacja po interwencji przeciwnika}
-	(x)
-		p 6-
-		xx 10+, jeżeli mamy fit to w kolejnym okrążeniu "wyraźnie" to zgłaszamy, najczęściej przeskokiem
-	1d po wejściu kolorem przeciwnika - zalicytowanie koloru przeciwnika to co najmniej inwit, licytacja jest sforsowana do 3!d
-		2nt naturalne, inwit do 3nt
-	1h po wejściu kolorem przeciwnika - zalicytowanie koloru przeciwnika to inwit z fitem 3!h, otwierający licytuje 3nt jeśli dobrze trzyma kolor przeciwników
-		2nt GF z fitem (najczęściej 4!h) układ niezrównoważony (na pewno nie chcemy skończyć na 3nt)
-		(x) jest opisana w licytacji jednostronnej
-	1s po wejściu kolorem przeciwnika - zalicytowanie koloru przeciwnika to inwit z fitem 3!s, otwierający licytuje 3nt jeśli dobrze trzyma kolor przeciwników
-		2nt GF z fitem (najczęściej 4!s) układ niezrównoważony (na pewno nie chcemy skończyć na 3nt)
-		(x) jest opisana w licytacji jednostronnej
-	1nt przeciwnik wchodzi po otwarciu 1nt - odzywki są naturalne i forsujące na wysokości 3 ; nieforsujące na wysokości 2 ; kontra na odzywkę sztuczną oznacza punkty i forsuje na jedno okrążenie, na odzywkę naturalną jest negatywna w sile walki o częściówkę
+	{zasada ogólna} gdy licytacja jest forsująca do dogranej, pas jest forsujący; kontra = chęć gry z kontrą
+	(x) kontra przeciwnika na nasze otwarcie 1!d/1!h/1!s (po 1!c obowiązuje schemat opisany przy otwarciu)
+		:kontra_na_otwarcie()
+	({wejście kolorem na nasze 1!d/1!h/1!s})
+		x negatywna, niezgłoszony starszy; na wysokości 1: 6+, na 2: 8+, na 3: 10+ (do 3!s włącznie)
+		{nowy kolor na 1} forsujący
+		{nowy kolor na 2} 10+, F1
+		{skok w nowy kolor} blok
+		1nt 7-10, zatrzymanie w kolorze wejścia
+		2nt 11-12, naturalne, zatrzymanie, inwit
+		{cue bid} 10+ z fitem (3+ w starszym, 4+ w młodszym), co najmniej inwit; nikt nie pasuje poniżej 3 w kolor otwarcia (po naszym 1!c cue bid = GF bez zatrzymania, bo nie ma koloru do uzgodnienia)
+			{3 w kolor otwarcia} minimum; partner z inwitem pasuje, z GF licytuje dalej
+			3nt dobre zatrzymanie w kolorze wejścia, ręka zrównoważona
+			{nowy kolor} próba dogranej (pytanie o pomoc w tym kolorze)
+			{dograna w kolor otwarcia} nadwyżka, przyjęcie inwitu
+		{podniesienie proste} 6-9 z fitem
+		{skok w kolor partnera} blok
+		pass bez odzywki; z długimi atutami przeciwnika czekamy na kontrę wznawiającą (pas pułapkowy)
+			{kontra wznawiająca otwierającego} krótkość w kolorze wejścia; partner z atutami przeciwnika pasuje na karną
+		{kontra fitowa} 1x–(pas)–1y–(wejście)–kontra otwierającego = 3 karty w kolorze partnera
+	{wejście po naszym 1BA} odzywki naturalne: na wysokości 2 nieforsujące, na 3 forsujące; 2BA lebensohl; kontra na odzywkę sztuczną = punkty i F1, na naturalną = negatywna w sile walki o częściówkę (szczegóły przy otwarciu 1BA)
 		(x) gramy jakby nie było kontry
-	2c przeciwnik wchodzi po otwarciu 2!c - nowy kolor jest nieforsujący na wysokości 2 ; forsujący na wysokości 3 ; kontra jest negatywna
-		(x) jest opisana w licytacji jednostronnej
-	2d przeciwnik wchodzi po otwarciu 2!d, 2!h, 2!s - nowy kolor jest odzywką "do koloru" - "pasuj, jeśli masz ten kolor, popraw, jeśli go nie masz ; kontra jest karna
-	2nt przeciwnik wchodzi po otwarciu 2nt lub wyższym ; kontra jest karna
+	{wejście po naszym 2!c} nowy kolor na wysokości 2 nieforsujący, na 3 forsujący; kontra negatywna
+		(x) opisana przy otwarciu 2!c
+	{wejście po naszym 2!d/2!h/2!s} nowy kolor "do koloru" (pasuj, jeśli masz ten kolor, popraw, jeśli nie masz); kontra karna
+	{wejście po naszym 2BA i wyżej} kontra karna
 		(x) gramy jakby nie było kontry
 {dwustronna przed pasem partnera}
-	(1c)
+	(1c) odzywki od 2!c wzwyż jak nasze otwarcia (jakby przeciwnik nie otworzył)
 		p 11-
 			(1d)
 				x dowolne dwa kolory
 				2d naturalne
-		x wywoławcza
+		x wywoławcza, 12+ (dalej licytujemy jak po naszym otwarciu 1!c)
 			(pass) negat raczej z treflami
 				pass 10+ 5+!c w niekorzystnych można wybrać 3c
 				1d negat 0-7 lub 7-9, kara lub młodsze
@@ -1532,15 +1498,27 @@ end
 			:drury(h)
 		1s 5+!s, 8+
 			:drury(s)
-		1nt 15-17, zrównoważony
+		1nt 15-17, zrównoważony, zatrzymanie !c (dalej jak po naszym otwarciu 1BA)
 			:db1nt()
 	(1d)
-		x 12+, 2-!d
+		x wywoławcza, 12+, krótkie !d (2-)
+			1h 0-8, 4+!h
+			1s 0-8, 4+!s
+			1nt 6-9, zatrzymanie !d
+			2c 0-8, 4+!c
+			2d cue bid, 12+, GF
+			2h 9-11, 4+!h, inwit
+			2s 9-11, 4+!s, inwit
+			2nt 10-11, zatrzymanie !d, inwit
+			3c 9-11, 5+!c, inwit
+			3nt do gry
+			4h do gry
+			4s do gry
 		1h 8+, 5+!h
 			:drury(h)
 		1s 8+, 5+!s
 			:drury(s)
-		1nt 14-17, zrównoważony, silne trzymanie !d
+		1nt 15-17, zrównoważony, silne trzymanie !d (dalej jak po naszym otwarciu 1BA)
 			(x)
 				xx 5+!c
 				2c pytanie o 4!h!s
@@ -1557,9 +1535,9 @@ end
 				3s silny, lepsze !s
 			3h blok, 4+!h słabe na układzie
 			3s blok, 4+!s, słabe na układzie
-		2h 10-, 6!h
-		2s 10-, 6!s
-		2nt Michaels - słabe lub silne 5+!c5+!h
+		2h 6-10, 6+!h, blok
+		2s 6-10, 6+!s, blok
+		2nt Michaels - 6-11 (słaby) lub 12+ (silny) 5+!c5+!h
 			3c 10-, lepsze !c
 			3d 11+, pytanie
 				3h 6-11 (słaby)
@@ -1567,18 +1545,40 @@ end
 				4d 12+, krótkość !d
 			3h 10-, lepsze !h lub preferencja dla gry na maxy
 	(1h)
-		x 10+ 4+!s 3+!c 3+!d
-		:1h_wej(14)
+		x wywoławcza, 12+, 4+!s, 3+!c 3+!d
+			1s 0-8, 4+!s
+			1nt 6-9, zatrzymanie !h
+			2c 0-8, 4+!c
+			2d 0-8, 4+!d
+			2h cue bid, 12+, GF
+			2s 9-11, 4+!s, inwit
+			2nt 10-11, zatrzymanie !h, inwit
+			3c 9-11, 5+!c, inwit
+			3d 9-11, 5+!d, inwit
+			3nt do gry
+			4s do gry
+		:1h_wej(15)
 	(1s)
-		x 10+ 4+!h 3+!c 3+!d
-		:1s_wej(14)
-	(1nt)
-		x 5+!c/!d-4!h/!s
+		x wywoławcza, 12+, 4+!h, 3+!c 3+!d
+			1nt 6-9, zatrzymanie !s
+			2c 0-8, 4+!c
+			2d 0-8, 4+!d
+			2h 0-8, 4+!h
+			2s cue bid, 12+, GF
+			2nt 10-11, zatrzymanie !s, inwit
+			3c 9-11, 5+!c, inwit
+			3d 9-11, 5+!d, inwit
+			3h 9-11, 4+!h, inwit
+			3nt do gry
+			4h do gry
+		:1s_wej(15)
+	(1nt) 16+: z ręką zrównoważoną pas; z układem licytujemy tak samo jak z 8-15, a nadwyżkę pokazujemy w drugim okrążeniu
+		x 8-15, 5+!c/!d-4!h/!s
 			2c nie mam długiego starszego, licytuj pass lub 2!d
 			2d własny dobry kolor !d
 			2h do starszego koloru partnera
 			2s własny dobry kolor !s
-		2c 5+4+!h!s
+		2c 8-15, 5+4+!h!s
 			2d pytanie, który starszy lepszy (nie mam nic przeciwko jak partner odpowie że !s)
 			2h do pasa
 			2nt zupełnie nie mam starych (maks po singlu)
@@ -1589,7 +1589,7 @@ end
 			3d 7+, 6+ bardzo dobre !d, (ekstremalny brak fita !h i !s)
 		2d 6-11 6+!h/!s (odpowiedzi jak po naszym otwarciu 2d)
 			:multi_resp()
-		2h 5+!h 4+!c/!d
+		2h 8-15, 5+!h 4+!c/!d
 			pass do gry
 			2s własny dobry kolor !s 6+, misfit !h
 			2nt pytanie o młodszy (ze słabą ręką i misfitem !h pasuję, z silniejszą licytuję dalej)
@@ -1599,7 +1599,7 @@ end
 			3d 7+, 6+ bardzo dobre !d, (ekstremalny brak fita !h)
 			3h inwit, fit !h
 			4h do gry
-		2s 5+!s 4+!c/!d
+		2s 8-15, 5+!s 4+!c/!d
 			pass do gry
 			2nt pytanie o młodszy (ze słabą ręką i misfitem !s pasuję, z silniejszą licytuję dalej)
 				3c 4+!c
@@ -1609,12 +1609,18 @@ end
 			3h własny dobry kolor !h 6+, misfit !s
 			3s inwit, fit !s
 			4s do gry
-		2nt 5!c-5!d (odpowiedzi jak po naszym otwarciu 2nt, z wyjątkiem 3!h/3!s)
+		2nt 8-15, 5!c-5!d (odpowiedzi jak po naszym otwarciu 2nt, z wyjątkiem 3!h/3!s)
 			:mlodsze_55()
 			3h własny dobry kolor !h 6+, misfit !c i !d, do gry
 			3s własny dobry kolor !s 6+, misfit !c i !d, do gry
-			4c silne uzgodnienie !c
-			4d silne uzgodnienie !d
+			4c do pasa
+			4d do pasa
+			5c do gry
+			5d do gry
+		3c 16+, dobra szóstka !c, inwit
+		3d 16+, dobra szóstka !d, inwit
+		3h 16+, dobra szóstka !h, inwit
+		3s 16+, dobra szóstka !s, inwit
 		pass nic ciekawego
 			x 14+
 			2c 5+4+!h!s
@@ -1625,26 +1631,69 @@ end
 		pass
 			(2d) pytanie
 				x kara lub objaśniająca
-		x wywoławcza
+		x wywoławcza, 13+, krótkie !c, poparcie w niezgłoszonych kolorach
+			pass karna zamiana (długie, mocne !c)
+			2d 0-8, 4+!d
+			2h 0-8, 4+!h
+			2s 0-8, 4+!s
+			2nt 9-11, zatrzymanie !c, inwit
+			3c cue bid, GF
+			3d 9-11, 4+!d, inwit
+			3h 9-11, 4+!h, inwit
+			3s 9-11, 4+!s, inwit
+			3nt do gry
+			4h do gry
+			4s do gry
 			(2d) pytanie
 				x kara lub chcę kontrować karnie
 			({2!d}) naturalne
 				x wywoławcza
+		2d naturalne, 5+!d (najczęściej 6), 11-16
+		2h naturalne, 5+!h (najczęściej 6), 11-16
+		2s naturalne, 5+!s (najczęściej 6), 11-16
+		2nt 15-18, zatrzymanie !c (dalej jak po naszym otwarciu 1BA)
+		3c pytanie o zatrzymanie !c do 3BA (zwykle długi pełny kolor)
+		3d 16-18, 6+!d, inwit
+		3h 16-18, 6+!h, inwit
+		3s 16-18, 6+!s, inwit
+		3nt do gry
 		4c GF 5!h-5!s
 		4d GF 5!d-5!h/!s
+		4h do gry
+		4s do gry
 	({2!c}) stare 4+4+!h!s
 		x trefle lub wywoławcza trefle z karami
-		2d naturalne 12+, 5+!d
+			pass 3+!c, gramy 2!c z kontrą
+			2d 0-8, preferencja !d
+			2h cue bid, GF
+			2nt 9-11, zatrzymania w starszych, inwit
+			3c 9-11, fit !c, inwit
+			3d 9-11, 5+!d, inwit
+			3nt do gry
+		2d naturalne, 5+!d (najczęściej 6), 11-16
 		:obr_na_stare()
-	(2d) 6+!h/!s lub Wilkosz
-		pass nic ciekawego +lub wywołanie do kierów 12+, 4+!s
+	(2d) multi (6+!h/!s)
+		pass nic ciekawego lub 12+ z 4+!s (czekamy na 2!h przeciwnika, potem kontra wywoławcza)
 		x 12+, 4+!h wywoławcza do pików lub 18+
+			2h 0-8, 3+!h (fit)
+			2s 0-8, 5+!s
+			2nt lebensohl, słaba ręka z młodszym
+				3c automat
+					pass słabe !c
+					3d słabe !d
+			3c 9-11, naturalne
+			3d 9-11, naturalne
+			3h 9-11, 4+!h, inwit
+			3nt do gry
+			4h do gry
 			(2h)
 				x 4+!h karna
 			(2s)
 				pass może być wyczekujący na wznówkę
-				x kontra odpowiedź coś w młodszych i raczej 3!h
+				x wartości, bez 4!h, coś w młodszych
 				2nt około 9pc i zatrzymanie !s
+		2h naturalne, 5+!h (najczęściej 6), 11-16
+		2s naturalne, 5+!s (najczęściej 6), 11-16
 		2nt 16-18, zrównoważony
 			3c Stayman
 				3d brak starszej czwórki
@@ -1656,23 +1705,201 @@ end
 			3nt do gry
 			4c naturalne, intencje szlemikowe
 			4d naturalne, intencje szlemikowe
+		3c naturalne, dobra szóstka, 12-16
+		3d naturalne, dobra szóstka, 12-16
+		3nt do gry (długi pełny młodszy + zatrzymania lub 19-21 zrównoważone)
 		4c GF 5!c-5!h/!s
 		4d GF 5!d-5!h/!s
+	({2!d Wilkosz}) słaba dwukolorówka
+		x 13+, dowolny skład, chęć karania (każda nasza kolejna kontra jest karna)
+		2h naturalne, 5+!h (najczęściej 6), 11-16
+		2s naturalne, 5+!s (najczęściej 6), 11-16
+		2nt 16-18, zrównoważony (dalej jak po naszym otwarciu 1BA)
+		3c naturalne, dobra szóstka, 12-16
+		3d naturalne, dobra szóstka, 12-16
+		3nt do gry
 	({2!d}) 54!h!s
 		x kara lub wywoławcza trefle z karami
+			pass 3+!d, gramy 2!d z kontrą
+			2h cue bid, GF
+			2nt 9-11, zatrzymania w starszych, inwit
+			3c 0-8, preferencja !c
+			3d 9-11, fit !d, inwit
+			3nt do gry
+			4c 9-11, 5+!c, inwit
 		:obr_na_stare()
 	(2h) 6+!h lub 5!h-5
+		x wywoławcza, 13+, krótkie !h, zwykle 4!s (gdy przeciwnicy pokażą drugi kolor, nasza kolejna kontra jest karna)
+			2s 0-8, 4+!s
+			2nt lebensohl, słaba ręka z młodszym
+				3c automat
+					pass słabe !c
+					3d słabe !d
+			3c 9-11, naturalne
+			3d 9-11, naturalne
+			3h cue bid, GF
+			3s 9-11, 4+!s, inwit
+			3nt do gry, zatrzymanie !h
+			4s 12+, 4+!s, do gry
+		2s naturalne, 5+!s, 11-16
+		2nt 15-18, zatrzymanie !h (dalej jak po naszym otwarciu 1BA)
+		3c naturalne, dobra szóstka, 12-16
+		3d naturalne, dobra szóstka, 12-16
+		3h pytanie o zatrzymanie !h do 3BA (zwykle długi pełny młodszy)
+		3s 16-18, 6+!s, inwit
+		3nt do gry
 		4c GF 5!c-5!s
 		4d GF 5!d-5!s
+		4s do gry
 	(2s) 6+!s lub 5!s-5
+		x wywoławcza, 13+, krótkie !s, zwykle 4!h (gdy przeciwnicy pokażą drugi kolor, nasza kolejna kontra jest karna)
+			2nt lebensohl, słaba ręka z młodszym
+				3c automat
+					pass słabe !c
+					3d słabe !d
+			3c 9-11, naturalne
+			3d 9-11, naturalne
+			3h 0-8, 4+!h
+			3s cue bid, GF
+			3nt do gry, zatrzymanie !s
+			4h 9+, 4+!h, do gry
+		2nt 15-18, zatrzymanie !s (dalej jak po naszym otwarciu 1BA)
+		3c naturalne, dobry kolor, 12-16 (uwaga: może trafić w młodszy przeciwnika)
+		3d naturalne, dobry kolor, 12-16 (uwaga: może trafić w młodszy przeciwnika)
+		3h naturalne, 5+!h, 12-16
+		3s pytanie o zatrzymanie !s do 3BA (zwykle długi pełny młodszy)
+		3nt do gry
 		4c GF 5!c-5!h
 		4d GF 5!d-5!h
+		4h do gry
 	(2nt) 5!c-5!d
+		x 15+, silna ręka, chęć karania (partner z 2+ kartami w młodszym często pasuje)
 		3c lepsze kiery od pików min.5-4
 		3d lepsze piki od kierów min.5-4
+		3h naturalne, 5+!h, 12-16
+		3s naturalne, 5+!s, 12-16
+		3nt do gry
+		4c GF 5!h-5!s
+		4h do gry
+		4s do gry
 	(3c) 6+!c
+		x wywoławcza, 14+, krótkość w kolorze przeciwnika, poparcie w niezgłoszonych kolorach
+			pass karna zamiana (długie, mocne !c)
+			3d 0-8, 4+!d
+			3h 0-8, 4+!h
+			3s 0-8, 4+!s
+			3nt do gry, zatrzymanie !c
+			4c cue bid, GF, obie starsze, wybierz lepszy starszy
+				4h 4+!h, kiery dłuższe lub równe
+				4s 4+!s, piki dłuższe
+			4d 9+, 5+!d, inwit do 5!d
+			4h 9+, 4+!h, do gry
+			4s 9+, 4+!s, do gry
+			5d do gry
+		3d naturalne, 14-17, 5+ (najczęściej 6), nieforsujące
+			pass brak fitu i siły
+			3h 5+!h, forsujące
+			3s 5+!s, forsujące
+			3nt zatrzymanie !c, do gry
+			4c cue bid, fit !d, silna ręka
+			4d fit !d, inwit do 5!d
+			5d do gry
+		3h naturalne, 14-17, 5+ (najczęściej 6), nieforsujące
+			pass brak fitu i siły
+			3s 5+!s, forsujące
+			3nt zatrzymanie !c, bez fitu, do gry
+			4c cue bid, fit !h, próba szlemikowa
+			4d 5+!d, forsujące
+			4h fit !h (2-3 karty), 8+, do gry
+		3s naturalne, 14-17, 5+ (najczęściej 6), nieforsujące
+			pass brak fitu i siły
+			3nt zatrzymanie !c, bez fitu, do gry
+			4c cue bid, fit !s, próba szlemikowa
+			4d 5+!d, forsujące
+			4h 5+!h, forsujące
+			4s fit !s (2-3 karty), 8+, do gry
+		3nt 16-20, zatrzymanie !c, do gry
 		4c GF 5!h-5!s
 		4d GF 5!d-5!h/!s
+		4h naturalne, do gry
+		4s naturalne, do gry
 	(3d) 6+!d
+		x wywoławcza, 14+, krótkość w kolorze przeciwnika, poparcie w niezgłoszonych kolorach
+			pass karna zamiana (długie, mocne !d)
+			3h 0-8, 4+!h
+			3s 0-8, 4+!s
+			3nt do gry, zatrzymanie !d
+			4c 0-10, 5+!c
+			4d cue bid, GF, obie starsze, wybierz lepszy starszy
+				4h 4+!h, kiery dłuższe lub równe
+				4s 4+!s, piki dłuższe
+			4h 9+, 4+!h, do gry
+			4s 9+, 4+!s, do gry
+			5c do gry
+		3h naturalne, 14-17, 5+ (najczęściej 6), nieforsujące
+			pass brak fitu i siły
+			3s 5+!s, forsujące
+			3nt zatrzymanie !d, bez fitu, do gry
+			4c 5+!c, forsujące
+			4d cue bid, fit !h, próba szlemikowa
+			4h fit !h (2-3 karty), 8+, do gry
+		3s naturalne, 14-17, 5+ (najczęściej 6), nieforsujące
+			pass brak fitu i siły
+			3nt zatrzymanie !d, bez fitu, do gry
+			4c 5+!c, forsujące
+			4d cue bid, fit !s, próba szlemikowa
+			4h 5+!h, forsujące
+			4s fit !s (2-3 karty), 8+, do gry
+		3nt 16-20, zatrzymanie !d, do gry
 		4c GF 5!c-5!h/!s
 		4d GF 5!h-5!s
+		4h naturalne, do gry
+		4s naturalne, do gry
+	(3h) 6+!h
+		x wywoławcza, 14+, krótkość w kolorze przeciwnika, poparcie w niezgłoszonych kolorach
+			pass karna zamiana (długie, mocne !h)
+			3s 0-8, 4+!s
+			3nt do gry, zatrzymanie !h
+			4c 0-10, 5+!c
+			4d 0-10, 5+!d
+			4h cue bid, GF, wybór koloru (kontrujący licytuje najdłuższy niezgłoszony kolor, przy równych starszy)
+				4s 4+!s
+				4nt bez 4!s, równe młodsze, wybierz
+				5c bez 4!s, dłuższe !c
+				5d bez 4!s, dłuższe !d
+			4s 9+, 4+!s, do gry
+			4nt obie młodsze, wybierz lepszy młodszy
+			5c do gry
+			5d do gry
+		3s naturalne, 14-17, 5+ (najczęściej 6), nieforsujące
+			pass brak fitu i siły
+			3nt zatrzymanie !h, bez fitu, do gry
+			4c 5+!c, forsujące
+			4d 5+!d, forsujące
+			4h cue bid, fit !s, próba szlemikowa
+			4s fit !s (2-3 karty), 8+, do gry
+		3nt 16-20, zatrzymanie !h, do gry
+		4c GF 5!c-5!s
+		4d GF 5!d-5!s
+		4s naturalne, do gry
+		4nt 5!c-5!d, wybierz lepszy młodszy
+	(3s) 6+!s
+		x wywoławcza, 14+, krótkość w kolorze przeciwnika, poparcie w niezgłoszonych kolorach
+			pass karna zamiana (długie, mocne !s)
+			3nt do gry, zatrzymanie !s
+			4c 0-10, 5+!c
+			4d 0-10, 5+!d
+			4h 4+!h, do gry
+			4s cue bid, GF, wybór koloru (przenosi licytację na wysokość 5 – tylko z dwukolorówką bez kierów lub ręką szlemikową)
+				4nt równe młodsze, wybierz
+				5c dłuższe !c
+				5d dłuższe !d
+				5h 4+!h
+			4nt obie młodsze, wybierz lepszy młodszy
+			5c do gry
+			5d do gry
+		3nt 16-20, zatrzymanie !s, do gry
+		4c GF 5!c-5!h
+		4d GF 5!d-5!h
+		4h naturalne, 6+!h, do gry
+		4nt 5!c-5!d, wybierz lepszy młodszy
