@@ -1915,3 +1915,19 @@ end
 	{wejście kolorem} może być lżejsze i wistowe (dobry kolor od ok. 8 PC)
 	{słabe skoki} agresywniejsze
 	{odpowiedzi partnera} nie są GF: nowy kolor nieforsujący, cue bid = inwit z fitem (jak Drury przy wejściach 1!h/1!s)
+{licytacja szlemikowa} pytanie o wartości po uzgodnieniu koloru (4BA bez uzgodnionego koloru po BA partnera = inwit ilościowy; 4!c po BA = Gerber)
+	4nt Blackwood na 5 wartości (RKCB 1430): 4 asy + król atu; przy uzgodnionych treflach kolejność 5!c i 5!d odwrotna
+		5c 1 lub 4 wartości (przy uzgodnionych treflach: 0 lub 3)
+		5d 0 lub 3 wartości (przy uzgodnionych treflach: 1 lub 4)
+		5h 2 wartości, bez damy atu
+		5s 2 wartości + dama atu
+		5nt 2 wartości + dama atu + 1 boczny król
+		6c 2 wartości + dama atu + 2 boczne króle
+		6d 2 wartości + dama atu + 3 boczne króle
+		(x) ROPI
+			xx 0 lub 3
+			pass 1 lub 4
+			{kolejne odzywki} kolejne stopnie jak bez kontry (2 bez damy, 2 z damą…)
+		({wejście przeciwnika na 5 w kolor}) DEPO
+			x parzysta liczba wartości (0, 2, 4)
+			pass nieparzysta liczba wartości (1, 3)
