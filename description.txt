@@ -1903,3 +1903,15 @@ end
 		4d GF 5!d-5!h
 		4h naturalne, 6+!h, do gry
 		4nt 5!c-5!d, wybierz lepszy młodszy
+{pozycja wznawiająca} (1x)–pas–(pas)–?: odzywki jak przed pasem partnera, ale o ok. 3 PC lżej („pożycz króla”)
+	{kontra} 8-9+, krótkość w kolorze otwarcia
+	{wejście kolorem} od ok. 6-7 PC
+	1nt 11-14, zatrzymanie w kolorze otwarcia
+	2nt 18-20, zrównoważone (z 15-17: kontra, potem BA)
+	{skok w kolor} 12-16, dobra szóstka (nie blok)
+	{cue bid} Michaels, bez zmian
+	{odpowiedzi partnera} ostrożniej – wznawiający „pożyczył” jego punkty
+{dwustronna po pasie partnera} partner już spasował (najwyżej 11 PC): odzywki jak przed pasem partnera, z poniższymi zmianami
+	{wejście kolorem} może być lżejsze i wistowe (dobry kolor od ok. 8 PC)
+	{słabe skoki} agresywniejsze
+	{odpowiedzi partnera} nie są GF: nowy kolor nieforsujący, cue bid = inwit z fitem (jak Drury przy wejściach 1!h/1!s)
