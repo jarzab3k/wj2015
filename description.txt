@@ -492,6 +492,28 @@ function checkback(kol, inny, otw)
 		3$(otw) bez powyższych, brak zatrzymania w kolorze niezgłoszonym
 end
 
+#checkback po 1BA z pełnym zakresem 12-17 (po otwarciach 1d, 1h): 2c nie jest automatem
+function checkback_pelny(kol, inny, otw)
+	2c 9-11, inwit, dowolny układ
+		2d 12-14, dowolny
+			pass 9-10, do gry
+			2$(kol) 9-10, 5+!$(kol), do gry (otwierający z 13-14 i dobrym układem może jeszcze zainwitować)
+			2nt 11, inwit do 3nt
+			3$(kol) 11, 6+!$(kol), inwit
+			{pozostałe} 9-10, do gry
+		2$(kol) 15-17, 3!$(kol)
+			3nt do gry
+			4$(kol) do gry
+		2nt 15-17, bez 3!$(kol)
+			3nt do gry
+			4$(kol) 6+!$(kol), do gry
+	2d 12+, silny checkback, GF
+		2$(kol) 3!$(kol)
+		?2$(inny) 4!$(inny), bez 3!$(kol)
+		2nt bez powyższych, zatrzymania w kolorach niezgłoszonych
+		3$(otw) bez powyższych, brak zatrzymania w kolorze niezgłoszonym
+end
+
 #słaby skok po 1c na 6-kartowym starszym (k = kolor)
 function slaby_skok(k)
 	2$(k) 0-6, 6!$(k) blok
@@ -795,9 +817,9 @@ end
 		1s 7+, 4+!s, dalsza licytacja jak bez kontry
 		1nt 8-11, dalsza licytacja jak bez kontry
 		2c dowolny GF
-		2d 0-6 blok na długich !d
-		2h 0-6 blok na długich !h
-		2s 0-6 blok na długich !s
+		2d 0-6, 6+!d
+		2h 0-6, 6+!h
+		2s 0-6, 6+!s
 	(1d) 1!h/1!s oraz słabe skoki jak bez wejścia
 		x 7+, brak 4!h/4!s, brak trzymania !d
 		1nt 7-10, z zatrzymaniem !d
@@ -817,7 +839,7 @@ end
 		2c 10+, 5+!c F1
 		2d 10+, 5+!d F1
 		2h GF, brak trzymania !h
-		2s 0-6 blok na długich !s
+		2s 0-6, 6+!s
 		2nt inwit do 3nt, mam trzymanie !h
 	(1s)
 		x 7+, 4!h
@@ -887,7 +909,7 @@ end
 		{nowy kolor} naturalny, forsujący
 		3nt do gry
 1d 12-17, 5+!d
-	1h 1) 7+, 4+!h 2) 0-6, 5+!h
+	1h 7+, 4+!h (słabe ręce z 6+!h: bezpośrednio 2!h)
 		1s 4+!s
 			2c tani transfer 1) SO 2) GF
 				2d 12-14, wszystkie ręce
@@ -907,9 +929,9 @@ end
 			2s 8-11, 4+!s
 			2nt 8-11, 4!h4!c3!s2!d
 			3c 8-11, 5+!c SO
-		1nt brak starszej czwórki
-			:checkback(h, h, d)
-			2h SO
+		1nt 12-17, brak starszej czwórki
+			:checkback_pelny(h, h, d)
+			2h 7-8, 5+!h, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
 			3d SO
 		2c 4+!c5+!d
 			2s GF czwarty kolor
@@ -921,10 +943,10 @@ end
 		2nt 15-17 6+!d z trzymaniem !c i !s
 		3c 15-17, 5+!d5+!c
 		3d 15-17 6+!d brak trzymania !c/!s
-	1s 1) 7+, 4+!s 2) 0-6, 5+!s
+	1s 7+, 4+!s (słabe ręce z 6+!s: bezpośrednio 2!s)
 		1nt 1) 15-17 bez 4!h/4!s 2) 12-14 bez 4!s
-			:checkback(s, h, d)
-			2s SO
+			:checkback_pelny(s, h, d)
+			2s 7-8, 5+!s, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
 			3d SO
 		2c 4+!c5+!d
 			2h GF czwarty kolor
@@ -972,8 +994,8 @@ end
 			3d 10-11 (dół odpowiedzi)
 			3h mam zatrzymanie w !h
 				4d nie mam zatrzymania w !c
-	2h 0-6 blok na długich !h
-	2s 0-6 blok na długich !s
+	2h 0-6, 6+!h
+	2s 0-6, 6+!s
 	2nt 12+, bez 4!h/4!s GF
 	3c 4!d, za silne na blok (3!d) i za słabe na inwit (2!d)
 	3d 4!d blok
@@ -981,11 +1003,11 @@ end
 	3s 12+, 4+!d, splinter (krótkość !s)
 	4d blok
 1h 12-17, 5+!h
-	1s 1) 7+, 4+!s, 2) 0-6, 5+!s
+	1s 7+, 4+!s (słabe ręce z 6+!s: bezpośrednio 2!s)
 		1nt 12-17, układ 5332
-			:checkback(s, s, h)
-			2h 6-9, 5!s 3!h
-			2s SO
+			:checkback_pelny(s, s, h)
+			2h 7-8, 5!s 3!h, preferencja do gry
+			2s 7-8, 5+!s, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
 		2c 1) 12-14 4+!c, 2) 15-17 4!c
 			2d tani transfer: 1) sign off 2) GF
 				2h automat
@@ -1018,7 +1040,7 @@ end
 		3s 15-17, 5+!h, 4+!s, brak singla
 		4c 15-17, 5+!h, 4+!s, splinter !c
 		4d 15-17, 5+!h, 4+!s, splinter !d
-	1nt 1) 7-11 bez fitu, 2) 3-7, 3!h
+	1nt 7-11, bez 3!h
 		2c 1) 12-14, 4+!c 2) 15-17, 4!c
 		2d 1) 12-14, 4+!d 2) 15-17, 4!d
 		2h 12-14, 6+!h
@@ -1034,11 +1056,8 @@ end
 				3c krótkość !c
 				3d krótkość !d
 		2nt 15-17, układ zrównoważony
-			3h mam 3-7, z 3!h
 		3c 15-17, 5!c 5!h
-			3h mam 3-7, z 3!h
 		3d 15-17, 5!d 5!h
-			3h mam 3-7, z 3!h
 		3h 15-17, 6+!h
 		3s 15-17, 5!s 5!h
 	2c dowolny GF, chyba że powtórzę !c (późniejsze powtórzenie !c oznacza 10-11, 6+!c)
@@ -1080,12 +1099,7 @@ end
 		3c inwit do dogranej 4+!c
 		3d inwit do dogranej 4+!d
 		3h inwit do dogranej
-	2s 10-12, 4+5+!c!d
-		2nt GF wskaż swój dłuższy kolor
-		3c nieforsujące
-		3d nieforsujące
-		3h nieforsujące
-		3nt do gry
+	2s 0-6, 6+!s
 	2nt inwit 10-11, 3+!h
 		3h SO
 		4h do gry
@@ -1103,11 +1117,11 @@ end
 	(x)
 		:kontra_na_otwarcie()
 1s 12-17, 5+!s
-	1nt 1) 7-11 bez fitu, 2) 3-7 z 3!s
+	1nt 7-11, bez 3!s
 		2c 1) 12-14, 4+!c 2) 15-17, 4!c
 		2d 1) 12-14, 4+!d 2) 15-17, 4!d
 		2h 12-14, 4+!h
-			2s mam 3-7 z 3!s
+			2s preferencja, 2!s
 		2s 12-14, 6+!s
 			2nt forsing do 3!s
 				3c krótkość !c
@@ -1116,7 +1130,6 @@ end
 				3s dół brak singla
 				3nt góra bez singla
 		2nt 15-17, dobra do nt
-			3s mam 3-7 z 3!s
 		3c 15-17, 5+!c
 		3d 15-17, 5+!d
 		3h 15-17, 5+!h
