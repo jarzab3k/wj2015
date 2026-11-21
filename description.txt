@@ -1000,10 +1000,9 @@ end
 		1nt 12-17, brak starszej czwórki
 			:checkback_pelny(h, h, d)
 			2h 7-8, 5+!h, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
-			2nt 7-8, 6+ w młodszym, transfer, wymusza 3!c
+			2nt 7-8, 6+!c, transfer, wymusza 3!c (słabe kara: bezpośrednio 3!d)
 				3c automat
-					pass 6+!c, do gry
-					3d 6+!d, do gry
+					pass do gry
 			3d 7-8, 4+!d, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
 		2c 4+!c5+!d
 			2s GF czwarty kolor
@@ -1019,10 +1018,9 @@ end
 		1nt 1) 15-17 bez 4!h/4!s 2) 12-14 bez 4!s
 			:checkback_pelny(s, h, d)
 			2s 7-8, 5+!s, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
-			2nt 7-8, 6+ w młodszym, transfer, wymusza 3!c
+			2nt 7-8, 6+!c, transfer, wymusza 3!c (słabe kara: bezpośrednio 3!d)
 				3c automat
-					pass 6+!c, do gry
-					3d 6+!d, do gry
+					pass do gry
 			3d 7-8, 4+!d, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
 		2c 4+!c5+!d
 			2h GF czwarty kolor
