@@ -476,14 +476,17 @@ function mlodsze_55()
 	3d do pasa
 end
 
-#checkback po każdym 1x-1y-1nt: kol = kolor odpowiadającego, inny = możliwa starsza czwórka otwierającego (ten sam co kol, gdy niemożliwa), otw = kolor otwarcia
-function checkback(kol, inny, otw)
-	2c 9-11, inwit, słaby checkback, wymusza 2!d
+#checkback po każdym 1x-1y-1nt: kol = kolor odpowiadającego, inny = możliwa starsza czwórka otwierającego (ten sam co kol, gdy niemożliwa), otw = kolor otwarcia, dl_d = minimalna długość !d na inwit 3!d (4+ po 1!d, 5+ po 1!c i 1!h)
+function checkback(kol, inny, otw, dl_d)
+	2c 9-11, inwit, słaby checkback, wymusza 2!d (ręka zrównoważona tylko z 11; z 9-10 zrównoważonymi pas na 1!nt)
 		2d automat
-			pass 9-10, do gry
+			pass 9-10 słabe, do gry
 			2$(kol) 9-11, 5+!$(kol), nieforsujące
 				3$(kol) 13-14, 3!$(kol), inwit
 			2nt 11, inwit do 3nt
+			3d 10-11 silne, $(dl_d)!d, inwit
+				pass 12-13
+				3nt 14 lub dobre 13, zatrzymania w kolorach bocznych
 			3$(kol) 11, 6+!$(kol), inwit
 			{pozostałe} 9-10, do gry
 	2d 12+, silny checkback, GF
@@ -494,15 +497,23 @@ function checkback(kol, inny, otw)
 end
 
 #checkback po 1BA z pełnym zakresem 12-17 (po otwarciach 1d, 1h): 2c nie jest automatem
-function checkback_pelny(kol, inny, otw)
+function checkback_pelny(kol, inny, otw, dl_d)
 	2c 9-11, inwit, dowolny układ
 		2d 12-14, dowolny
-			pass 9-10, do gry
+			pass 9-10 słabe, do gry (także zrównoważone z 2+!d, gdy otwarcie 1!d)
 			2$(kol) 9-11, 5+!$(kol), nieforsujące
 				3$(otw) 13-14, 6+!$(otw), inwit
 				3$(kol) 13-14, 3!$(kol), inwit
+			?2$(otw) 9-10, zrównoważone, 2+!$(otw), do gry
 			2nt 11, inwit do 3nt
+			3d 10-11 silne, $(dl_d)!d, inwit
+				pass 12-13
+				3nt 14 lub dobre 13, zatrzymania w kolorach bocznych
 			3$(kol) 11, 6+!$(kol), inwit
+			?3$(otw) 11, 3!$(otw) i 6!$(kol), inwit
+				pass 12, do gry
+				4$(otw) 13-14, 2-!$(kol), do gry
+				4$(kol) 13-14, 3!$(kol), do gry
 			{pozostałe} 9-10, do gry
 		@po odpowiedziach 15-17: z 9 gra najniżej lub inwituje (otwierający przyjmuje tylko z 16-17), z 10-11 dograna
 		2$(kol) 15-17, 3!$(kol)
@@ -708,7 +719,7 @@ end
 			2nt 10-11, zrównoważony
 			3c GF, układ 5-5
 		:1nt_resp(12-14)
-			:checkback(h, s, c)
+			:checkback(h, s, c, 5+)
 			2h 7-8, 5+!h, do gry, otwierający musi pasować
 			2s naturalne, GF
 			2nt 7-8, 6+ w młodszym, transfer, wymusza 3!c
@@ -738,7 +749,7 @@ end
 			xx fit 3+!h
 	1s 7+, 4+!s
 		:1nt_resp(12-14)
-			:checkback(s, h, c)
+			:checkback(s, h, c, 5+)
 			2h 7-8, 4!h 6!s
 			2s 7-8, 5+!s, do gry, otwierający musi pasować
 			2nt 7-8, 6+ w młodszym, transfer, wymusza 3!c
@@ -998,7 +1009,7 @@ end
 			2nt 9-11, 4!h4!c3!s2!d, inwit
 			3c 9-11, 6+!c, inwit
 		1nt 12-17, brak starszej czwórki
-			:checkback_pelny(h, h, d)
+			:checkback_pelny(h, h, d, 4+)
 			2h 7-8, 5+!h, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
 			2nt 7-8, 6+!c, transfer, wymusza 3!c (słabe kara: bezpośrednio 3!d)
 				3c automat
@@ -1016,7 +1027,7 @@ end
 		3d 15-17 6+!d brak trzymania !c/!s
 	1s 7+, 4+!s (słabe ręce z 6+!s: bezpośrednio 2!s)
 		1nt 1) 15-17 bez 4!h/4!s 2) 12-14 bez 4!s
-			:checkback_pelny(s, h, d)
+			:checkback_pelny(s, h, d, 4+)
 			2s 7-8, 5+!s, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
 			2nt 7-8, 6+!c, transfer, wymusza 3!c (słabe kara: bezpośrednio 3!d)
 				3c automat
@@ -1079,7 +1090,7 @@ end
 1h 12-17, 5+!h
 	1s 7+, 4+!s (słabe ręce z 6+!s: bezpośrednio 2!s)
 		1nt 12-17, układ 5332
-			:checkback_pelny(s, s, h)
+			:checkback_pelny(s, s, h, 5+)
 			2h 7-8, 5!s 3!h, preferencja do gry
 			2s 7-8, 5+!s, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
 			2nt 7-8, 6+ w młodszym, transfer, wymusza 3!c
