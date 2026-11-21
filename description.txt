@@ -478,14 +478,15 @@ end
 
 #checkback po każdym 1x-1y-1nt: kol = kolor odpowiadającego, inny = możliwa starsza czwórka otwierającego (ten sam co kol, gdy niemożliwa), otw = kolor otwarcia
 function checkback(kol, inny, otw)
-	2c słaby checkback, wymusza 2!d
+	2c 9-11, inwit, słaby checkback, wymusza 2!d
 		2d automat
-			pass chcę grać 2!d
-			2$(kol) SO
-			2nt inwit do 3nt
-			3$(kol) 6+!$(kol), inwit
-			{pozostałe} naturalne, do gry lub inwit
-	2d silny checkback, GF
+			pass 9-10, do gry
+			2$(kol) 9-11, 5+!$(kol), nieforsujące
+				3$(kol) 13-14, 3!$(kol), inwit
+			2nt 11, inwit do 3nt
+			3$(kol) 11, 6+!$(kol), inwit
+			{pozostałe} 9-10, do gry
+	2d 12+, silny checkback, GF
 		2$(kol) 3!$(kol)
 		?2$(inny) 4!$(inny), bez 3!$(kol)
 		2nt bez powyższych, zatrzymania w kolorach niezgłoszonych
@@ -497,7 +498,9 @@ function checkback_pelny(kol, inny, otw)
 	2c 9-11, inwit, dowolny układ
 		2d 12-14, dowolny
 			pass 9-10, do gry
-			2$(kol) 9-10, 5+!$(kol), do gry (otwierający z 13-14 i dobrym układem może jeszcze zainwitować)
+			2$(kol) 9-11, 5+!$(kol), nieforsujące
+				3$(otw) 13-14, 6+!$(otw), inwit
+				3$(kol) 13-14, 3!$(kol), inwit
 			2nt 11, inwit do 3nt
 			3$(kol) 11, 6+!$(kol), inwit
 			{pozostałe} 9-10, do gry
@@ -664,14 +667,14 @@ end
 	1h 7+, 4+!h
 		1s 12+, 4+!s, F1
 			1nt 7-9, układ zrównoważony
-			2c słaby checkback
+			2c 9-11, inwit, słaby checkback
 				2d 12-14
 				2h 18+, 4-5!s, 3!h
 				2s 18+, 5!s
 				2nt 18+, 4!s bez 3!h
 				3c 15+, 5!c
 				3d 18+, 5!d
-			2d silny checkback
+			2d 12+, silny checkback, GF
 				2h 3!h
 				2s 5!s
 				2nt układ 4!s 3!c!d 2!h
@@ -683,8 +686,12 @@ end
 			3c GF, układ 5-5
 		:1nt_resp(12-14)
 			:checkback(h, s, c)
-			2h SO, otwierający musi pasować
+			2h 7-8, 5+!h, do gry, otwierający musi pasować
 			2s naturalne, GF
+			2nt 7-8, 6+ w młodszym, transfer, wymusza 3!c
+				3c automat
+					pass 6+!c, do gry
+					3d 6+!d, do gry
 			3c GF, układ 5-5
 			3d GF, układ 5-5
 			3h 6+!h na dobrych !h, inwit
@@ -709,8 +716,12 @@ end
 	1s 7+, 4+!s
 		:1nt_resp(12-14)
 			:checkback(s, h, c)
-			2h 7-9, 4!h 6!s
-			2s SO, otwierający musi pasować
+			2h 7-8, 4!h 6!s
+			2s 7-8, 5+!s, do gry, otwierający musi pasować
+			2nt 7-8, 6+ w młodszym, transfer, wymusza 3!c
+				3c automat
+					pass 6+!c, do gry
+					3d 6+!d, do gry
 			3c GF, układ 5-5
 			3d GF, układ 5-5
 			3h GF, układ 5-5
@@ -932,7 +943,11 @@ end
 		1nt 12-17, brak starszej czwórki
 			:checkback_pelny(h, h, d)
 			2h 7-8, 5+!h, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
-			3d SO
+			2nt 7-8, 6+ w młodszym, transfer, wymusza 3!c
+				3c automat
+					pass 6+!c, do gry
+					3d 6+!d, do gry
+			3d 7-8, 4+!d, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
 		2c 4+!c5+!d
 			2s GF czwarty kolor
 		2d 12-14 6+!d
@@ -947,7 +962,11 @@ end
 		1nt 1) 15-17 bez 4!h/4!s 2) 12-14 bez 4!s
 			:checkback_pelny(s, h, d)
 			2s 7-8, 5+!s, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
-			3d SO
+			2nt 7-8, 6+ w młodszym, transfer, wymusza 3!c
+				3c automat
+					pass 6+!c, do gry
+					3d 6+!d, do gry
+			3d 7-8, 4+!d, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
 		2c 4+!c5+!d
 			2h GF czwarty kolor
 		2d 12-14 6+!d
@@ -1008,6 +1027,10 @@ end
 			:checkback_pelny(s, s, h)
 			2h 7-8, 5!s 3!h, preferencja do gry
 			2s 7-8, 5+!s, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
+			2nt 7-8, 6+ w młodszym, transfer, wymusza 3!c
+				3c automat
+					pass 6+!c, do gry
+					3d 6+!d, do gry
 		2c 1) 12-14 4+!c, 2) 15-17 4!c
 			2d tani transfer: 1) sign off 2) GF
 				2h automat
