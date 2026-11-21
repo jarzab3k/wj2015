@@ -686,13 +686,13 @@ end
 					3nt bez 4!s, do gry
 					4h 6+!h, do gry
 					4s 4!s, do gry
-				@po 3!c: z 9 gra najniżej lub inwituje (otwierający przyjmuje tylko z 16-17), z 10-11 dograna
-				3c 15+, 5!c
-					pass 9, 3+!c, do gry
-					3d 10-11, sztuczne, brak zatrzymania !d
-					3s 9, 4!s, inwit
-					3nt 10-11, zatrzymanie !d, do gry
-					4s 10-11, 4!s, do gry
+				3c 15+, 5!c, forsuje do dogranej
+					3d sztuczne, brak zatrzymania !d
+					3h 5+!h, forsujące
+					3nt zatrzymanie !d, do gry
+					4c 4+!c, forsujące, zainteresowanie szlemem
+					4s 4!s, do gry
+					5c 3+!c, bez zatrzymania !d, do gry
 				3d 18+, 5!d
 					3nt zatrzymanie !c, do gry
 					4s 4!s, do gry
