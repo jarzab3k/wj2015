@@ -122,111 +122,36 @@ function 2dhs_tran()
 end
 
 function 1nt_defence()
-	(2c) 5+4+!h!s
-		x 1) 8+, skład w miarę dowolny 2) słabe na !c
-			({2!h/!s}) wybór koloru
-				{dbl/pass}
-					2nt słabe na !c
-						3c automat
-					3c lepsze na !c
-		2d nieforsujące na !d
-		2h nieforsujące na !h
-		2s nieforsujące na !s
-		2nt na młodych
-		3c GF, 5+!c
-		3d GF, 5+!d
-		3h GF, 5!h
-		3s GF, 5!s
+	@po wejściu na nasze 1BA: do 7 PC licytujemy do gry, z 8-9 inwitujemy przez kontrę, z 10+ forsujemy do dogranej
+	({wejście naturalne na wysokości 2})
+		x negatywna, 8+, zwykle z niezgłoszonym starszym (otwierający z dobrym kolorem przeciwnika może spasować na karną)
+			{kolor odpowiadającego po kontrze} 8-9, 5+, inwit
+		{nowy kolor na 2} 0-7, 5+, do gry
+		2nt 0-7, 6+ w młodszym, transfer, wymusza 3!c
+			3c automat
+				pass do gry
+				3d do gry
+		{nowy kolor na 3} 10+, 5+, GF
+		{cue bid} 10+, GF, pytanie o starszą czwórkę lub brak zatrzymania w kolorze przeciwnika
+		3nt do gry, zatrzymanie w kolorze przeciwnika
+		4d transfer na 4!h (gdy !h nie są kolorem przeciwnika)
+		4h transfer na 4!s (gdy !s nie są kolorem przeciwnika)
+	({wejście konwencyjne na wysokości 2}) np. 2!c na starszych, 2!d multi
+		x 8+, chęć karania co najmniej jednego koloru przeciwnika
+		{pozostałe} jak po wejściu naturalnym; cue bid w kolorze pokazanym przez przeciwnika = GF
+	(2nt) na młodszych
+		x 8+, karna na co najmniej jeden młodszy
+		3c 10+, GF, 5+!h
+		3d 10+, GF, 5+!s
+		3h 0-9, 5+!h, do gry
+		3s 0-9, 5+!s, do gry
 		3nt do gry
 		4d transfer na 4!h
 		4h transfer na 4!s
-	({2!c}) naturalne lub dwukolorowe z !c
-		x negatywna
-		2d nieforsujące na !d
-		2h nieforsujące na !h
-		2s nieforsujące na !s
-		2nt inwit do 3NT z zatrzymaniem !c
-		3c GF, brak trzymania !c, brak piątki
-		3d GF, 5+!d
-		3h GF, 5!h
-		3s GF, 5!s
-		3nt do gry z zatrzymaniem !c
-		4d transfer na 4!h
-		4h transfer na 4!s
-	(2d) 6+!h/!s
-		pass forsuje do kontry, jeśli przeciwnik spasuje
-		x wywoławcza do !s
-		2h nieforsujące na !h
-		2s nieforsujące na !s
-		2nt lebensohl
-			3c automat
-				pass SO na !c
-				3d SO na !d
-				3h 5+!h, inwit
-				3s 5+!s, inwit
-		3c GF, 5+!c
-		3d GF, 5+!d
-		3h GF, 5!h
-		3s GF, 5!s
+	({wejście na wysokości 3})
+		x negatywna, 10+
+		{nowy kolor} 10+, GF
 		3nt do gry
-		4d transfer na 4!h
-		4h transfer na 4!s
-	({2!d}) naturalne lub dwukolorowe z !d
-		x negatywna
-		2h nieforsujące na !h
-		2s nieforsujące na !s
-		2nt lebensohl
-			3c automat
-				pass SO na !c
-				3h 5+!h, inwit
-				3s 5+!s, inwit
-		3c GF, 5+!c
-		3d GF, brak trzymania !d, brak piątki
-		3h GF, 5!h
-		3s GF, 5!s
-		3nt do gry z zatrzymaniem !d
-		4d transfer na 4!h
-		4h transfer na 4!s
-	(2h) naturalne lub 5!h4+!c/!d
-		x 8-9, 4!s
-		2s nieforsujące na !s
-		2nt lebensohl
-			3c automat
-				pass SO na !c
-				3d SO na !d
-				3h GF, 4!s, brak trzymania !h
-				3s 5+!s, inwit
-				3nt GF, 4!s, trzymanie !h
-		3c GF, 5+!c
-		3d GF, 5+!d
-		3h GF, brak trzymania !h, brak piątki
-		3s GF, 5!s
-		3nt do gry z zatrzymaniem !h
-		4h transfer na 4!s
-	(2s) naturalne lub 5!s4+!c/!d
-		x 8-9, 4!h
-		2nt lebensohl
-			3c automat
-				pass SO na !c
-				3d SO na !d
-				3h SO na !h
-				3s GF, 4!h, brak trzymania !s
-				3nt GF, 4!h, trzymanie !s
-		3c GF, 5+!c
-		3d GF, 5+!d
-		3h GF, 5!h
-		3s GF, brak trzymania !s, brak piątki
-		3nt do gry z zatrzymaniem !s
-		4d transfer na 4!h
-	(2nt) na młodych
-		x karna na co najmniej jeden młody
-		3c lepsze kiery od pików min.5-4
-		3d lepsze piki od kierów min.5-4
-		3h GF, 5!h
-		3s GF, 5!s
-		3nt do gry
-		4d transfer na 4!h
-		4h transfer na 4!s
 end
 
 function 4c_Gerber()
@@ -305,13 +230,9 @@ function 1s_wej(nt)
 end
 
 function db1nt()
-	(x)
-		pass forsuje do rekontry - chcę grać 1ntxx lub ucieczka bez pięciokartu
-			xx automat
-		xx 5+!c
-		2c 5+!d
-		2d 5+!h
-		2h 5+!s
+	(x) system jak bez kontry (Stayman, transfery)
+		pass słaba ręka bez lepszej odzywki
+		xx 8+, chęć karania; nasze dalsze kontry są karne
 end
 
 function 3nt4c()
@@ -333,11 +254,12 @@ end
 function kontra_na_otwarcie()
 	pass 0-6 bez fitu lub brak sensownej odzywki
 	xx 10+, zwykle bez fitu; każda nasza kolejna kontra jest karna
-	{nowy kolor na 1} forsujący
+	{nowy kolor na 1} 7+, forsujący
 	1nt 7-9 bez fitu
-	{nowy kolor na 2} 6-9, 5+, nieforsujący
-	{podniesienie proste} 6-9 z fitem
+	{nowy kolor na 2} 7-9, 5+, nieforsujący
+	{podniesienie proste} 7-9 z fitem
 	{skok w kolor partnera} blok, 0-6, 4+
+	{skok w nowy kolor} blok, 0-6, 6+
 	2nt Truscott: 10+ z fitem 4+, co najmniej inwit
 end
 
@@ -860,7 +782,7 @@ end
 		1d 0-6 z max 2!c lub 7-9, 5+!d
 		1h 7+, 4+!h, dalsza licytacja jak bez kontry
 		1s 7+, 4+!s, dalsza licytacja jak bez kontry
-		1nt 8-11, dalsza licytacja jak bez kontry
+		1nt 7-9, bez starszych czwórek (z 10+ rekontra)
 		2c dowolny GF
 		2d 0-6, 6+!d
 		2h 0-6, 6+!h
@@ -868,21 +790,21 @@ end
 	(1d) 1!h/1!s oraz słabe skoki jak bez wejścia
 		x 7+, brak 4!h/4!s, brak trzymania !d
 		1nt 7-10, z zatrzymaniem !d
-		2c 10+, 5+!c F1
+		2c 10+, 5+!c
 		2d GF, brak trzymania !d
 		2nt inwit do 3nt, mam trzymanie !d
 	(1h)
 		x 7+, 4!s
 			1nt 12-14 bez 4!s
 			2c 15+, 5+!c
-			2d 18+, 4!s odwrotka
+			2d 18+, 4+!s odwrotka
 			2nt 18-20, zrównoważona, zatrzymanie !h, bez 4!s
 			2s 12-14, 4!s
 			3s 15-17, 4!s
 		1s 7+, 5+!s
 		1nt 7-10, z zatrzymaniem !h
-		2c 10+, 5+!c F1
-		2d 10+, 5+!d F1
+		2c 10+, 5+!c
+		2d 10+, 5+!d
 		2h GF, brak trzymania !h
 		2s 0-6, 6+!s
 		2nt inwit do 3nt, mam trzymanie !h
@@ -890,14 +812,14 @@ end
 		x 7+, 4!h
 			1nt 12-14 bez 4!h
 			2c 15+, 5+!c
-			2d 18+, 4!h odwrotka
+			2d 18+, 4+!h odwrotka
 			2nt 18-20, zrównoważona, zatrzymanie !s, bez 4!h
 			2h 12-14, 4!h
 			3h 15-17, 4!h
 		1nt 7-10, z zatrzymaniem !s
-		2c 10+, 5+!c F1
-		2d 10+, 5+!d F1
-		2h 7+, 5+!h F1
+		2c 10+, 5+!c
+		2d 10+, 5+!d
+		2h 10+, 5+!h (7-9 z 4+!h: kontra)
 		2s GF, brak trzymania !s
 		2nt inwit do 3nt, mam trzymanie !s
 	(1ba)
@@ -950,7 +872,7 @@ end
 		3s GF, brak koloru i trzymania !s
 		3nt 12-15, z bardzo dobrymi !s
 	({blok na wysokości 3})
-		x 8+, negatywna / wywoławcza
+		x 10+, negatywna / wywoławcza
 		{nowy kolor} naturalny, forsujący
 		3nt do gry
 1d 12-17, 5+!d
@@ -1545,14 +1467,21 @@ end
 4d blokujące 8+!d (4-3-2-2)
 
 {licytacja po interwencji przeciwnika}
-	{zasada ogólna} gdy licytacja jest forsująca do dogranej, pas jest forsujący; kontra = chęć gry z kontrą
+	{zasada ogólna} nowy kolor odpowiadającego forsuje na jedno okrążenie; gdy licytacja jest forsująca do dogranej, pas jest forsujący; kontra = chęć gry z kontrą
+	{zasada siły} odpowiadamy pozytywnie od 7 PC, z 0-6 pasujemy (wyjątek: bloki)
+	{zasada 10+} siłę 10+ pokazujemy jedną odzywką: po kontrze rekontrą, po wejściu cue bidem (z fitem) lub nowym kolorem na wysokości 2
+	{zasada fitu} fit w sile inwitu i więcej pokazujemy sztucznie: po kontrze 2nt (Truscott), po wejściu cue bid
+	{zasada skoków} skoki są blokami 0-6: skok w kolor partnera 4+, skok w nowy kolor 6+
+	{zasada podniesienia} proste podniesienie koloru partnera 7-9 z fitem
+	{zasada trzech kart} po 1x–1y otwierający pokazuje 3 karty w kolorze partnera: po kontrze rekontrą, po wejściu kontrą (kontra fitowa)
+	{zasada kontry negatywnej} na wysokości 1: 7+, na 2: 8+, na 3: 10+
 	(x) kontra przeciwnika na nasze otwarcie 1!d/1!h/1!s (po 1!c obowiązuje schemat opisany przy otwarciu)
 		:kontra_na_otwarcie()
 	({wejście kolorem na nasze 1!d/1!h/1!s})
-		x negatywna, niezgłoszony starszy; na wysokości 1: 6+, na 2: 8+, na 3: 10+ (do 3!s włącznie)
-		{nowy kolor na 1} forsujący
-		{nowy kolor na 2} 10+, F1
-		{skok w nowy kolor} blok
+		x negatywna, niezgłoszony starszy; na wysokości 1: 7+, na 2: 8+, na 3: 10+ (do 3!s włącznie)
+		{nowy kolor na 1} 7+, forsujący
+		{nowy kolor na 2} 10+
+		{skok w nowy kolor} blok, 0-6, 6+
 		1nt 7-10, zatrzymanie w kolorze wejścia
 		2nt 11-12, naturalne, zatrzymanie, inwit
 		{cue bid} 10+ z fitem (3+ w starszym, 4+ w młodszym), co najmniej inwit; nikt nie pasuje poniżej 3 w kolor otwarcia (po naszym 1!c cue bid = GF bez zatrzymania, bo nie ma koloru do uzgodnienia)
@@ -1560,13 +1489,13 @@ end
 			3nt dobre zatrzymanie w kolorze wejścia, ręka zrównoważona
 			{nowy kolor} próba dogranej (pytanie o pomoc w tym kolorze)
 			{dograna w kolor otwarcia} nadwyżka, przyjęcie inwitu
-		{podniesienie proste} 6-9 z fitem
-		{skok w kolor partnera} blok
+		{podniesienie proste} 7-9 z fitem
+		{skok w kolor partnera} blok, 0-6, 4+
 		pass bez odzywki; z długimi atutami przeciwnika czekamy na kontrę wznawiającą (pas pułapkowy)
 			{kontra wznawiająca otwierającego} krótkość w kolorze wejścia; partner z atutami przeciwnika pasuje na karną
 		{kontra fitowa} 1x–(pas)–1y–(wejście)–kontra otwierającego = 3 karty w kolorze partnera
-	{wejście po naszym 1BA} odzywki naturalne: na wysokości 2 nieforsujące, na 3 forsujące; 2BA lebensohl; kontra na odzywkę sztuczną = punkty i F1, na naturalną = negatywna w sile walki o częściówkę (szczegóły przy otwarciu 1BA)
-		(x) gramy jakby nie było kontry
+	{wejście po naszym 1BA} kontra 8+ (negatywna lub karna na wejście sztuczne); nowy kolor na 2 = 0-7 do gry; 2BA = słabe na młodszym (transfer); nowy kolor na 3 i cue bid = 10+ GF (szczegóły przy otwarciu 1BA)
+		(x) system jak bez kontry, rekontra 8+
 	{wejście po naszym 2!c} nowy kolor na wysokości 2 nieforsujący, na 3 forsujący; kontra negatywna
 		(x) opisana przy otwarciu 2!c
 	{wejście po naszym 2!d/2!h/2!s} nowy kolor "do koloru" (pasuj, jeśli masz ten kolor, popraw, jeśli nie masz); kontra karna
