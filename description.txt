@@ -955,59 +955,67 @@ end
 		3nt do gry
 1d 12-17, 5+!d
 	1h 7+, 4+!h (słabe ręce z 6+!h: bezpośrednio 2!h)
-		1s 4+!s
-			2c tani transfer: 1) 7-8, do gry 2) 12+, GF
+		1s 12-17, 4+!s
+			2c 9-11, inwit, słaby checkback
 				2d 12-14, dowolny
-					pass 1) 7-8, do gry
-					2h 1) 7-8, 5+!h, do gry
-					2s 1) 7-8, 4!s, do gry
-					2nt 2) 12+, GF
-					3c 1) 7-8, 6+!c, do gry
-					3d 2) 12+, GF, 3+!d
-					3h 2) 12+, GF, 5+!h
-					3s 2) 12+, GF, 4!s
-				@po odpowiedziach 15-17: 1) gra najniżej, z 8 może zainwitować (otwierający przyjmuje tylko z 16-17); 2) licytuje do końcówki
+					pass 9-10 słabe, do gry (także zrównoważone z 2+!d)
+					2h 9-11, 5+!h, nieforsujące
+						3d 13-14, 6+!d, inwit
+						3h 13-14, 3!h, inwit
+					2s 9-11, 4!s, nieforsujące
+						3s 13-14, inwit
+					2nt 11, zatrzymanie !c, inwit do 3nt
+					3c 10-11, 6+!c, inwit
+					3d 10-11 silne, 4+!d, inwit
+						pass 12-13
+						3nt 14 lub dobre 13, zatrzymanie !c
+					3h 11, 6+!h, inwit
+					3s 11, 4!s, inwit
+					{pozostałe} 9-10, do gry
+				@po odpowiedziach 15-17: z 9 gra najniżej lub inwituje (otwierający przyjmuje tylko z 16-17), z 10-11 dograna
 				2h 15-17, 3+!h
-					pass 1) 7-8, do gry
-					2nt 1) 8, 4!h bez 4!s, zatrzymanie !c, inwit
-					3c 2) 12+, GF, 4!h, sztuczne, brak zatrzymania !c
-					3h 1) 8, 5+!h, inwit
-					3s 1) 8, 4!s, inwit
-					3nt 2) 12+, 4!h bez 4!s, zatrzymanie !c, do gry
-					4c 2) 12+, 5+!h, cue bid, zainteresowanie szlemem
-					4d 2) 12+, 5+!h, cue bid, zainteresowanie szlemem
-					4h 2) 12+, 5+!h, bez ambicji szlemowych, do gry
-					4s 2) 12+, 4!s, do gry
+					pass 9, do gry
+					2nt 9, 4!h bez 4!s, zatrzymanie !c, inwit
+					3c 10-11, 4!h, sztuczne, brak zatrzymania !c
+					3h 9, 5+!h, inwit
+					3s 9, 4!s, inwit
+					3nt 10-11, 4!h bez 4!s, zatrzymanie !c, do gry
+					4h 10-11, 5+!h, do gry
+					4s 10-11, 4!s, do gry
 				2s 15-17, 4!s 2-!h i bez zatrzymania !c
-					pass 1) 7-8, 4!s, do gry
-					2nt 1) 7-8, zatrzymanie !c, bez 4!s (otwierający z 16-17 może 3!nt)
-					3c 2) 12+, GF, sztuczne, brak zatrzymania !c
-					3d 1) 7-8, 3+!d, bez zatrzymania !c, do gry
-					3h 1) 7-8, 6+!h, do gry
-					3s 1) 8, 4!s, inwit
-					3nt 2) 12+, zatrzymanie !c, do gry
-					4s 2) 12+, 4!s, do gry
-					5d 2) 12+, 3+!d, bez zatrzymania !c, do gry
+					pass 9, 4!s, do gry
+					2nt 9, zatrzymanie !c, bez 4!s, inwit
+					3c 10-11, sztuczne, brak zatrzymania !c
+					3d 9, 3+!d, bez zatrzymania !c, do gry
+					3h 9, 6+!h, do gry
+					3s 9, 4!s, inwit
+					3nt 10-11, zatrzymanie !c, do gry
+					4s 10-11, 4!s, do gry
+					5d 10-11, 3+!d, bez zatrzymania !c, do gry
 				2nt 15-17, z zatrzymaniem !c
-					pass 1) 7-8, do gry
-					3c 1) 7-8, 6+!c, do gry
-					3d 2) 12+, GF, 3+!d
-					3h 1) 7-8, 6+!h, do gry
-					3s 1) 8, 4!s, inwit
-					3nt 2) 12+, do gry
-					4s 2) 12+, 4!s, do gry
+					pass 9, do gry
+					3h 9, 6+!h, do gry
+					3s 9, 4!s, inwit
+					3nt 10-11, do gry
+					4s 10-11, 4!s, do gry
 				3d 15-17, 6+!d 4+!s
-					pass 1) 7-8, do gry
-					3h 1) 7-8, 6+!h, do gry
-					3s 1) 7-8, 4!s (otwierający z 16-17 może 4!s)
-					3nt 2) 12+, zatrzymanie !c, do gry
-					4s 2) 12+, 4!s, do gry
-					5d 2) 12+, bez zatrzymania !c, do gry
-			2d 9-11, 3+!d, inwit
-			2h 9-11, 5+!h, inwit
-			2s 9-11, 4+!s, inwit
-			2nt 9-11, 4!h4!c3!s2!d, inwit
-			3c 9-11, 6+!c, inwit
+					pass 9, do gry
+					3h 9, 6+!h, do gry
+					3s 9, 4!s, inwit
+					3nt 10-11, zatrzymanie !c, do gry
+					4s 10-11, 4!s, do gry
+					5d 10-11, bez zatrzymania !c, do gry
+			2d 12+, silny checkback, GF
+				2h 3!h
+				2s 5!s
+				2nt bez powyższych, zatrzymanie !c
+				3d bez powyższych, brak zatrzymania !c
+			2h 7-8, 5+!h, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
+			2s 7-8, 4!s, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
+			2nt 7-8, 6+!c, transfer, wymusza 3!c (słabe kara: bezpośrednio 3!d)
+				3c automat
+					pass do gry
+			3d 7-8, 4+!d, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
 		1nt 12-17, brak starszej czwórki
 			:checkback_pelny(h, h, d, 4+)
 			2h 7-8, 5+!h, do gry (otwierający licytuje dalej tylko z 16-17 i dobrym układem)
